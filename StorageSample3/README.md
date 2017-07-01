@@ -6,3 +6,5 @@ Storage Sample 3 - Android Samples
  sample2 write image 1 to 5 <br/> 
  sample3 write image 6 to 10 <br/> 
 
+### blog in japanese
+http://android.ohwada.jp/archives/7451
