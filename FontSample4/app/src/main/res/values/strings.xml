@@ -1,0 +1,5 @@
+<resources>
+<!-- 2017-06-01 K.OHWADA -->
+    <string name="app_name">FontSample4</string>
+        <string name="sample_text">あいうえお 漢字</string>
+</resources>
