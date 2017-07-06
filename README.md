@@ -11,6 +11,9 @@ wrie to application specific area <br/>
  write Storage for Android 4.4 <br/>
  two different applications write to the application sharing area <br/>
 
+## Storage Sample 4 <br/>
+ write Storage in Android4.4 earlier style <br/>
+ 
 ## Font Sample 4 <br/>
 Japanese fonts <br/>
 enclose Japanese fonts in Android application <br/>
