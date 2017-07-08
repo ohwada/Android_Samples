@@ -26,4 +26,4 @@ enclose Japanese fonts in Android application <br/>
 Strorage Access Framework <br/>
 call the picker specified image files <br/>
 
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/StrageAccessSample1/screenshot/screenshot_picker.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/StorageAccessSample1/screenshot/screenshot_strage_access_picker.png" width="300" /><br/>
