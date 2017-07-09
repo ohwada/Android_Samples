@@ -27,3 +27,10 @@ Strorage Access Framework <br/>
 call the picker specified image files <br/>
 
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/StorageAccessSample1/screenshot/screenshot_strage_access_picker.png" width="300" /><br/>
+
+33# Permission Sample 1 <br/>
+
+Android 6.0 runtime permission <br/>
+call trequest permissions <br/>
+
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/PermissionSample1/screenshot/screenshot_permission_dialog.png" width="300" /><br/>

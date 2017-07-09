@@ -1,0 +1,12 @@
+<!-- 2017-06-01 K.OHWADA -->
+<resources>
+    <string name="app_name">Permission Sample1</string>
+    
+    <!-- dialog permission  -->
+    <string name="dialog_permission_title">Request Permissions</string>
+    <string name="dialog_permission_storage">
+Request Storage Permission \n this app copy files to SD  card</string>
+    <string name="button_dialog_yes">YES</string>
+    <string name="button_dialog_no">NO</string>
+
+</resources>
