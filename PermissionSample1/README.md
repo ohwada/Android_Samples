@@ -21,4 +21,4 @@ display image in SD card <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/PermissionSample1/screenshot/screenshot_permission_image.png" width="300" /><br/>
 
 ### blog in japanese
-http://android.ohwada.jp/archives/
+http://android.ohwada.jp/archives/7460
