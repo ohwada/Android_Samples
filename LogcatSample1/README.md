@@ -15,4 +15,4 @@ display logcat when click view button  <br/>
 write logcat when click write button  <br/>
 
 ### blog in japanese
-http://android.ohwada.jp/archives/
+http://android.ohwada.jp/archives/7466
