@@ -34,3 +34,9 @@ Android 6.0 runtime permission <br/>
 call trequest permissions <br/>
 
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/PermissionSample1/screenshot/screenshot_permission_dialog.png" width="300" /><br/>
+
+### Logcat Sample 1
+view logcat in activity <br/> 
+write logcat to file <br/>
+
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/LogcatSample1/screenshot/screenshot_logcat_view.png" width="300" /><br/>
