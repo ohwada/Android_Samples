@@ -1,0 +1,134 @@
+package jp.co.suzumaru.android.suzumarutch.debug;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStream;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.UUID;
+
+import jp.co.suzumaru.android.suzumarutch.Constant;
+import android.content.Context;
+import android.content.SharedPreferences;
+import android.net.wifi.WifiInfo;
+import android.net.wifi.WifiManager;
+import android.os.Environment;
+import android.preference.PreferenceManager;
+
+/**
+ * UUID Utility
+ */
+public class UuidUtility  {
+
+    private final static boolean D = Constant.DEBUG_LOG; 
+
+    private final static String FILE_NAME =  "uuid.txt";    
+    private final static String LF = "\n";	
+ 
+    private static SimpleDateFormat mDateFormatTime = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+    		
+	/**
+	 * === constractor ===
+	 */     
+    public UuidUtility() {
+		// dummy
+    }
+
+	/**
+	 * write once
+	 * @param Context context 
+	 */ 
+	public static void writeOnce( Context context ) {
+		String path = Environment.getExternalStorageDirectory().getPath();
+		String filename = path + File.separator + Constant.MAIN_DIR + File.separator + Constant.SUB_DIR_LOG + File.separator + FILE_NAME;
+		File file = new File( filename );
+		if (( file != null ) && file.exists() ) return;
+		String time = mDateFormatTime.format( 
+			new Date( System.currentTimeMillis() ) );
+		String data = "";
+		data += "Time: " + time + LF;
+		data += getIds( context ) + LF;
+		write( file, data );
+	}
+	
+	/**
+	 * write
+	 * @param File file 
+	 * @param String data
+	 */ 
+	public static void write( File file, String data ) {
+		OutputStream os = null;
+		try {
+			os = new FileOutputStream( file );
+			os.write( data.getBytes() );
+		} catch ( FileNotFoundException e ) {
+			if (D) e.printStackTrace();
+		} catch ( IOException e ) {
+			if (D) e.printStackTrace();
+		}
+		if ( os != null ) {
+			try {
+				os.close();
+			} catch ( IOException e ) {
+				if (D) e.printStackTrace();
+			}
+		}
+	}
+
+	/**
+	 * getIds
+	 * @param Context context
+	 * @return String
+	 */
+	 public static String getIds( Context context ) {
+	 	String str = "";
+	 	str += "UUID: " + getUuid( context ) + LF;
+	 	str += "ANDROID ID: " + getAndroidId( context ) + LF;
+		return str;
+	 }
+	     
+	/**
+	 * getUuid
+	 * @param Context context
+	 * @return String
+	 */
+	 public static String getUuid( Context context ) {
+	 	SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences( context );
+	 	String value = pref.getString( Constant.PREF_NAME_UUID, "" );
+	 	if ( value.length() > 0 ) {
+	 		return value;
+	 	}
+	  	String str = UUID.randomUUID().toString();
+	  	pref.edit().putString( Constant.PREF_NAME_UUID, str ).commit(); 
+		return str;
+	 }
+
+	/**
+	 * getAndroidId
+	 * @param Context context
+	 * @return String
+	 */	 
+	 public static String getAndroidId( Context context ) {
+	  	String str = android.provider.Settings.Secure.getString( 
+	  		context.getContentResolver(), 
+	  		android.provider.Settings.Secure.ANDROID_ID );
+		return str;
+	 }
+
+	/**
+	 * getMacAddress
+	 * require android.permission.ACCESS_WIFI_STATE
+	 *
+	 * @param Context context
+	 * @return String
+	 */ 	
+	 public static String getMacAddress( Context context ) {
+		WifiManager wm = (WifiManager) context.getSystemService( Context.WIFI_SERVICE ); 
+		WifiInfo wi = wm.getConnectionInfo();
+		String str = wi.getMacAddress();
+		return str;
+	}
+	
+}

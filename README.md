@@ -47,3 +47,9 @@ write to log file when uncaught exception occurs <br/>
 
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/UncaughtExceptionSample1/screensot/screenshot_uncaught_exception_exception.png" width="300" />
 
+### Device Id Sample 1 
+
+get  Device Identities <br/>
+IMEI, IMSI, ICCID, Mac Address, Android ID <br/>
+
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/DeviceIdSample4/screenshot/screenshot_device_id_view.png" width="300" /> <br/>

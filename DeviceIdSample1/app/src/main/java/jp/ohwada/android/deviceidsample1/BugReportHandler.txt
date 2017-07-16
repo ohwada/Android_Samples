@@ -1,0 +1,157 @@
+package jp.co.suzumaru.android.suzumarutch.debug;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.PrintWriter;
+import java.lang.Thread.UncaughtExceptionHandler;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import jp.co.suzumaru.android.suzumarutch.Constant;
+import android.content.Context;
+import android.content.SharedPreferences;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager.NameNotFoundException;
+import android.os.Build;
+import android.os.Environment;
+import android.preference.PreferenceManager;
+
+/**
+ * BugReportHandler
+ */
+public class BugReportHandler implements UncaughtExceptionHandler {
+
+    private final static boolean D = Constant.DEBUG_LOG ;
+
+    private final static String DATE_FORMAT = "yyyyMMdd-kkmmss-S";
+    private final static String CHAR_SHARP = "#";
+    private final static String CHAR_COLON = ":";
+    private final static String LF = "\n";	
+    
+	private Context mContext;
+	private UncaughtExceptionHandler mHandler;
+	private static String mLogDir = "";
+    private static PackageInfo mPackageInfo;
+    private static SharedPreferences mSharedPreferences;
+		        		
+    /**
+     * === constractor ===
+	 * @param Context context 
+     */
+	public BugReportHandler( Context context ) {
+		mContext = context;
+		mHandler = Thread.getDefaultUncaughtExceptionHandler();	
+		mSharedPreferences = PreferenceManager.getDefaultSharedPreferences( context );
+		mPackageInfo = getPackageInfo( context );
+		mLogDir = getLogDir();	
+	}
+
+    /**
+     * getMainDir
+     * @return String
+     */	
+	private  static String getMainDir() {
+		String sdcard = Environment.getExternalStorageDirectory().getPath();
+		String dir = sdcard + File.separator + Constant.MAIN_DIR;
+		return dir;
+	}
+		
+    /**
+     * getLogDir
+     * @return String
+     */	
+	private String getLogDir() {
+		String log_dir = getMainDir() + File.separator + Constant.SUB_DIR_LOG;
+		return log_dir;	
+	}
+
+    /**
+     * === uncaughtException ===
+     */	
+	public void uncaughtException( Thread thread, Throwable throwable ) {
+		saveState( throwable );
+		mHandler.uncaughtException( thread, throwable );
+	}
+
+    /**
+     * saveState
+     * @param Throwable throwable
+     */	
+	private void saveState( Throwable throwable ) {
+		if ( !isPrefLog() ) return;
+		SimpleDateFormat sdf = new SimpleDateFormat( DATE_FORMAT );
+		String time = sdf.format( new Date( System.currentTimeMillis() ) );
+		String name = Constant.PREFIX_BUG + time + Constant.LOG_EXT;
+		String filename = mLogDir + File.separator + name;
+		setPrefBug( name );
+		File file = new File( filename );
+		StackTraceElement[] stacks = throwable.getStackTrace();
+        PrintWriter pw = null;
+        try {
+        	pw = new PrintWriter( new FileOutputStream( file ) );
+        	pw.println( "Time: " + time );  
+        	pw.println( UuidUtility.getIds( mContext ) ); 
+        	pw.println( getInfo() );         	
+        	StringBuilder sb = new StringBuilder();
+        	int len = stacks.length;
+        	for (int i = 0; i < len; i++) {
+            	StackTraceElement stack = stacks[ i ];
+            	sb.setLength( 0 );
+            	sb.append( stack.getClassName() ).append( CHAR_SHARP );
+            	sb.append( stack.getMethodName() ).append( CHAR_COLON );
+            	sb.append( stack.getLineNumber() );
+           		pw.println( sb.toString() );
+        	}
+		} catch ( FileNotFoundException e ) {	
+			if (D) e.printStackTrace();
+        }
+        if ( pw != null ) {        	
+        	pw.close();
+        }
+	}
+
+    /**
+     * getInfo()
+     * @return String
+     */	
+	private String getInfo() {
+		String str = "";
+        str += "device: " + Build.DEVICE + LF;
+        str += "model: " + Build.MODEL + LF;
+        str += "sdk: " + Build.VERSION.SDK_INT + LF;
+        str += "version:" + mPackageInfo.versionName + LF;
+        return str;
+	}
+
+    /**
+     * getPackageInfo
+     * @param Context context
+     * @return PackageInfo
+     */	
+	private PackageInfo getPackageInfo( Context context ) {
+		PackageInfo pi = null;
+		try {
+			pi = context.getPackageManager().getPackageInfo( context.getPackageName(), 0 );
+		} catch ( NameNotFoundException e ) {
+			if (D) e.printStackTrace();
+		}
+		return pi;
+	}
+
+	/**
+	 * isPrefLog
+	 * @return boolean
+	 */ 
+    private boolean isPrefLog() {
+    	return mSharedPreferences.getBoolean( Constant.PREF_NAME_LOG, Constant.DEFAULT_LOG );
+    }
+    
+	/**
+	 * setPrefBug
+	 * @param String str
+	 */ 
+	private void setPrefBug( String str ) {
+		mSharedPreferences.edit().putString( Constant.PREF_NAME_BUG_FILE, str ).commit(); 	
+	}
+}
