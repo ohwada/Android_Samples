@@ -13,4 +13,4 @@ exception occurs, when click exception button <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/UncaughtExceptionSample1/screensot/screenshot_uncaught_exception_exception.png" width="300" />
 
 ### blog in japanese
-id.ohwada.jp/archives/7470
+http://android.ohwada.jp/archives/7470
