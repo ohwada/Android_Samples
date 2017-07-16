@@ -41,9 +41,9 @@ write logcat to file <br/>
 
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/LogcatSample1/screenshot/screenshot_logcat_view.png" width="300" /><br/>
 
-### Uncaught Exception Sample 1 - Android Samples
+### Uncaught Exception Sample 1
 
 write to log file when uncaught exception occurs <br/>
 
-<image src="https://github.com/ohwada/Android_Samples/raw/master/UncaughtExceptionSample1/screenshot/screenshot_uncaught_exception_exception.png" width="300" />
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/UncaughtExceptionSample1/screensot/screenshot_uncaught_exception_exception.png" width="300" />
 
