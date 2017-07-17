@@ -53,3 +53,11 @@ get  Device Identities <br/>
 IMEI, IMSI, ICCID, Mac Address, Android ID <br/>
 
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/DeviceIdSample1/screenshot/screenshot_device_id_view.png" width="300" /> <br/>
+
+### System Info Sample 1 
+
+get  System Informations <br/>
+BRAND, DEVICE, MANUFACTURER, MODEL, VERSION.SDK_INT <br/>
+
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/SystemInfoSample1/screenshot/screenshot_system_info_view.png" width="300" /> <br/>
+
