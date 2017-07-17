@@ -18,5 +18,6 @@ display  System Informations, when click system info button <br/>
 
 
 ### blog in japanese
-http://android.ohwada.jp/archives/
+http://android.ohwada.jp/archives/7480
+
 
