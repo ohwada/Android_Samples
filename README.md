@@ -66,4 +66,5 @@ BRAND, DEVICE, MANUFACTURER, MODEL, VERSION.SDK_INT <br/>
 get  Package Informations <br/>
 firstpackageName, versionCode, InstallTime<br/>
 
-e src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/SystemInfoSample1/screenshot/screenshot_system_info_view.png" width="300" /> <br/>
+<mage src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/PackageInfoSample1/screenshot/screenshot_package_info_view.png" width="300" /> <br/>
+
