@@ -6,7 +6,7 @@ firstpackageName, versionCode, InstallTime<br/>
 
 ### screenshot <br/>
 
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/PackageInfoSample1/screenshot/screenshot_package_info_main.png" width="300" /> <br/> 
+<mage src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/PackageInfoSample1/screenshot/screenshot_package_info_main.png" width="300" /> <br/>
 
 display  Package Informations, when click package info button <br/>
 
