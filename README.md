@@ -68,3 +68,13 @@ firstpackageName, versionCode, InstallTime<br/>
 
 <mage src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/PackageInfoSample1/screenshot/screenshot_package_info_view.png" width="300" /> <br/>
 
+### UUID Sample 1 
+===============
+
+genatate UUID<br/>
+genatate once, save abd reuse <br/>
+
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/UUIDSample1/screenshot/screenshot_uuid_generate.png" width="300" /> <br/> <br/>
+
+
+
