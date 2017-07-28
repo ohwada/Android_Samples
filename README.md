@@ -81,3 +81,10 @@ get  Service List in running <br/>
 
 <<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/ServiceListSample1/screenshot/screenshot_service_list_view.png" width="300" /> <br/>
 
+### Sensor Sample 1 
+
+get values of Sensors <br/>
+Light,  Temperature, Humidity, Pressure <br/>
+
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/SensorSample1/screenshot/screenshot_sensor_light.png" width="300" /> <br/>
+
