@@ -88,3 +88,11 @@ Light,  Temperature, Humidity, Pressure <br/>
 
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/SensorSample1/screenshot/screenshot_sensor_light.png" width="300" /> <br/>
 
+###Sensor Sample 2
+
+get values of Enviromental Sensors <br/>
+Temperature, Humidity, Pressure <br/>
+
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/SensorSample2/screenshot/screenshot_sensor_emulator.png" width="300" /> <br/> 
+
+
