@@ -99,6 +99,6 @@ Temperature, Humidity, Pressure <br/>
 
 receive Broadcast events <br/>
 ACTION_TIME_TICK,  ACTION_TIME_CHANGED, ACTION_TIMEZONE_CHANGED <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/BroadcastReceiverSample1/screenshot/screenshot_broadcast receiver_time_tick.png" width="300" /> <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/BroadcastReceiverSample1/screenshot/screenshot_broadcast_receiver_time_tick.png" width="300" /> <br/>
 
 
