@@ -105,7 +105,7 @@ ACTION_TIME_TICK,  ACTION_TIME_CHANGED, ACTION_TIMEZONE_CHANGED <br/>
 
 observe events from Content Provider <br/>
 receive events System Setting changeed <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Content ObserverSample1/screenshot/screenshot_content_observe_main_event.png" width="300" /> <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/ContentObserverSample1/screenshot/screenshot_content_observe_event.png" width="300" /> <br/>
 
 
 
