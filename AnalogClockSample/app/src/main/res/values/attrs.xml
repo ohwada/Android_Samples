@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2017-07-01 K.OHWADA -->
+<resources>
+   
+    <declare-styleable name="AnalogClock">
+        <attr name="dial" format="reference"/>
+        <attr name="hand_hour" format="reference"/>
+        <attr name="hand_minute" format="reference"/>
+               <attr name="hand_second" format="reference"/>
+    </declare-styleable>
+    
+</resources>
