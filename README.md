@@ -109,7 +109,7 @@ receive events System Setting changeed <br/>
 
 #### DigitalClock 
 
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/DigitalClockSample1/screenshot/screenshot_digital_clock_view.png" width="300" /> <br/> 
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/DigitalClockSample/screenshot/screenshot_digital_clock_view.png" width="300" /> <br/> 
 
 
 
