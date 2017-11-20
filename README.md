@@ -3,6 +3,11 @@ Android Samples
 
 sample codes for Android <br/>
 
+## Line Chart Sample 1
+Line Chart <br/> 
+
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/LineChartSample1/screenshot/screenshot_line_chart.png" width="300" /><br/>
+
 ## Storage Sample 1 <br/>
  write Storage for Android 4.4 <br/>
 wrie to application specific area <br/>

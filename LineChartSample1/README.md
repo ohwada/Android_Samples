@@ -7,8 +7,9 @@ a line chart extracted from MPChartExample <br/>
  
 ### screenshot <br/>
 
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Line ChartSample1/screenshot/screenshot_line_chart.png.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/LineChartSample1/screenshot/screenshot_line_chart.png" width="300" /><br/>
 
 ### blog in japanese
-http://android.ohwada.jp/
+http://android.ohwada.jp/archives/7541
+
 
