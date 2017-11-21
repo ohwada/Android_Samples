@@ -7,7 +7,9 @@ a line chart time extracted from MPChartExample <br/>
  
 ### screenshot <br/>
 
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/LineChart/TimeSample1/screenshot/screenshot_line_chart_time.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/LineChartTimeSample1/screenshot/screenshot_line_chart_time.png" width="300" /><br/>
+
+Android_Samples/LineChartTimeSample1/screenshot/screenshot_line_chart_time.png
 
 ### blog in japanese
 http://android.ohwada.jp/archives/7546

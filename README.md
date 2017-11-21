@@ -4,13 +4,13 @@ Android Samples
 sample codes for Android <br/>
 
 ## Line Chart Sample 1
-Line Chart of time data<br/> 
+Line Chart<br/> 
 
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/LineChartSample1/screenshot/screenshot_line_chart.png" width="300" /><br/>
 
 ## Line Chart Time Sample 1 
-Line Chart Time <br/> 
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/LineChart/TimeSample1/screenshot/screenshot_line_chart_time.png" width="300" /><br/>
+Line Chart  of time data<br/> 
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/LineChartTimeSample1/screenshot/screenshot_line_chart_time.png" width="300" /><br/>
 
 ## Storage Sample 1 <br/>
  write Storage for Android 4.4 <br/>
