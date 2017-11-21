@@ -1,4 +1,7 @@
-//package com.xxmassdeveloper.mpchartexample;
+/**
+ * line chart 
+ * 2017-11-01 K.OHWADA
+ */
 
 package jp.ohwada.android.linechartsample1;
 
@@ -36,16 +39,16 @@ import com.github.mikephil.charting.listener.OnChartGestureListener;
 import com.github.mikephil.charting.listener.OnChartValueSelectedListener;
 import com.github.mikephil.charting.utils.Utils;
 
-//import com.xxmassdeveloper.mpchartexample.custom.MyMarkerView;
 import jp.ohwada.android.mpchart.custom.MyMarkerView;
-
-//import com.xxmassdeveloper.mpchartexample.notimportant.DemoBase;
 
 import jp.ohwada.android.mpchart.notimportant.DemoBase;
 
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * class MainActivity
+ */
 public class MainActivity extends DemoBase implements OnSeekBarChangeListener,
         OnChartGestureListener, OnChartValueSelectedListener {
 
