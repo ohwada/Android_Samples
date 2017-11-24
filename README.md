@@ -12,6 +12,10 @@ Line Chart<br/>
 Line Chart  of time data<br/> 
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/LineChartTimeSample1/screenshot/screenshot_line_chart_time.png" width="300" /><br/>
 
+## Line Chart Time Sample 2 
+Line Chart  of time data<br/> 
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/LineChartTimeSample2/screenshot/screenshot_line_chart_time.png" width="300" /><br/>
+
 ## Storage Sample 1 <br/>
  write Storage for Android 4.4 <br/>
 wrie to application specific area <br/>
