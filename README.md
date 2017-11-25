@@ -21,7 +21,7 @@ Sin Wave Data at one hour interval <br/>
 ## Line Chart Time Sample 3
 Line Chart of 
 Sin Wave Data at one minute interval <br/> 
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/LineChartTimeSample3/screenshot/screenshot_line_chart_time.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/LineChartTimeSample3/screenshot/screenshot_line_vhart_time.png" width="300" /><br/>
 
 ## Storage Sample 1 <br/>
  write Storage for Android 4.4 <br/>
