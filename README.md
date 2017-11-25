@@ -9,12 +9,19 @@ Line Chart<br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/LineChartSample1/screenshot/screenshot_line_chart.png" width="300" /><br/>
 
 ## Line Chart Time Sample 1 
-Line Chart  of time data<br/> 
+Line Chart  of  
+Time data with Random values<br/> 
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/LineChartTimeSample1/screenshot/screenshot_line_chart_time.png" width="300" /><br/>
 
 ## Line Chart Time Sample 2 
-Line Chart  of time data<br/> 
+Line Chart  of 
+Sin Wave Data at one hour interval <br/> 
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/LineChartTimeSample2/screenshot/screenshot_line_chart_time.png" width="300" /><br/>
+
+## Line Chart Time Sample 3
+Line Chart of 
+Sin Wave Data at one minute interval <br/> 
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/LineChartTimeSample3/screenshot/screenshot_line_chart_time.png" width="300" /><br/>
 
 ## Storage Sample 1 <br/>
  write Storage for Android 4.4 <br/>
