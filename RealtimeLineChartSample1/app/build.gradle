@@ -1,0 +1,40 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25 // Nougat
+    buildToolsVersion "26.0.0"
+    defaultConfig {
+        applicationId "jp.ohwada.android.realtimelinechartsample1"
+        minSdkVersion 23// Marshmallow
+        targetSdkVersion 23 // Marshmallow
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    repositories {
+		maven { url "https://jitpack.io" }
+	} 
+	
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    
+           //   MPAndroidChar     
+    	compile 'com.github.PhilJay:MPAndroidChart:v3.0.2'
+    	
+        // realm
+               provided 'io.realm:realm-android:0.87.5' 
+               
+    testCompile 'junit:junit:4.12'
+}

@@ -23,6 +23,10 @@ Line Chart of
 Sin Wave Data at one minute interval <br/> 
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/LineChartTimeSample3/screenshot/screenshot_line_vhart_time.png" width="300" /><br/>
 
+## Real Time Line Chart Sample 1
+Line Chart of Real Time data<br/> 
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/RealtimeLineChartSample1/screenshot/screenshot_real_time_line_chart_mu;tiple.png" width="300" /><br/>
+
 ## Storage Sample 1 <br/>
  write Storage for Android 4.4 <br/>
 wrie to application specific area <br/>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2017-11-01 K.OHWADA -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/actionAdd"
+        android:title="Feed new Entry">
+    </item>
+    <item
+        android:id="@+id/actionClear"
+        android:title="Clear Values">
+    </item>
+    <item
+        android:id="@+id/actionFeedMultiple"
+        android:title="Fast feed multiple">
+    </item>
+</menu>
