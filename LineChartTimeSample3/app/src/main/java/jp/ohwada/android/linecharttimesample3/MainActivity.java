@@ -51,6 +51,12 @@ mLineChartTime.setLeftAxisMinimum(-110f);
         
     } // onCreate
 
+/**
+ * setData
+ */
+    private void readData() {
+filename = "sakura_api_2016-0708.json";
+}
 
 /**
  * setData
