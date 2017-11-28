@@ -17,6 +17,6 @@ com.github.PhilJay:MPAndroidChart:v2.1.6
 - https://github.com/LyricalMaestro/MPAndroidChartSample<br/>
 
 ### blog in japanese
-http://android.ohwada.jp/archives/7546
+http://android.ohwada.jp/archives/7552
 
 
