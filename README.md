@@ -131,11 +131,14 @@ observe events from Content Provider <br/>
 receive events System Setting changeed <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/ContentObserverSample1/screenshot/screenshot_content_observe_event.png" width="300" /> <br/>
 
-#### DigitalClock 
+#### DigitalClock  <br/>
 
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/DigitalClockSample/screenshot/screenshot_digital_clock_view.png" width="300" /> <br/> 
 
-### AnalogClock
+### AnalogClock <br/>
 
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/AnalogClockSample/screenshot/screenshot_analog_clock_view.png" width="300" /> <br/> 
 
+### Caller Sample  <br/>
+Output the caller's class name and method name to logcat
+ <br/>
