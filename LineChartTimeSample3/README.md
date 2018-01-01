@@ -2,7 +2,7 @@ Line Chart Time Sample 3 - Android Samples
 ===============
 
 Line Chart of 
-Sin Wave Data at one minute interval <br/> 
+Sin Wave Data at one minute interval using MPChart 2.1.6<br/> 
 a line chart time extracted from MPChartExample <br/>
  and simplfied functions <br/>
 ### screenshot <br/>
