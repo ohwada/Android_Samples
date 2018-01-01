@@ -7,7 +7,7 @@ a line chart time extracted from MPChartExample <br/>
  and simplfied functions <br/>
 ### screenshot <br/>
 
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/LineChartTimeSample4/screenshot/screenshot_line_vhart_time.png" width="300" /><br/>
+<image src="https://github.com/ohwada/Android_Samples/blob/master/LineChartTimeSample4/screenshot/screenshot_line_chart_time.png" width="300" /><br/>
 
 ### Require
 com.github.PhilJay:MPAndroidChart:v3.0.3

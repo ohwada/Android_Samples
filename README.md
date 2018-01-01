@@ -11,23 +11,26 @@ Line Chart<br/>
 ## Line Chart Time Sample 1 
 Line Chart  of  
 Time data with Random values<br/> 
+
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/LineChartTimeSample1/screenshot/screenshot_line_chart_time.png" width="300" /><br/>
 
 ## Line Chart Time Sample 2 
 Line Chart  of 
 Sin Wave Data at one hour interval  using l using MPChart 3.0.2<br/> 
+
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/LineChartTimeSample2/screenshot/screenshot_line_chart_time.png" width="300" /><br/>
 
 ## Line Chart Time Sample 3
 Line Chart of 
 Sin Wave Data at one minute interval  using MPChart 2.1.6<br/> 
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/LineChartTimeSample3/screenshot/screenshot_line_vhart_time.png" width="300" /><br/>
+
+<image src="https://github.com/ohwada/Android_Samples/blob/master/LineChartTimeSample3/screenshot/screenshot_line_chart_time.png" width="300" /><br/>
 
 ## Line Chart Time Sample 4
 Line Chart of 
 Sin Wave Data at one minute interval using MPChart 3.0.3<br/> 
 
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/LineChartTimeSample4/screenshot/screenshot_line_vhart_time.png" width="300" /><br/>
+<image src="https://github.com/ohwada/Android_Samples/blob/master/LineChartTimeSample4/screenshot/screenshot_line_chart_time.png" width="300" /><br/>
 
 ## Real Time Line Chart Sample 1
 Line Chart of Real Time data<br/> 
