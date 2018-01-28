@@ -32,6 +32,12 @@ Sin Wave Data at one minute interval using MPChart 3.0.3<br/>
 
 <image src="https://github.com/ohwada/Android_Samples/blob/master/LineChartTimeSample4/screenshot/screenshot_line_chart_time.png" width="300" /><br/>
 
+## Line Chart Time Sample 5
+Line Chart of 
+Sin Wave Data at one second interval using MPChart 3.0.3<br/> 
+
+<image src="https://github.com/ohwada/Android_Samples/blob/master/LineChartTimeSample5/screenshot/screenshot_line_chart_time.png" width="300" /><br/>
+
 ## Real Time Line Chart Sample 1
 Line Chart of Real Time data<br/> 
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/RealtimeLineChartSample1/screenshot/screenshot_real_time_line_chart_mu;tiple.png" width="300" /><br/>
