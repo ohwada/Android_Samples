@@ -3,6 +3,12 @@ Android Samples
 
 sample codes for Android <br/>
 
+## Nougat Sample 1
+ScopedDirectoryAccess <br/>
+call the permission dialog and copy image files <br/>
+
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/NougatSample1/screenshot/screenshot_scoped_directory_access_permission.png" width="300" /><br/>
+
 ## Line Chart Sample 1
 Line Chart<br/> 
 
