@@ -7,6 +7,10 @@ sample codes for Android <br/>
 display text in list <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/ListViewSample1/screenshot/screenshot_list_view.png" width="300" /><br/>
 
+## ListView Sample 2
+display image and text in list <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/ListViewSample2/screenshot/screenshot_list_view.png" width="300" /><br/>
+
 ## Nougat Sample 1
 ScopedDirectoryAccess <br/>
 call the permission dialog and copy image files <br/>
