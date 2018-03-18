@@ -3,6 +3,10 @@ Android Samples
 
 sample codes for Android <br/>
 
+## ListView Sample 1
+display text in list <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/ListViewtSample1/screenshot/screenshot_list_view.png" width="300" /><br/>
+
 ## Nougat Sample 1
 ScopedDirectoryAccess <br/>
 call the permission dialog and copy image files <br/>
