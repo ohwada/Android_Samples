@@ -3,6 +3,11 @@ Android Samples
 
 sample codes for Android <br/>
 
+## RecycleView Sample 1
+display text in list <br/>
+with ItemClickListener <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/RecycleViewSample1/screenshot/screenshot_recycle_view.png" width="300" /><br/>
+
 ## ListView Sample 1
 display text in list <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/ListViewSample1/screenshot/screenshot_list_view.png" width="300" /><br/>
