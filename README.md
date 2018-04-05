@@ -4,6 +4,10 @@ Android Samples
 sample codes for Android <br/>
 
 ## RecycleView Sample 1
+animate view with ViewCompat <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/AnimationSample1/screenshot/screenshot_animation_animate.png" width="300" /><br/>
+
+## Animation Sample 1
 display text in list <br/>
 with ItemClickListener <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/RecycleViewSample1/screenshot/screenshot_recycle_view.png" width="300" /><br/>
