@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2018-03-01 K.OHWADA -->
+<animation-list 
+xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+    <item android:drawable="@drawable/droid1" android:duration="500" />
+    <item android:drawable="@drawable/droid2" android:duration="500" />
+    <item android:drawable="@drawable/droid3" android:duration="500" />
+    <item android:drawable="@drawable/droid4" android:duration="500" />
+    <item android:drawable="@drawable/droid5" android:duration="500" />
+    <item android:drawable="@drawable/droid6" android:duration="500" />
+ </animation-list>
