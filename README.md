@@ -11,6 +11,10 @@ animate view with ViewCompat <br/>
 animate view with AnimationDrawable <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/AnimationSample2/screenshot/rotation.png" width="300" /><br/>
 
+## Animation Sample 3
+animate view with Animation object <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/AnimationSample3/screenshot/animation_animate.png" width="300" /><br/>
+
 ## RecycleView Sample 1
 display text in list <br/>
 with ItemClickListener <br/>
