@@ -9,7 +9,7 @@ animate view with ViewCompat <br/>
 
 ## Animation Sample 2
 animate view with AnimationDrawable <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/AnimationSample2/screenshot/rotation.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/AnimationSample2/screenshot/screenshot_animation_main.png" width="300" /><br/>
 
 ## RecycleView Sample 1
 display text in list <br/>
