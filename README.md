@@ -3,6 +3,16 @@ Android Samples
 
 sample codes for Android <br/>
 
+## RecycleView Sample 1<br/>
+display text in list <br/>
+with ItemClickListener <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/RecycleViewSample1/screenshot/screenshot_recycle_view.png" width="300" /><br/>
+
+## RecyclerView Sample 2<br/>
+display text in list <br/>
+add item and remove item with animation <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/RecyclerViewSample2/screenshot/screenshot_recycler_view_main.png" width="300" /><br/>
+
 ## Animation Sample 1
 animate view with ViewCompat <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/AnimationSample1/screenshot/screenshot_animation_animate.png" width="300" /><br/>
@@ -14,11 +24,6 @@ animate view with AnimationDrawable <br/>
 ## Animation Sample 3
 animate view with Animation object <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/AnimationSample3/screenshot/animation_animate.png" width="300" /><br/>
-
-## RecycleView Sample 1
-display text in list <br/>
-with ItemClickListener <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/RecycleViewSample1/screenshot/screenshot_recycle_view.png" width="300" /><br/>
 
 ## ListView Sample 1
 display text in list <br/>
