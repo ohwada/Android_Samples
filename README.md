@@ -13,6 +13,10 @@ display text in list <br/>
 add item and remove item with animation <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/RecyclerViewSample2/screenshot/screenshot_recycler_view_main.png" width="300" /><br/>
 
+## RecyclerView Sample 3<br/>
+display text in SortedList <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/RecyclerViewSample3/screenshot/screenshot_recycler_view_main.png" width="300" /><br/>
+
 ## Animation Sample 1
 animate view with ViewCompat <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/AnimationSample1/screenshot/screenshot_animation_animate.png" width="300" /><br/>
