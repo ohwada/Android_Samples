@@ -5,7 +5,7 @@ sample codes for Android <br/>
 
 ## Picasso Sample 1
 display image with Picasso <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/PicassoSample1/screenshot/screenshot_picasso__internet.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/PicassoSample1/screenshot/screenshot_picasso_internet.png" width="300" /><br/>
 
 ## GSON Sample 1
 convert Java Objects into JSON and back with GSON <br/>
