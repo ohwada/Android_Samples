@@ -1,0 +1,9 @@
+<resources>
+<!-- 2018-03-01 K.OHWADA -->
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Light">
+        <!-- Customize your theme here. -->
+    </style>
+
+</resources>

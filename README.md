@@ -3,6 +3,10 @@ Android Samples
 
 sample codes for Android <br/>
 
+## Glide Sample 1
+display image with Glide <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/GlideSample1/screenshot/scrrensot_glide_internet.png" width="300" /><br/>
+
 ## Picasso Sample 1
 display image with Picasso <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/PicassoSample1/screenshot/scrrensot_picasso_internet.png" width="300" /><br/>
