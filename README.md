@@ -5,11 +5,11 @@ sample codes for Android <br/>
 
 ## Picasso Sample 1
 display image with Picasso <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/PicassoSample1/screenshot/screenshot_picasso_internet.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/PicassoSample1/screenshot/scrrensot_picasso_internet.png" width="300" /><br/>
 
 ## GSON Sample 1
 convert Java Objects into JSON and back with GSON <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/PicassoSample1/screenshot/scrrensot_picasso_internet.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/GsonSampl1/screenshot/screenshot_gson_to_json.png" width="300" /><br/>
 
 ## RecycleView Sample 1<br/>
 display text in list <br/>
