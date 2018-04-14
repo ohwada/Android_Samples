@@ -3,6 +3,11 @@ Android Samples
 
 sample codes for Android <br/>
 
+## GSON Sample 1
+
+convert Java Objects into JSON and back with GSON <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/GsonSampl1/screenshot/screenshot_gson_to_json.png" width="300" /><br/>
+
 ## RecycleView Sample 1<br/>
 display text in list <br/>
 with ItemClickListener <br/>
