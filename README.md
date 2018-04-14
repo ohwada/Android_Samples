@@ -9,7 +9,7 @@ display image with Glide <br/>
 
 ## Glide Sample 2
 display animation gif with Glide <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/GlideSample2/screen_shot/screenshot_glide_start.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/GlideSample2/screenshot/screenshot_glide_start.png" width="300" /><br/>
 
 ## Picasso Sample 1
 display image with Picasso <br/>
