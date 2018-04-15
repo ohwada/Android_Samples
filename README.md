@@ -7,6 +7,10 @@ sample codes for Android <br/>
 retouch image with GPUImage <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/GPUImageSample1/screenshot/scrrenshot_gpuimage_edge.png" width="300" /><br/>
 
+## GPUImage Sample 2
+retouch image with GPUImage <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/GPUImageSample2/screen_shot/screenshot_gpuimsge_retouch.png" width="300" /><br/>
+
 ## Glide Sample 1
 display image with Glide <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/GlideSample1/screen_shot/screenshot_glide_internet.png" width="300" /><br/>
