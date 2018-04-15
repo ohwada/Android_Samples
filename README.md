@@ -5,11 +5,11 @@ sample codes for Android <br/>
 
 ## GPUImage Sample 1
 retouch image with GPUImage <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/GPUImageSample1/screenshot/scrrenshot_gpuimage_edge.png" width="300" /><br/>
 
 ## Glide Sample 1
 display image with Glide <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/GlideSample1/screen_shot/screenshot_glide_internet.png" width="300" /><br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/GPUImageSample1/screenshot/scrrenshot_gpuimage_retouch.png" width="300" /><br/>
 
 ## Glide Sample 2
 display animation gif with Glide <br/>

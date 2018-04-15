@@ -7,7 +7,7 @@ retouch image with GPUImage <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/GPUImageSample1/screenshot/scrrenshot_gpuimage_main.png" width="300" /><br/>
 
 retouch image edge detection and display, when  click Retouch button<br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/GPUImageSample1/screenshot/scrrenshot_gpuimage_retouch.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/GPUImageSample1/screenshot/scrrenshot_gpuimage_edge.png" width="300" /><br/>
 
 ### Reference <br/>
-https://github.com/square/picasso
+https://github.com/CyberAgent/android-gpuimage
