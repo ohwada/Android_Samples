@@ -14,7 +14,7 @@ get text from web server and post data to web server with Volley <br/>
 
 ## Retrofit Sample 1
 get text from web server and post data to web server with Volley <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/RetrofitSample1/screenshot/screenshot_retrofit_get.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/RetrofitSample1/screenshot/screenshot_retorofit_get.png" width="300" /><br/>
 
 ## GPUImage Sample 1
 retouch image with GPUImage <br/>
