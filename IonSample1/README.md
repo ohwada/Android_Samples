@@ -15,4 +15,4 @@ server echoback post variables <br/>
 <i<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/IonSample1/screenshot/screenshot_ion_post.png" width="300" /><br/>
 
 ### Reference <br/>
-http://square.github.io/okhttp/
+https://github.com/koush/ion
