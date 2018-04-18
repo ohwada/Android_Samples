@@ -12,6 +12,10 @@ get text from web server and post data to web server with Volley <br/>
 get text from web server and post data to web server with Volley <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/OkHttpSample1/screenshot/screenshot_okhttp_get.png" width="300" /><br/>
 
+## Retrofit Sample 1
+get text from web server and post data to web server with Volley <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/RetrofitSample1/screenshot/screenshot_retrofit_get.png" width="300" /><br/>
+
 ## GPUImage Sample 1
 retouch image with GPUImage <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/GPUImageSample1/screenshot/scrrenshot_gpuimage_edge.png" width="300" /><br/>
