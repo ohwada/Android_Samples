@@ -3,9 +3,14 @@ Android Samples
 
 sample codes for Android <br/>
 
+
 ## Volley Sample 1
 get text from web server and post data to web server with Volley <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/VolleySample1/screenshot/screenshot_volley_get.png" width="300" /><br/>
+
+## OkHttp Sample 1
+get text from web server and post data to web server with Volley <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/OkHttpSample1/screenshot/screenshot_okhttp_get.png" width="300" /><br/>
 
 ## GPUImage Sample 1
 retouch image with GPUImage <br/>
