@@ -3,6 +3,9 @@ Android Samples
 
 sample codes for Android <br/>
 
+## Ion Sample 1
+get text from web server and post data to web server with Volley <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/IonSample1/screenshot/screenshot_ion_get.png" width="300" /><br/>
 
 ## Volley Sample 1
 get text from web server and post data to web server with Volley <br/>
