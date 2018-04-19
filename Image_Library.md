@@ -4,15 +4,19 @@ Android Image Library
 sample codes for Android Image Library<br/>
 
 ## Demo scenario
-*display image in resouce holder of app <br/>
-*display image in assets folder  of app <br/>
+* display image in resouce holder of app <br/>
+* display image in assets folder  of app <br/>
 * get image from web server <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/images/palau02.jpg" width="150" /><br/>
 
 ## Picasso
-demo scenario <br/>
+ex1) demo scenario <br/>
 https://github.com/ohwada/Android_Samples/tree/master/PicassoSample1
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/PicassoSample1/screenshot/scrrensot_picasso_internet.png" width="300" /><br/>
+
+ex2) retouch  image  rounded corners <br/>
+https://github.com/ohwada/Android_Samples/tree/master/PicassoSample2
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/PicassoSample2/screenshot/scrrenshot_picasso_retouch.png" width="200" /><br/>
 
 ## Glide
 ex1) demo scenario <br/>
