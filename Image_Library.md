@@ -21,8 +21,6 @@ https://github.com/ohwada/Android_Samples/tree/master/PicassoSample2 <br/>
 ## Glide
 ex1) demo scenario <br/>
 https://github.com/ohwada/Android_Samples/tree/master/GlideSample1 <br/>
-display animation gif <br/>
-https://github.com/ohwada/Android_Samples/tree/master/GlideSample1 <br/>
 
 ex2) display animation gif <br/>
 https://github.com/ohwada/Android_Samples/tree/master/GlideSample2 <br/>
