@@ -11,11 +11,11 @@ sample codes for Android Image Library<br/>
 
 ## Picasso
 ex1) demo scenario <br/>
-https://github.com/ohwada/Android_Samples/tree/master/PicassoSample1
+https://github.com/ohwada/Android_Samples/tree/master/PicassoSample1 <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/PicassoSample1/screenshot/scrrensot_picasso_internet.png" width="300" /><br/>
 
 ex2) retouch  image  rounded corners <br/>
-https://github.com/ohwada/Android_Samples/tree/master/PicassoSample2
+https://github.com/ohwada/Android_Samples/tree/master/PicassoSample2 <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/PicassoSample2/screenshot/scrrenshot_picasso_retouch.png" width="200" /><br/>
 
 ## Glide

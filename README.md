@@ -8,6 +8,7 @@ https://github.com/ohwada/Android_Samples/blob/master/Image_Library.md
 
 ###  Picasso Sample 1
 display image with Picasso <br/>
+mage src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/PicassoSample1/screenshot/scrrensot_picasso_internet.png" width="200" /><br/>
 
 ### Picasso Sample 2
 retouch image with Picasso <br/>
