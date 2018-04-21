@@ -35,6 +35,14 @@ public class MainActivity extends Activity {
  
         listView.setAdapter(arrayAdapter);
 
+		}
+		}
+		// check position
+		int n = position - 1;
+		if (( n < 0 )||( n >= mList.size() )) return;
+        VersionItem item = mList.get( n );
+        toast_short( item.codename );
+
     } // onCreate
 
 } // class MainActivity
