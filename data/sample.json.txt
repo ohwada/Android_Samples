@@ -1,2 +1,2 @@
 {"buyer":'Happy Camper',"creditCard":'4111-2222-3333-4444',
-lineItems:[ {"name":'nails',"priceInMicros":2100000,"quantity":100,"currencyCode":'USD'}, {"name":'Wig',"priceInMicros":300000,"quantity":200,"currencyCode":'JPY'} ] }
+lineItems:[ {"name":'nails',"priceInMicros":3200000,"quantity":100,"currencyCode":'USD'}, {"name":'Wig',"priceInMicros":32100000,"quantity":200,"currencyCode":'JPY'} ] }
