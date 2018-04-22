@@ -70,6 +70,10 @@ get image and display in ImageView <br/>
 convert Java Objects into JSON and back with GSON <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/GsonSampl1/screenshot/screenshot_gson_to_json.png" width="200" /><br/>
 
+### Asset Sample 1
+rearead file in assets fonlder of app <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/AssetSampl1/screenshot/screenshot_asset_image.png" width="200" /><br/>
+
 ### RecycleView Sample 1<br/>
 display text in list <br/>
 with ItemClickListener <br/>
