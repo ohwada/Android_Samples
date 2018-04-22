@@ -12,7 +12,7 @@ get text from web server, when click get button <br/>
 
 post data to web server, when click post button <br/>
 server echoback post variables <br/>
-<i<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/IonSample1/screenshot/screenshot_ion_post.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/IonSample1/screenshot/screenshot_ion_post.png" width="300" /><br/>
 
 ### Reference <br/>
 https://github.com/koush/ion
