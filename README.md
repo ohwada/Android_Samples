@@ -35,11 +35,8 @@ retouch image with GPUImage <br/>
 retouch image with GPUImage <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/GPUImageSample2/screen_shot/screenshot_gpuimsge_retouch.png" width="200" /><br/>
 
-## Others
-
-### Ion Sample 1
-get text from web server and post data to web server with Volley <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/IonSample1/screenshot/screenshot_ion_get.png" width="200" /><br/>
+## Http Library
+https://github.com/ohwada/Android_Samples/blob/master/Http_Library.md
 
 ### Volley Sample 1
 get text from web server and post data to web server with Volley <br/>
@@ -52,6 +49,22 @@ get text from web server and post data to web server with Volley <br/>
 ### Retrofit Sample 1
 get text from web server and post data to web server with Volley <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/RetrofitSample1/screenshot/screenshot_retorofit_get.png" width="200" /><br/>
+
+### Ion Sample 1
+get text from web server and post data to web server with Volley <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/IonSample1/screenshot/screenshot_ion_get.png" width="200" /><br/>
+
+### Ion Sample 2
+get json and parse <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/IonSample2/screenshot/screenshot_ion_get.png" width="200" /><br/>
+
+### Ion Sample 3
+get image and display in ImageView <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/IonSAmple3/screenshot/screenshot_ion_internet.png" width="200" /><br/>
+
+
+## Others
+
 
 ### GSON Sample 1
 convert Java Objects into JSON and back with GSON <br/>
