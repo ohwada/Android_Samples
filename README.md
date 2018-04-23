@@ -3,6 +3,7 @@ Android Samples
 
 sample codes for Android <br/>
 
+
 ## Image Library
 https://github.com/ohwada/Android_Samples/blob/master/Image_Library.md
 
@@ -63,16 +64,8 @@ get image and display in ImageView <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/IonSAmple3/screenshot/screenshot_ion_internet.png" width="200" /><br/>
 
 
-## Others
-
-
-### GSON Sample 1
-convert Java Objects into JSON and back with GSON <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/GsonSampl1/screenshot/screenshot_gson_to_json.png" width="200" /><br/>
-
-### Asset Sample 1
-rearead file in assets fonlder of app <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/AssetSample1/screenshot/screenshot_asset_image.png" width="200" /><br/>
+## RecyclerView
+https://github.com/ohwada/Android_Samples/blob/master/RecyclerView.md
 
 ### RecycleView Sample 1<br/>
 display text in list <br/>
@@ -87,6 +80,22 @@ add item and remove item with animation <br/>
 ### RecyclerView Sample 3<br/>
 display text in SortedList <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/RecyclerViewSample3/screenshot/screenshot_recycler_view_main.png" width="200" /><br/>
+
+### RecyclerView Header <br/>
+display text in List and Header Footer <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/RecyclerViewHeader/screenshot/screenshot_recycler_view_header.png" width="200" /><br/>
+
+
+## Others
+
+
+### GSON Sample 1
+convert Java Objects into JSON and back with GSON <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/GsonSampl1/screenshot/screenshot_gson_to_json.png" width="200" /><br/>
+
+### Asset Sample 1
+rearead file in assets fonlder of app <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/AssetSample1/screenshot/screenshot_asset_image.png" width="200" /><br/>
 
 ### Animation Sample 1
 animate view with ViewCompat <br/>
