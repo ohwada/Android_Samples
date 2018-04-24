@@ -33,6 +33,13 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_height="wrap_content"
         android:layout_weight="1"  />
 
+    <Button
+        android:id="@+id/Button_list"
+        android:text="List"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"  />
+
 </LinearLayout>
 
     <TextView
@@ -45,5 +52,11 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="wrap_content" 
         android:layout_height="wrap_content"  
         android:layout_margin="4dp"  /> 
-               
+ 
+    <ListView 
+    android:id="@+id/ListView_1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+              
 </LinearLayout>

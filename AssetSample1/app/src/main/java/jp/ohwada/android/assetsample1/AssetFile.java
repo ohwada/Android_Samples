@@ -17,6 +17,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import android.content.Context;
@@ -66,6 +67,22 @@ public class AssetFile {
 	} // AssetFile
 	
 
+
+	/**
+	 * readTextFile
+     * @ param String fileName
+     * @ param boolean exists
+     * @return String
+	 */  
+public String readTextFile( String fileName, boolean exists ) {
+	if (exists) {
+		boolean ret =existsFile( fileName );
+		if (!ret) return null;
+	}
+	return readTextFile( fileName );
+} // readTextFile
+
+
 	/**
 	 * readTextFile
      * @ param String fileName
@@ -82,6 +99,21 @@ public String readTextFile( String fileName ) {
 		} 
 	return str;
 } // readTextFile
+
+
+	/**
+	 * readImageFile
+     * @ param String fileName
+     * @ param boolean exists
+     * @return Bitmap
+	 */  
+public Bitmap readImageFile( String fileName, boolean exists ) {
+	if (exists) {
+		boolean ret =existsFile( fileName );
+		if (!ret) return null;
+	}
+	return readImageFile( fileName );
+} // readImageFile
 
 
 	/**
@@ -105,46 +137,43 @@ public Bitmap readImageFile( String fileName ) {
 } // readImageFile
 
 
+	/**
+	 * existsFile
+     * @ param String fileName
+     * @return boolean
+	 */  
+public boolean existsFile( String fileName ) {
+	List<String> list = getFileList();
+	if (list == null) return false;
+	boolean ret = list.contains(fileName);
+return ret;
+} // existsFile
+
 
 	/**
-	 * get AssetList
-     * @param String ext
+	 * getValidFileList
+     * @ param String ext
      * @return List<String>
 	 */  
-	public List<String> getAssetList( String ext ) {
-		return getAssetList( ASSET_PATH,  ext );
-	} // getAssetList
-
-
-	/**
-	 * get AssetsList
-     * @param String path
-     * @param String ext
-     * @return List<String>
-	 */  
-	public List<String> getAssetList( String path, String ext ) {
+	public List<String> getValidFileList( String ext ) {
 		
 	List<String> list =	new ArrayList<String>();
-	String[] files = null;
-	
-		try {
-			files = mAssetManager.list( path );
-		} catch (IOException e) {
-			if (D) e.printStackTrace();
-		}
+
+	List<String> list_raw = getFileList();
+
 
 		// nothing if no files
-		if ( files == null ) return list;
-					 
-		int length = files.length;
+		if ( list_raw == null ) return list;
+		
+		int size = list_raw.size();
+
 		// nothing if no files
-		if ( length == 0 ) return list;
+		if ( size == 0 ) return list;	
 
 		// all files
-		for ( int i=0; i < length; i ++ ) {
+		for ( String name: list_raw ) {
 						
-			String name = files[i];
-			log_d( "assets " + name );
+			log_d( "getValidFileList " + name );
 			
 			// skip if ignore
 		 if ( checkAssetsIgnoreDir( name ) ) continue;
@@ -157,8 +186,39 @@ public Bitmap readImageFile( String fileName ) {
 	} // for
 	
 	return list;
-} // getAssetList
+} // getValidFileList
 
+
+	/**
+	 * getFileList
+     * @return  List<String>
+	 */  
+public List<String> getFileList() {
+	String[] files = getFiles( ASSET_PATH );
+	if (files == null) return null;
+	List<String> list = Arrays.asList(files);
+	return list;
+} // getFileList
+
+
+	/**
+	 * getFiles
+     * @param String path
+     * @return String[]
+	 */  
+	public String[] getFiles( String path ) {
+		
+	String[] files = null;
+	
+		try {
+			files = mAssetManager.list( path );
+		} catch (IOException e) {
+			if (D) e.printStackTrace();
+		}
+
+		return files;
+
+} // getFiles
 
 
 	/**

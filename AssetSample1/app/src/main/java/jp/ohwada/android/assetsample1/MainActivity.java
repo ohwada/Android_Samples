@@ -13,6 +13,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+
+import java.util.List;
 
 /**
  *  class MainActivity
@@ -21,7 +25,7 @@ public class MainActivity extends Activity {
 
 private TextView mTextView1;
 private ImageView mImageView1;
-
+private ListView mListView;
 private AssetFile mAssetFile;
 
     @Override
@@ -47,6 +51,16 @@ private AssetFile mAssetFile;
             }
         }); // btnImage
 
+        Button btnList = (Button) findViewById(R.id.Button_list);
+        btnList.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                procList();
+            }
+        }); // btnList
+
+		mListView  = (ListView) findViewById( R.id.ListView_1 );
+
     mAssetFile = new AssetFile(this);
     } // onCreate
 
@@ -65,5 +79,17 @@ private void procImage() {
     Bitmap bitmap = mAssetFile.readImageFile("sample.png");
     mImageView1.setImageBitmap(bitmap);
 } // procImage
+
+
+ 	/**
+	 * procList
+	 */ 
+private void procList() {
+    List<String> list = mAssetFile.getFileList();
+    ArrayAdapter<String> arrayAdapter =
+                new ArrayAdapter<>( this, android.R.layout.simple_list_item_1, list );
+        mListView.setAdapter(arrayAdapter);
+} // procImage
+
 
 } // class MainActivity
