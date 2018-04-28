@@ -88,6 +88,9 @@ display text in List and Header Footer <br/>
 
 ## Others
 
+### Tab Layout Sample
+app has 3 tabs <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Tab LayoutSample/screenshot/tab_layout_page.png" width="300" /><br/>
 
 ### GSON Sample 1
 convert Java Objects into JSON and back with GSON <br/>
