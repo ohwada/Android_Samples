@@ -63,6 +63,10 @@ get json and parse <br/>
 get image and display in ImageView <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/IonSAmple3/screenshot/screenshot_ion_internet.png" width="200" /><br/>
 
+## LivedoorWeather
+Weather Report with Livedoor Weather API <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/LivedoorWeather/screenshot/livedoor_weather_tabs.png" width="500" /><br/>
+
 
 ## RecyclerView
 https://github.com/ohwada/Android_Samples/blob/master/RecyclerView.md

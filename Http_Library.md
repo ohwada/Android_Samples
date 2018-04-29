@@ -45,3 +45,6 @@ ex3) get image and display in ImageView <br/>
 https://github.com/ohwada/Android_Samples/tree/master/IonSAmple3  <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/IonSAmple3/screenshot/screenshot_ion_internet.png" width="200" /><br/>
 
+ex4) Weather Report with Livedoor Weather API <br/>
+https://github.com/ohwada/Android_Samples/tree/master/LivedoorWeather  <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/LivedoorWeather/screenshot/livedoor_weather_tabs.png" width="500" /><br/>
