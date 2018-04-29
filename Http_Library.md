@@ -15,7 +15,7 @@ http://ohwada.php.xdomain.jp/post.php <br/>
 https://raw.githubusercontent.com/ohwada/Android_Samples/master/data/sample.json.txt  <br/>
 
 * get image from web server,  and display in ImageView <br/>
-< src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/images/palau02.jpg" width="150" />
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/images/palau02.jpg" width="150" />
 
 ## Sample Codes
 

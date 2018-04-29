@@ -10,3 +10,6 @@ echoback get variables <br/>
 * post_echo.php <br/>
 echoback post variables <br/>
 
+* header_echo.php <br/>
+echoback request headers <br/>
+
