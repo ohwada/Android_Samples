@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2018-03-01 K.OHWADA -->
+<LinearLayout 
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PIN POINT lOCATION"/>
+
+        <ListView 
+    android:id="@+id/ListView_location"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5" />
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+        android:layout_weight="1" >
+
+    <ImageView 
+           android:id="@+id/ImageView_location_copyright"
+        android:layout_width="118dp"
+        android:layout_height="26dp"
+        android:layout_margin="4dp" />
+
+    <TextView 
+           android:id="@+id/TextView_location_copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+</LinearLayout>
