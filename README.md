@@ -95,7 +95,7 @@ display text in List and Header Footer <br/>
 
 ### Yahoo News
 get RSS, display Yahoo Headline News <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/YahooNews/screenshot/screenshot_yahoo_news_list.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/YahooNews/screenshot/screenshot_yahoo_news_list.png" width="200" /><br/>
 
 
 ### Tab Layout Sample
