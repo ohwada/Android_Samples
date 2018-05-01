@@ -92,9 +92,16 @@ display text in List and Header Footer <br/>
 
 ## Others
 
+
+### Yahoo News
+get RSS, display Yahoo Headline News <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/YahooNews/screenshot/screenshot_yahoo_news_list.png" width="300" /><br/>
+
+
 ### Tab Layout Sample
 app has 3 tabs <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/TabLayoutSample/screenshot/tab_layout_page.png" width="500" /><br/>
+
 
 ### GSON Sample 1
 convert Java Objects into JSON and back with GSON <br/>

@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:blogChannel="http://backend.userland.com/blogChannelModule" version="2.0">
+<channel>
+<title>Yahoo!ニュース・トピックス - 主要</title>
+<link>https://news.yahoo.co.jp/</link>
+<description>Yahoo! JAPANのニュース・トピックスで取り上げている最新の見出しを提供しています。</description>
+<language>ja</language>
+<pubDate>Mon, 30 Apr 2018 01:02:43 +0900</pubDate>
+<item>
+<title>日朝対話 狙いは経済支援か</title>
+<link>https://news.yahoo.co.jp/pickup/6280837</link>
+<pubDate>Sun, 29 Apr 2018 23:07:27 +0900</pubDate>
+<enclosure length="133" url="https://s.yimg.jp/images/icon/photo.gif" type="image/gif">
+</enclosure>
+<guid isPermaLink="false">yahoo/news/topics/6280837</guid>
+</item>
+<item>
+<title>北も注視?イラン核合意の破棄</title>
+<link>https://news.yahoo.co.jp/pickup/6280829</link>
+<pubDate>Sun, 29 Apr 2018 23:47:46 +0900</pubDate>
+<enclosure length="133" url="https://s.yimg.jp/images/icon/photo.gif" type="image/gif">
+</enclosure>
+<guid isPermaLink="false">yahoo/news/topics/6280829</guid>
+</item>
+<item>
+<title>平成とは「動揺」42% 朝日</title>
+<link>https://news.yahoo.co.jp/pickup/6280839</link>
+<pubDate>Mon, 30 Apr 2018 00:54:12 +0900</pubDate>
+<enclosure length="133" url="https://s.yimg.jp/images/icon/photo.gif" type="image/gif">
+</enclosure>
+<guid isPermaLink="false">yahoo/news/topics/6280839</guid>
+</item>
+<item>
+<title>自民議員 殴られるなどし骨折</title>
+<link>https://news.yahoo.co.jp/pickup/6280826</link>
+<pubDate>Sun, 29 Apr 2018 20:07:54 +0900</pubDate>
+<enclosure length="133" url="https://s.yimg.jp/images/icon/photo.gif" type="image/gif">
+</enclosure>
+<guid isPermaLink="false">yahoo/news/topics/6280826</guid>
+</item>
+<item>
+<title>多重事故で救助 追突され死亡</title>
+<link>https://news.yahoo.co.jp/pickup/6280832</link>
+<pubDate>Sun, 29 Apr 2018 21:56:42 +0900</pubDate>
+<guid isPermaLink="false">yahoo/news/topics/6280832</guid>
+</item>
+<item>
+<title>内村超えの美しさ 19歳新王者</title>
+<link>https://news.yahoo.co.jp/pickup/6280835</link>
+<pubDate>Sun, 29 Apr 2018 22:09:34 +0900</pubDate>
+<enclosure length="133" url="https://s.yimg.jp/images/icon/photo.gif" type="image/gif">
+</enclosure>
+<guid isPermaLink="false">yahoo/news/topics/6280835</guid>
+</item>
+<item>
+<title>DeNAとっさに 6-2-5の珍併殺</title>
+<link>https://news.yahoo.co.jp/pickup/6280830</link>
+<pubDate>Sun, 29 Apr 2018 21:31:47 +0900</pubDate>
+<enclosure length="133" url="https://s.yimg.jp/images/icon/photo.gif" type="image/gif">
+</enclosure>
+<guid isPermaLink="false">yahoo/news/topics/6280830</guid>
+</item>
+<item>
+<title>把瑠都が帰国へ 議員を目指す</title>
+<link>https://news.yahoo.co.jp/pickup/6280831</link>
+<pubDate>Sun, 29 Apr 2018 21:26:58 +0900</pubDate>
+<enclosure length="133" url="https://s.yimg.jp/images/icon/photo.gif" type="image/gif">
+</enclosure>
+<guid isPermaLink="false">yahoo/news/topics/6280831</guid>
+</item>
+</channel>
+</rss>
