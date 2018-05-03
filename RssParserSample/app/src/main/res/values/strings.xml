@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2018-04-10 K.OHWADA -->
+<resources>
+    <string name="app_name">RSS Parser Sample</string>
+
+<!-- main activity -->
+    <string name="alert_title">Attention!</string>
+    <string name="alert_message">Unable to load data. \nCheck your connection!</string>
+    <string name="alert_positive">Close</string>
+
+<!-- menu -->
+    <string name="action_settings">Settings</string>
+</resources>
