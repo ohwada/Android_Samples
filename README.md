@@ -97,6 +97,9 @@ display text in List and Header Footer <br/>
 get RSS, display Yahoo Headline News <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/YahooNews/screenshot/screenshot_yahoo_news_list.png" width="200" /><br/>
 
+### RSS Parser Sample
+RSS Reader with RSS-Parser Library <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/RssParserSample/screenshot/screenshot_rss_parser_list.png" width="300" /><br/>
 
 ### Tab Layout Sample
 app has 3 tabs <br/>
