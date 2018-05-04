@@ -93,6 +93,10 @@ display text in List and Header Footer <br/>
 ## Others
 
 
+### HTML in TextView
+display HTML in TextView <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/HtmlInTextView/screenshot/screenshot_html_textview_nexsus5.png" width="200" /><br/>
+
 ### Yahoo News
 get RSS, display Yahoo Headline News <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/YahooNews/screenshot/screenshot_yahoo_news_list.png" width="200" /><br/>
