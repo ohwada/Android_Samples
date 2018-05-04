@@ -5,9 +5,10 @@ display HTML in TextView <br/>
 * support Android N+ <br/>
 
 ### screenshot <br/>
-* display decorated text with font tag
-* display hyper link with a tag
-* display image with img tag
+* display decorated text with font tag <br/>
+* display hyper link with a tag <br/>
+* display image with img tag <br/>
+
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/HtmlInTextView/screenshot/screenshot_html_textview_nexsus5.png" width="300" /><br/>
 
 display web page in broweser app, when click "html" hyper link<br/>
