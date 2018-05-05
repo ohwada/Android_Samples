@@ -92,6 +92,10 @@ display text in List and Header Footer <br/>
 
 ## Others
 
+### WebView Sample
+display HTML in WebView <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/WebViewSample/screenshot/screenshot_web_view_html.png" width="300" /><br/>
+
 
 ### HTML in TextView
 display HTML in TextView <br/>

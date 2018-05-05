@@ -7,12 +7,10 @@ display web site specified by URL in WebView <br/>
 ### screenshot <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/WebViewSample/screenshot/screenshot_web_view_main.png" width="300" /><br/>
 
-display HTML in WebView, when click html button <br/>
-<image
+display HTML in WebView, when click "load HTML" button <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/WebViewSample/screenshot/screenshot_web_view_html.png" width="300" /><br/>
 
-display web site specified by URL in WebView, when click url button <br/>
-<image
+display web site specified by URL in WebView, when click "load URL" button <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/WebViewSample/screenshot/screenshot_web_view_url.png" width="300" /><br/>
 
 
