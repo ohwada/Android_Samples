@@ -107,7 +107,18 @@ get RSS, display Yahoo Headline News <br/>
 
 ### RSS Parser Sample
 RSS Reader with RSS-Parser Library <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/RssParserSample/screenshot/screenshot_rss_parser_list.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/RssParserSample/screenshot/screenshot_rss_parser_list.png" width="200" /><br/>
+
+
+### Menu 1
+display Menu without Support Libraly<br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Menu1/screenshot/screenshot_menu_items.png" width="200" /><br/>
+
+
+### Menu 2
+display Menu with Support Libraly<br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Menu2/screenshot/screenshot_menu_main.png" width="200" /><br/>
+
 
 ### Tab Layout Sample
 app has 3 tabs <br/>
