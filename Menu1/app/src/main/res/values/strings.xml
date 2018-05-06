@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2018-03-01 K.OHWADA -->
+<resources>
+    <string name="app_name">Menu Sample</string>
+    
+                                                
+ <!-- menu main -->
+    <string name="action_settings">Settings</string>  
+    <string name="action_about">About</string>  
+              
+</resources>

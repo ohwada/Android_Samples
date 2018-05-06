@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2018-03-01 K.OHWADA -->
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+<!-- dialog about -->
+    <dimen name="dialog_about_view_width">340dp</dimen>
+    <dimen name="dialog_about_main_textsize">16sp</dimen>
+    <dimen name="dialog_about_credit_textsize">15sp</dimen>
+    
+    
+    
+</resources>
