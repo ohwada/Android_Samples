@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2018-05-01 K.OHWADA -->
+<resources>
+    <string name="app_name">Share Action Provider Sample</string>
+
+<!-- menu -->
+    <string name="action_share">Share</string>
+
+</resources>
