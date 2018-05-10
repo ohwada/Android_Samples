@@ -1,24 +1,24 @@
 /**
- * permission sample
+ * Runtime Permission Sample
  * 2017-06-01 K.OHWADA 
  */
  
 package jp.ohwada.android.permissionsample1;
 
-import android.support.v7.app.AppCompatActivity;
-
+import android.app.Activity;
 import android.os.Bundle;
 import android.graphics.Bitmap;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 /**
  * MainActivity
  */
-public class MainActivity extends AppCompatActivity {
-    
+ public class MainActivity extends Activity {
+   
     	// debug
     	private final static String TAG_SUB = "MainActivity";
     	
@@ -38,8 +38,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         
-        mPermission = new Permission( this );
-        
+            mPermission = new Permission( this );
+            mPermission.setPermWriteExternalStorage();
+     
         		mImageFile = new ImageFile( this );	
         		
 	        Button btnCopy = (Button) findViewById( R.id.Button_copy );
@@ -94,22 +95,31 @@ public class MainActivity extends AppCompatActivity {
 	}
 
 } // 	clickButtonCopy
-   
-   private void procCopy() {
+
+
+/**
+ * procCopy
+ */
+ private void procCopy() {
    		mImageFile.mkdirsExternal("images");
-		mImageFile.copyAssetsFilesToExternal("png"); 
+		boolean ret = mImageFile.copyAssetsFilesToExternal("png"); 
+        if (ret) {
+            toast_short("copied");
+        } else {
+            toast_short("copy faild");
+        }
 } // procCopy
    
+
     	/**
-	 * clickPhoto1
+	 * clickImageView1
 	 */	
     private void clickImageView1() {
     	 mNum ++;
     	 if (mNum  > 10) {
     	   mNum  = 1; 
     	 }
-    	
-  
+    	  
 				       String name =  "image_" + mNum + ".png";
 				       Bitmap bitmap = mImageFile.getExternalBitmap( name );
 				       if (bitmap != null ) {
@@ -145,7 +155,15 @@ public class MainActivity extends AppCompatActivity {
           
           dialog.show();
         } // showPermissionDialog  
-            
+  
+          
+/**
+ * toast_short
+ */
+	private void toast_short( String msg ) {
+		ToastMaster.makeText( this, msg, Toast.LENGTH_SHORT ).show();
+	} // toast_short
+
 
  	/**
 	 * write into logcat
