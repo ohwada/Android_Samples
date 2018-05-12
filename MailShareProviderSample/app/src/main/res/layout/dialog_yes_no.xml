@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2017-06-01 K.OHWADA -->
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="4dp" >
+				
+    <TextView
+        android:id="@+id/TextView_dialog_message"    
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/dialog_message_textsize" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="4dp" >
+
+        <Button 
+            android:id="@+id/Button_dialog_yes" 
+            android:text="@string/button_dialog_yes"
+            android:textSize="@dimen/dialog_button_textsize" 
+            android:layout_width="0dp" 
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button 
+            android:id="@+id/Button_dialog_no" 
+            android:text="@string/button_dialog_no"
+            android:textSize="@dimen/dialog_button_textsize"
+            android:layout_width="0dp" 
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    
+    </LinearLayout>
+
+</LinearLayout>

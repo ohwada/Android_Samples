@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2018-05-01 K.OHWADA -->
+<resources>
+    <string name="app_name">MailShareRecieverSample</string>
+
+    <!-- dialog permission  -->
+    <string name="dialog_permission_title">Request Permissions</string>
+    <string name="dialog_permission_storage">
+Request Storage Permission \n this app read files from SD  card</string>
+    <string name="button_dialog_yes">YES</string>
+    <string name="button_dialog_no">NO</string>
+</resources>
