@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2018-03-01 K.OHWADA -->
+<resources>
+    <string name="app_name">Gmail API Sample</string>
+
+    <string name="button_call">Call Gmail API</string>
+    <string name="button_send">Send Mail</string>
+   <string name="text_output">Click the "Call Gmail AP" button to test the Gmail API.</string>
+   <string name="progress">Calling Gmail API ...</string>
+   <string name="no_result">No results returned.</string>
+   <string name="msg_cancelled">The following error occurred:</string>
+   <string name="error_occurred">Request cancelled.</string>
+   <string name="request_permission">This app needs to access your Google account (via Contacts).</string>
+<string name="please_install">This app requires Google Play Services. Please install  "Google Play Services" on your device and relaunch this app.</string>
+<string name="no_network">No network connection available.</string>
+</resources>
