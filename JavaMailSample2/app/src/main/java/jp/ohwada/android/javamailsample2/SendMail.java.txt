@@ -1,0 +1,193 @@
+package jp.ohwada.android.javamailsample2;
+
+// JavaMail for Android
+// https://javaee.github.io/javamail/Android
+
+// ClassNotFoundException
+// com.sun.mail.smtp.SMTPSaslAuthenticator
+
+import android.util.Log;
+
+import java.util.Properties;
+
+import javax.mail.*;
+
+import javax.mail.internet.*;
+
+import com.google.code.samples.oauth2.OAuth2Authenticator;
+import com.sun.mail.smtp.*;
+
+import com.google.code.samples.oauth2.*;
+
+
+ 	/**
+	 * class SendMail
+	 */ 
+public class SendMail {
+
+        // debug
+	private final static boolean D = true;
+    	private final static String TAG = "Mail";
+    	private final static String TAG_SUB = "SendMail";
+
+
+
+ 	private final static String KEY_SMTP_HOST  = "mail.smtp.host";
+    	private final static String KEY_MAIL_HOST  = "mail.host";
+    	private final static String KEY_SMTP_PORT  = "mail.smtp.port";
+    	private final static String KEY_SOCKET_PORT  = "mail.smtp.socketFactory.port";
+    	private final static String KEY_SOCKET_FACTORY_CLASS  = "mail.smtp.socketFactory.class";
+
+    	private final static String UTF_8 = "utf-8";
+    	private final static String TRANSPORT_SMTP ="smtp";
+
+    	private final static String SMTP_HOST = "smtp.gmail.com";
+    	private final static String SMTP_PORT = "465";
+    	private final static String SMTP_SSL_FACTORY_CLASS =  "javax.net.ssl.SSLSocketFactory";
+
+    	// private final static String HOST = "smtp.gmail.com";
+    	private final static String HOST = "smtp.googlemail.com";
+
+
+    	// private final static int PORT = 465;
+    	private final static int PORT = 587;
+
+
+        	private OAuth2Authenticator mAuthenticator;
+
+    	private  String mGmailUser = "k1.ohwada@gmail.com";
+
+    	private  String mUserEmail = "k1.ohwada@gmail.com";
+
+    	private String mOauthToken = "4/AADcMy9chhyqlihuo6JaeFz9covkMFavZezmb6Z2fYiMUXNdZe9lK1w";
+
+    	private final static boolean DEBUG = true;
+
+        private boolean mError;
+
+
+ 	/**
+	 * constractor
+	 */ 
+public SendMail() {
+    mAuthenticator =  new OAuth2Authenticator();
+     mAuthenticator.initialize();
+} // SendMail
+
+
+ 	/**
+	 * sendAsync
+	 */ 
+public boolean sendAsync(final String mail_to, final String subject, final String body)  {
+
+    mError = false;
+// run it in a separate thread
+ new Thread(new Runnable() {
+    @Override
+    public void run() {
+        try {
+            send(mail_to, subject, body);
+        } catch (Exception e) {
+            e.printStackTrace();
+            mError = true;
+        }
+    }
+  }).start();
+
+    return !mError;
+} // sendAsync
+
+
+ 	/**
+	 * send
+	 */ 
+public void send(String mail_to, String subject, String body) throws Exception {
+
+            final Properties property = createProperties();
+
+             final  Session session = createSession(property);
+
+            final MimeMessage  mimeMsg = createMimeMessage( session, mail_to, subject, body );
+
+try {
+    
+    SMTPTransport transport = connect();
+
+            transport.sendMessage(mimeMsg, mimeMsg.getAllRecipients());
+            transport.close();
+        } catch (Exception e) {
+            log_d("transport.sendMessage");
+            e.printStackTrace();
+        }
+
+} // send
+
+ 	/**
+	 * createProperties
+	 */ 
+private Properties createProperties() {
+            Properties property = new Properties();
+            property.put(KEY_SMTP_HOST,  SMTP_HOST);
+            property.put(KEY_MAIL_HOST,    SMTP_HOST);
+            property.put(KEY_SMTP_PORT,    SMTP_PORT);
+            property.put(KEY_SOCKET_PORT,  SMTP_PORT);
+            property.put(KEY_SOCKET_FACTORY_CLASS, SMTP_SSL_FACTORY_CLASS);
+
+    return property;
+} // createProperties
+
+ 	/**
+	 * createSession
+	 */ 
+private Session createSession(Properties property) throws Exception {
+
+            Session session = Session.getInstance(property );
+    return session;
+} // createSession
+
+ 	/**
+	 * createMimeMessage
+	 */ 
+private MimeMessage createMimeMessage( Session session, String mail_to, String subject, 
+String body ) throws Exception {
+
+MimeMessage mimeMsg = new MimeMessage(session);
+
+            mimeMsg.setSubject(subject, UTF_8);
+            mimeMsg.setFrom(new InternetAddress(mGmailUser));
+            mimeMsg.setRecipient(javax.mail.Message.RecipientType.TO, new InternetAddress(mail_to));
+
+    final MimeBodyPart txtPart = new MimeBodyPart();
+            txtPart.setText(body, UTF_8);
+
+  final Multipart mp = new MimeMultipart();
+            mp.addBodyPart(txtPart);
+
+            mimeMsg.setContent(mp);
+
+    return mimeMsg;
+} // createMimeMessage
+
+
+ 	/**
+	 * connect
+	 */ 
+public SMTPTransport connect() throws Exception {
+
+// ClassNotFoundException
+// com.sun.mail.smtp.SMTPSaslAuthenticator
+    SMTPTransport transport = mAuthenticator.connectToSmtp( HOST,
+PORT, mUserEmail, mOauthToken, DEBUG );
+
+    return transport;
+} // connect
+
+
+ 	/**
+	 * write into logcat
+	 */ 
+	private static void log_d( String msg ) {
+	    if (D) Log.d( TAG, TAG_SUB + " " + msg );
+	} // log_d
+
+} // class SendMail

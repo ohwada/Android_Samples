@@ -1,0 +1,194 @@
+package jp.ohwada.android.javamailsample2;
+
+import android.util.Log;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Properties;
+
+import javax.mail.*;
+
+import static android.R.id.list;
+
+// JavaMailを使ってGmailにIMAPで接続するデモコード
+// http://d.hatena.ne.jp/jbking/20080608/p1
+
+ 	/**
+	 * class GmailImap
+	 */ 
+public class GmailImap {
+
+        // debug
+	private final static boolean D = true;
+    	private final static String TAG = "Mail";
+    	private final static String TAG_SUB = "GmailImap";
+
+    	private final static String LF = "\n";
+
+    	private final static int MAX_MESSAGE = 10;
+
+		    	private final static String IMAP_HOST = "imap.gmail.com";
+
+		    	private final static int IMAP_PORT = 993;
+
+				    	private final static String IMAP_FOLDER = "INBOX";
+
+					    	private final static String  IMAP__STORE = "imaps";
+
+					    	private final static boolean SESSION_DEBUG = true;
+
+            	private String mGmailUser;
+            	private String mGmailPassword;
+
+ // callback 
+    private Callback mCallback; 
+
+
+   /*
+     * callback interface
+     */    
+    public interface Callback {
+        public void onFinish(List<MailMessage> list);
+        public void onError(Exception e);
+    } // interface
+
+
+/**
+     * constractor
+     */ 
+public GmailImap() {
+    // dummy
+} // GmailImap
+
+
+    /*
+     * setCallback
+     */ 
+    public void setCallback( Callback callback ) {
+        log_d("setCallback");
+        mCallback = callback;
+    } // setCallback
+
+
+/**
+     * setGmailUser
+     */ 
+public void setGmailUser(String user)  {
+     mGmailUser = user;
+} // setGmailUser
+
+
+/**
+     * setGmailPassword
+     */ 
+public void setGmailPassword(String password)  {
+     mGmailPassword = password;
+} // setGmailPassword
+
+	/**
+	 * getMailAsync
+	 */ 
+public void getMailAsync()  {
+
+// run it in a separate thread
+ new Thread(new Runnable() {
+    @Override
+    public void run() {
+        try {
+            List<MailMessage> list = getMail();
+    		notifyFinish(list);
+        } catch (Exception e) {
+            e.printStackTrace();
+            notifyError(e );
+        }
+    }
+  }).start();
+
+} // getMailAsync
+
+
+
+	/**
+	 * getMail
+	 */
+	public List<MailMessage> getMail() throws Exception {
+
+        List<MailMessage> list = new ArrayList<MailMessage>();
+                Message m;
+                String subject;
+                String content;
+
+		Properties props = System.getProperties();
+		Session session = Session.getInstance(props, null);
+		session.setDebug(SESSION_DEBUG);
+
+		Store store = session.getStore(IMAP__STORE);
+		store.connect(IMAP_HOST, IMAP_PORT, mGmailUser, mGmailPassword);
+
+		Folder folder = store.getFolder(IMAP_FOLDER);
+		folder.open(Folder.READ_ONLY);
+        Folder[]  folder_arr = folder.list();
+            if ((folder_arr == null )||(folder_arr.length == 0)) {
+			    log_d("CAN NOT folder.list");
+            }
+
+		Message[] msg_arr = folder.getMessages();
+            if ((msg_arr == null )||( msg_arr.length==0 )) {
+			    log_d("CAN NOT getMessages");
+            }
+
+    int len = msg_arr.length;
+    if (len >MAX_MESSAGE) {
+        len = MAX_MESSAGE;
+    }
+
+			for(int i=0; i<len; i++) {
+                m = msg_arr[i];
+                subject = m.getSubject().toString();
+                content = m.getContent().toString();
+                list.add( new MailMessage(subject , content) );
+			}
+
+            if (folder != null) {
+			    folder.close();
+            }
+
+            if (store != null) {
+			    store.close();
+            }
+
+
+		return list;
+	} // getMail
+
+
+    /**
+     * notifyFinish
+     */
+    private void notifyFinish(List<MailMessage> list) {
+                    log_d("notifyFinish");
+           if ( mCallback != null ) {
+            mCallback.onFinish(list);
+        } 
+}	// notifyFinish
+
+    /**
+     * notifyError
+     */
+    private void notifyError(Exception e ) {
+                    log_d("notifyError");
+           if ( mCallback != null ) {
+            mCallback.onError(e);
+        } 
+}	// notifyError
+
+
+ 	/**
+	 * write into logcat
+	 */ 
+	private void log_d( String msg ) {
+	    if (D) Log.d( TAG, TAG_SUB + " " + msg );
+	} // log_d
+
+} // class class GmailImap
+

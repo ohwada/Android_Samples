@@ -40,7 +40,7 @@ public class MainActivity extends Activity {
 
                 private final static String SUBJECT = "TEST1";
 
-                private final static String BODY = "test from android with jsvamail";
+                private final static String BODY = "test from android with javamail";
 
 
     private SendMail mSendMail;
