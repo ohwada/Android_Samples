@@ -11,7 +11,7 @@ and send mail  <br/>
 display permission dialog to access account in the device,  click "call Gmail API" button <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/GmaillApiSample/screenshot/screenshot_gmail_api_permission_account.png" width="300" /><br/>
 
-display permission dialog  to access  Gmail Label
+display permission dialog  to access  Gmail Label <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/GmaillApiSample/screenshot/screenshot_gmail_api_permission_label.png" width="300" /><br/>
 
 and then display Gmail Label <br/>
