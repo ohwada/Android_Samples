@@ -1,8 +1,8 @@
 JavaMail Sample 1 - Android Samples
 ===============
 
-send mail via GMAIL SMTP server <br/>
-with I JavaMail <br/>
+send mail via GMAIL SMTP Server <br/>
+with JavaMail <br/>
 
 ### screenshot <br/>
 send mail, when click send button

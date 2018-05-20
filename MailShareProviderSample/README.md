@@ -1,7 +1,7 @@
 Mail Share Provider Sample - Android Samples
 ===============
 
-send Share Intent to GMAIL App<br/>
+send Share Intent to GMAIL App in the device<br/>
 
 ### screenshot <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/MailShareProviderSample/screenshot/screenshot_mail_share_provider_main.png" width="300" /><br/>
