@@ -117,6 +117,22 @@ recieve Share Intent for Mail app<br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/MailShareRecieverSample/screenshot/screenshot_mail_share_reciver_image.png" width="200" /><br/>
 
 
+## Gmail
+https://github.com/ohwada/Android_Samples/blob/master/Gmail.md
+
+### JavaMail sample 1
+ send mail with JavaMail via Gmail SMTP server <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/JavaMailSample1/screenshot/screenshot_javamail_main.png" width="200" /><br/>
+
+### JavaMail sample 2
+ get mail with JavaMail from Gmail IMAP server <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/JavaMailSample2/screenshot/screenshot_javamail_get.png" width="200" /><br/>
+
+### GmaillApiSample
+get Gmail Label with Gmail API <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/GmaillApiSample/screenshot/screenshot_gmail_api_label.png" width="200" /><br/>
+
+
 ## Others
 
 ### WebView Sample
