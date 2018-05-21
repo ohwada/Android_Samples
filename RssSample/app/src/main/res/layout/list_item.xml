@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2018-05-01 K.OHWADA -->
+<LinearLayout 
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"   >
+
+    <TextView
+        android:id="@+id/TextView_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_margin="4dp"
+        android:textSize="22sp"  />
+
+    <TextView
+        android:id="@+id/TextView_item_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"  
+        android:textSize="16sp"  />
+
+    <ImageView
+        android:id="@+id/ImageView_item_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp" />
+
+</LinearLayout>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="XSL_formatting" type="text/xsl" href="/shared/bsp/xsl/rss/nolsol.xsl"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title><![CDATA[BBC News - World]]></title>
+        <description><![CDATA[BBC News - World]]></description>
+        <link>http://www.bbc.co.uk/news/</link>
+        <image>
+            <url>http://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif</url>
+            <title>BBC News - World</title>
+            <link>http://www.bbc.co.uk/news/</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Sun, 20 May 2018 04:00:51 GMT</lastBuildDate>
+        <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.]]></copyright>
+        <language><![CDATA[en-gb]]></language>
+        <ttl>15</ttl>
+        <item>
+            <title><![CDATA[Santa Fe school shooting suspect 'spared victims to tell his story']]></title>
+            <description><![CDATA[The shooting suspect said he spared lives "so he could have his story told", a court document says.]]></description>
+            <link>http://www.bbc.co.uk/news/world-us-canada-44186989</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-us-canada-44186989</guid>
+            <pubDate>Sun, 20 May 2018 00:34:19 GMT</pubDate>
+            <media:thumbnail width="768" height="432" url="http://c.files.bbci.co.uk/255C/production/_101646590_046931905.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Cuba plane crash: Black box recovered in 'good condition']]></title>
+            <description><![CDATA[Two days of national mourning are declared, after the crash near Havana killed more than 100 people.]]></description>
+            <link>http://www.bbc.co.uk/news/world-latin-america-44184751</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-latin-america-44184751</guid>
+            <pubDate>Sat, 19 May 2018 20:30:06 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/2AB5/production/_101633901_cubacrash2.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Özil and Gündogan meet German president after Erdogan photos row]]></title>
+            <description><![CDATA[The two players of Turkish origin stated that Germany was their country, President Steinmeier said.]]></description>
+            <link>http://www.bbc.co.uk/news/world-europe-44187304</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-europe-44187304</guid>
+            <pubDate>Sun, 20 May 2018 02:35:37 GMT</pubDate>
+            <media:thumbnail width="768" height="432" url="http://c.files.bbci.co.uk/16A5C/production/_101646729_epa.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Cannes 2018: Japanese indie Shoplifters wins Palme d'Or]]></title>
+            <description><![CDATA[Runner-up to the coveted prize for best film was Spike Lee's anti-racism satire BlacKkKlansman.]]></description>
+            <link>http://www.bbc.co.uk/news/world-europe-44184985</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-europe-44184985</guid>
+            <pubDate>Sat, 19 May 2018 19:41:52 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/17D12/production/_101645579_mediaitem101645578.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Luc Besson: French film director accused of rape]]></title>
+            <description><![CDATA[The director of Leon and The Fifth Element has denied the allegation through his lawyer.]]></description>
+            <link>http://www.bbc.co.uk/news/world-europe-44184754</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-europe-44184754</guid>
+            <pubDate>Sat, 19 May 2018 20:59:39 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/151AC/production/_101644468_lucbesson.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Cougar shot dead after killing US cyclist and mauling another]]></title>
+            <description><![CDATA[US wildlife officers in Washington state track and shoot a cougar after a rare attack on humans.]]></description>
+            <link>http://www.bbc.co.uk/news/world-us-canada-44186998</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-us-canada-44186998</guid>
+            <pubDate>Sun, 20 May 2018 03:59:13 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/D844/production/_101646355_cougar-close-up.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[India Karnataka: Modi ally resigns in regional crisis]]></title>
+            <description><![CDATA[Karnataka's chief minister resigns after failing to prove he had a majority in the region's assembly.]]></description>
+            <link>http://www.bbc.co.uk/news/world-asia-india-44166194</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-asia-india-44166194</guid>
+            <pubDate>Sat, 19 May 2018 12:00:29 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/5EA8/production/_101623242_gettyimages-954223316.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Saudi Arabia detains seven activists ahead of lifting of driving ban]]></title>
+            <description><![CDATA[One of the activists had appeared alongside Meghan Markle at a forum for young leaders in 2016.]]></description>
+            <link>http://www.bbc.co.uk/news/world-middle-east-44178078</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-middle-east-44178078</guid>
+            <pubDate>Sat, 19 May 2018 14:15:38 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/2B2D/production/_101635011_019c7eb2-8ccd-4395-bb1a-dcd1700926a3.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Shia cleric Moqtada Sadr's bloc wins Iraq elections]]></title>
+            <description><![CDATA[Moqtada Sadr, a long-time opponent of the US and Iran, makes a comeback in Iraq, final results show.]]></description>
+            <link>http://www.bbc.co.uk/news/world-middle-east-44178771</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-middle-east-44178771</guid>
+            <pubDate>Sat, 19 May 2018 08:25:01 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/48DD/production/_101635681_sadrreu.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Najib Razak: Scandal-hit ex-Malaysia PM condemns police raids]]></title>
+            <description><![CDATA[The raids at properties linked to the ousted prime minister were linked to a big corruption scandal.]]></description>
+            <link>http://www.bbc.co.uk/news/world-asia-44184114</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-asia-44184114</guid>
+            <pubDate>Sat, 19 May 2018 15:30:56 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/E737/production/_101619195_mediaitem101619194.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Royal wedding 2018: US Bishop wows with address]]></title>
+            <description><![CDATA[Bishop Curry of the US Episcopal Church gave the address at Prince Harry and Meghan Markle's wedding.]]></description>
+            <link>http://www.bbc.co.uk/news/uk-44181011</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/uk-44181011</guid>
+            <pubDate>Sat, 19 May 2018 12:10:15 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/1743D/production/_101639259_p067mv29.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Royal wedding 2018: Inside glam US viewing party... at 6:45am]]></title>
+            <description><![CDATA[About 200 Americans rose very early to watch the wedding at a glitzy bash in Washington.]]></description>
+            <link>http://www.bbc.co.uk/news/world-us-canada-44185752</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-us-canada-44185752</guid>
+            <pubDate>Sat, 19 May 2018 17:29:15 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/FDB0/production/_101644946_p067nc2n.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Royal wedding 2018: Royalty of the celebrity world arrive]]></title>
+            <description><![CDATA[Guests including David and Victoria Beckham, as well as George and Amal Clooney, have arrived.]]></description>
+            <link>http://www.bbc.co.uk/news/uk-44180249</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/uk-44180249</guid>
+            <pubDate>Sat, 19 May 2018 09:47:35 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/89DD/production/_101639253_p067mq1d.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Cuba plane crash site 'very painful' scene]]></title>
+            <description><![CDATA[More than 100 people have died in the crash near Havana but three women were pulled from the wreckage alive.]]></description>
+            <link>http://www.bbc.co.uk/news/world-44175554</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-44175554</guid>
+            <pubDate>Sat, 19 May 2018 13:35:27 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/11C0A/production/_101641727_p067n05q.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Santa Fe school shooting: Tears at vigil for victims]]></title>
+            <description><![CDATA[Memories are shared at a vigil for those who died when a pupil opened fire at Santa Fe High School.]]></description>
+            <link>http://www.bbc.co.uk/news/world-us-canada-44179773</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-us-canada-44179773</guid>
+            <pubDate>Sat, 19 May 2018 08:49:31 GMT</pubDate>
+            <media:thumbnail width="1024" height="576" url="http://c.files.bbci.co.uk/9B5D/production/_101637793_p067mj9l.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[How the Texas school shooting unfolded]]></title>
+            <description><![CDATA[Ten people were killed and another 10 wounded when a gunman opened fire at Santa Fe High School in Texas.]]></description>
+            <link>http://www.bbc.co.uk/news/world-us-canada-44175348</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-us-canada-44175348</guid>
+            <pubDate>Fri, 18 May 2018 21:00:33 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/9F13/production/_101632704_p067lmm5.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Student describes moments after shooting]]></title>
+            <description><![CDATA[A student at Santa Fe High School in Texas describes fleeing campus after a gunman opened fire.]]></description>
+            <link>http://www.bbc.co.uk/news/world-us-canada-44175345</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-us-canada-44175345</guid>
+            <pubDate>Fri, 18 May 2018 15:29:43 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/4008/production/_101629361_p067krxz.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Iran pushes app with 'Death to America' emoji]]></title>
+            <description><![CDATA[Tehran wants 50m users of the Telegram messaging service to switch to its own version.]]></description>
+            <link>http://www.bbc.co.uk/news/blogs-news-from-elsewhere-43891478</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/blogs-news-from-elsewhere-43891478</guid>
+            <pubDate>Wed, 25 Apr 2018 07:19:44 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/E5F8/production/_101027885_0001.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Chinese university hosts 'grenade-throwing' contest]]></title>
+            <description><![CDATA[A Chinese university wants students to throw grenades and remember their history.]]></description>
+            <link>http://www.bbc.co.uk/news/blogs-news-from-elsewhere-43882201</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/blogs-news-from-elsewhere-43882201</guid>
+            <pubDate>Tue, 24 Apr 2018 12:37:01 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/A0C9/production/_101016114_m24_1.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Kyrgyz mayor dons fake beard to tour city in disguise]]></title>
+            <description><![CDATA[Bishkek's first citizen says he wears a fake beard so that he can see the city's problems first-hand.]]></description>
+            <link>http://www.bbc.co.uk/news/blogs-news-from-elsewhere-43836599</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/blogs-news-from-elsewhere-43836599</guid>
+            <pubDate>Fri, 20 Apr 2018 14:01:28 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/D634/production/_100963845_0001.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Death of Hitler: How the world found out from the BBC]]></title>
+            <description><![CDATA[Karl Lehmann was working for BBC Monitoring when he heard German radio announcing the Nazi leader's death.]]></description>
+            <link>http://www.bbc.co.uk/news/world-europe-44131106</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-europe-44131106</guid>
+            <pubDate>Sat, 19 May 2018 23:02:28 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/08B6/production/_101603220_interceptionhutatcavershamparkmarch1943copyrightbbccropped.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Colombia LGBT: The shop that wants men to 'leave behind shyness']]></title>
+            <description><![CDATA[The shop in Bogotá that offers men wanting to dress in women's clothes a safe haven.]]></description>
+            <link>http://www.bbc.co.uk/news/world-latin-america-44126627</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-latin-america-44126627</guid>
+            <pubDate>Sat, 19 May 2018 23:05:35 GMT</pubDate>
+            <media:thumbnail width="2048" height="1152" url="http://c.files.bbci.co.uk/8BB8/production/_101586753_31ea74ab-6b06-44be-ad0f-54d9648f5b8e.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Four seasons under one roof in Milan]]></title>
+            <description><![CDATA[Four seasons park explores need for greener cities and looks at how climate change affects urban spaces.]]></description>
+            <link>http://www.bbc.co.uk/news/technology-41178251</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/technology-41178251</guid>
+            <pubDate>Sun, 20 May 2018 02:13:35 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/17DA9/production/_98150779_boscaverticale3.gif"/>
+        </item>
+        <item>
+            <title><![CDATA[Venezuela presidential election: Vote or veto?]]></title>
+            <description><![CDATA[Venezuelans opposed to incumbent President Nicolás Maduro face an electoral dilemma.]]></description>
+            <link>http://www.bbc.co.uk/news/world-latin-america-44155683</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-latin-america-44155683</guid>
+            <pubDate>Fri, 18 May 2018 23:30:19 GMT</pubDate>
+            <media:thumbnail width="1600" height="900" url="http://c.files.bbci.co.uk/2684/production/_101606890_mediaitem101606889.jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[Could James Comey have been a basketball superstar?]]></title>
+            <description><![CDATA[How do height, class and race influence your chances of becoming one of the sport's star names?]]></description>
+            <link>http://www.bbc.co.uk/news/world-us-canada-44158740</link>
+            <guid isPermaLink="true">http://www.bbc.co.uk/news/world-us-canada-44158740</guid>
+            <pubDate>Sat, 19 May 2018 23:41:41 GMT</pubDate>
+            <media:thumbnail width="976" height="549" url="http://c.files.bbci.co.uk/EE40/production/_101629906_basket4gettyimages-956310130.jpg"/>
+        </item>
+    </channel>
+</rss>

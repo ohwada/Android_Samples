@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2018-05-01 K.OHWADA -->
+<resources>
+    <string name="app_name">RSS Sample</string>
+
+<!--  menu -->
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+    <string name="action_about">About</string>
+
+    <!-- dialog  -->
+    <string name="button_dialog_yes">WEB</string>
+    <string name="button_dialog_no">Cancel</string>
+</resources>
