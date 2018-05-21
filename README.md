@@ -117,6 +117,21 @@ recieve Share Intent for Mail app<br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/MailShareRecieverSample/screenshot/screenshot_mail_share_reciver_image.png" width="200" /><br/>
 
 
+## RSS Parser Library
+
+### RSS-Parser
+RSS Reader for Android Authority <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/RssParserSample/screenshot/screenshot_rss_parser_list.png" width="200" /><br/>
+
+### RSS
+RSS Reader for BBC World News  <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/RssSample/screenshot/screenshot_rss_url.png" width="200" /><br/>
+
+### Yahoo News
+RSS Reader for Yahoo News <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/YahooNews/screenshot/screenshot_yahoo_news_list.png" width="300" /><br/>
+
+
 ## Gmail
 https://github.com/ohwada/Android_Samples/blob/master/Gmail.md
 
@@ -143,14 +158,6 @@ display HTML in WebView <br/>
 ### HTML in TextView
 display HTML in TextView <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/HtmlInTextView/screenshot/screenshot_html_textview_nexsus5.png" width="200" /><br/>
-
-### Yahoo News
-get RSS, display Yahoo Headline News <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/YahooNews/screenshot/screenshot_yahoo_news_list.png" width="200" /><br/>
-
-### RSS Parser Sample
-RSS Reader with RSS-Parser Library <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/RssParserSample/screenshot/screenshot_rss_parser_list.png" width="200" /><br/>
 
 
 ### Menu 1

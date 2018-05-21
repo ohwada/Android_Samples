@@ -1,7 +1,11 @@
 RSS Sample  - Android Samples
 ===============
 
-RSS Parser with Android-RSS Library <br/>
+RSS Reader for BBC World News  <br/>
+with Android-RSS Library<br/>
+this feed has image and description <br/>
+ feed URL : http://feeds.bbci.co.uk/news/world/rss.xml <br/>
+
 
 ### screenshot <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/RssSample/screenshot/screenshot_rss_main.png" width="300" /><br/>

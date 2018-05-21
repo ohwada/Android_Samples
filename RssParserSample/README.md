@@ -1,7 +1,11 @@
 RSS Parser Sample  - Android Samples
 ===============
 
-RSS Reader with RSS-Parser Library <br/>
+RSS Reader for Android Authority <br/>
+with RSS-Parser Library<br/>
+this feed has image and HTML content <br/>
+ feed URL : https://www.androidauthority.com/feed <br/>
+
 
 ### screenshot <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/RssParserSample/screenshot/screenshot_rss_parser_main.png" width="300" /><br/>

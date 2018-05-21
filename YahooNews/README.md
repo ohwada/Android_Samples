@@ -1,7 +1,10 @@
 Yahoo News - Android Samples
 ===============
 
-get RSS, display Yahoo Headline News <br/>
+RSS Reader for Yahoo News <br/>
+with my handmade RSS Parser <br/>
+this feed has icon image and no description <br/>
+ feed URL : https://news.yahoo.co.jp/pickup/rss.xml <br/>
 
 
 ### screenshot <br/>
