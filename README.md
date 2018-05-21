@@ -68,6 +68,21 @@ Weather Report with Livedoor Weather API <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/LivedoorWeather/screenshot/livedoor_weather_tabs.png" width="500" /><br/>
 
 
+## RSS Parser Library
+
+### RSS-Parser
+RSS Reader for Android Authority <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/RssParserSample/screenshot/screenshot_rss_parser_list.png" width="200" /><br/>
+
+### RSS
+RSS Reader for BBC World News  <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/RssSample/screenshot/screenshot_rss_url.png" width="200" /><br/>
+
+### Yahoo News
+RSS Reader for Yahoo News <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/YahooNews/screenshot/screenshot_yahoo_news_list.png" width="300" /><br/>
+
+
 ## RecyclerView
 https://github.com/ohwada/Android_Samples/blob/master/RecyclerView.md
 
@@ -115,21 +130,6 @@ send Share Intent to GMAIL App<br/>
 ### MailShareRecieverSample
 recieve Share Intent for Mail app<br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/MailShareRecieverSample/screenshot/screenshot_mail_share_reciver_image.png" width="200" /><br/>
-
-
-## RSS Parser Library
-
-### RSS-Parser
-RSS Reader for Android Authority <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/RssParserSample/screenshot/screenshot_rss_parser_list.png" width="200" /><br/>
-
-### RSS
-RSS Reader for BBC World News  <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/RssSample/screenshot/screenshot_rss_url.png" width="200" /><br/>
-
-### Yahoo News
-RSS Reader for Yahoo News <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/YahooNews/screenshot/screenshot_yahoo_news_list.png" width="300" /><br/>
 
 
 ## Gmail
