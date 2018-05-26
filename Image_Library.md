@@ -51,7 +51,7 @@ https://github.com/ohwada/Android_Samples/tree/master/GPUImageSample2 <br/>
 
 ### SVG Sample
 display SVG Image with SVG Library 1.2.1 <br/>
-https://github.com/ohwada/Android_Samples/tree/master/SvgSample
+https://github.com/ohwada/Android_Samples/tree/master/SvgSample <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/SvgSample/screenshot/screenshot_svg_show.png" width="200" /><br/>
 
 ### Glide SVG Sample 1
@@ -61,5 +61,5 @@ https://github.com/ohwada/Android_Samples/tree/master/GlideSvgSample1 <br/>
 
 ### Vector Image Sample
 display Vector Image <br/>
-https://github.com/ohwada/Android_Samples/tree/master/VectorImageSample
+https://github.com/ohwada/Android_Samples/tree/master/VectorImageSample <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/VectorImageSample/screenshot/screenshot_vector_image_main.png" width="200" /><br/>
