@@ -1,4 +1,4 @@
-Glide SVG Sample  - Android Samples
+Glide SVG Sample 1 - Android Samples
 ===============
 
 display SVG Image with Glide 3.7.0 and SVG Library 1.2.1 <br/>
