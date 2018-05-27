@@ -1,7 +1,7 @@
 Glide Sample 2 - Android Samples
 ===============
 
-display animation gif with Glide <br/>
+display animation gif with Glide 3.7.0<br/>
 
 ### screenshot <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/GlideSample2/screenshot/screenshot_glide_main.png" width="300" /><br/>
