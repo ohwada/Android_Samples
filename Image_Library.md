@@ -47,16 +47,18 @@ ex2) retouch image blur like frosted glass <br/>
 https://github.com/ohwada/Android_Samples/tree/master/GPUImageSample2 <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/GPUImageSample2/screen_shot/screenshot_gpuimsge_retouch.png" width="300" /><br/>
 
+
 ## Animation GIF
 
 ### GlideSample2
 display animation gif with Glide 3.7.0 <br/>
 https://github.com/ohwada/Android_Samples/tree/master/GlideSample2 <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/GlideSample2/screenshot/screenshot_glide_start.png" width="200" /><br/>
 
 ### Giphy
 display animation gif  with Giphy API and Glide 4.4.0 <br/>
 https://github.com/ohwada/Android_Samples/tree/master/Giphy <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Giphy/screenshot/screenshot_giphy_list.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Giphy/screenshot/screenshot_giphy_list.png" width="200" /><br/>
 
 
 ## SVG
