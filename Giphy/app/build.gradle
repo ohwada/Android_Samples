@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+
+android {
+   compileSdkVersion 24 // Nougat
+    buildToolsVersion "24.0.1"
+    defaultConfig {
+        applicationId "jp.ohwada.android.giphy"
+        minSdkVersion 16 // Jelly Bean
+        targetSdkVersion 24 // Nougat
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    compile 'com.android.support:appcompat-v7:24.0.0'
+    compile 'com.android.support:support-v4:22.2.1' 
+
+    compile 'com.android.support:recyclerview-v7:24.2.1'
+
+    compile 'com.android.support:support-annotations:24.2.1'
+
+    compile 'com.github.bumptech.glide:glide:4.0.0'	
+
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.0.0'
+
+    compile 'com.github.bumptech.glide:okhttp3-integration:4.0.0'
+
+    compile 'com.github.bumptech.glide:recyclerview-integration:4.0.0'
+
+    compile 'com.google.code.gson:gson:2.3.1'
+
+}

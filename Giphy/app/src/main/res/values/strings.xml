@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2018-05-01 K.OHWADA -->
+<resources>
+    <string name="app_name">Giphy</string>
+
+  <string name="button_giphy">Giphy API</string>
+
+  <string name="image_description">An image from the list of results for a search query</string>
+  <string name="giphy_logo_description">An animated version of the Giphy company logo</string>
+  <string name="fullscreen_description">Full screen view of an image</string>
+
+</resources>
