@@ -30,7 +30,6 @@ display animation gif  with Giphy API and Glide 4.4.0 <br/>
 ### Fresco Sample 1
 display image with Fresco <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/FrescoSample1/screenshot/screenshot_fresco_internet.png" width="200" /><br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/PicassoSample1/screenshot/scrrensot_picasso_internet.png" width="200" /><br/>
 
 ### GPUImage Sample 1
 retouch image with GPUImage <br/>
