@@ -20,8 +20,12 @@ display image with Glide <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/GlideSample1/screen_shot/screenshot_glide_internet.png" width="200" /><br/>
 
 ### Glide Sample 2
-display animation gif with Glide <br/>
+display animation gif with Glide 3.7.0 <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/GlideSample2/screenshot/screenshot_glide_start.png" width="200" /><br/>
+
+### Giphy
+display animation gif  with Giphy API and Glide 4.4.0 <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Giphy/screenshot/screenshot_giphy_list.png" width="200" /><br/>
 
 ### Fresco Sample 1
 display image with Fresco <br/>
