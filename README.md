@@ -166,6 +166,10 @@ get Gmail Label with Gmail API <br/>
 
 ## Others
 
+### StreetView PanoramaView Sample
+display StreetView with Google Play Services maps:11.0.0 <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/StreetViewPanoramaViewSample/screenshot/screenshot_street_view_show.png" width="200" /><br/>
+
 ### WebView Sample
 display HTML in WebView <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/WebViewSample/screenshot/screenshot_web_view_html.png" width="200" /><br/>

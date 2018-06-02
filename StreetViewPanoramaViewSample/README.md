@@ -1,4 +1,4 @@
-StreetViewPanoramaViewSample - Android Samples
+StreetView PanoramaView Sample - Android Samples
 ===============
 
 display StreetView 
