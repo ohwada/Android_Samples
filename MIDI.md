@@ -6,11 +6,11 @@ sample codes for Android  MIDI API <br/>
 ## Sample Codes  <br/>
 
 ### MIDI Synth Sample  <br/>
-https://github.com/ohwada/Android_Samples/tree/master/MidiSynthSample
+https://github.com/ohwada/Android_Samples/tree/master/MidiSynthSample  <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/MidiSynthSample/scrrenshot/screenshot_midi_synth_main.png" width="200" /><br/>
 
 ### MIDI Keyboard Sample  <br/>
-https://github.com/ohwada/Android_Samples/tree/master/MidiKeyboardSample
+https://github.com/ohwada/Android_Samples/tree/master/MidiKeyboardSample  <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/MidiKeyboardSample/screenshot/screenshot_midi_keyboard_main.png" width="200" /><br/>
 
 ## Usage <br/>
