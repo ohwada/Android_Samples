@@ -163,6 +163,16 @@ https://github.com/ohwada/Android_Samples/blob/master/Gmail.md
 get Gmail Label with Gmail API <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/GmaillApiSample/screenshot/screenshot_gmail_api_label.png" width="200" /><br/>
 
+## MIDI
+sample codes for Android  MIDI API <br/>
+
+### MIDI Synth Sample  <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/MidiSynthSample/scrrenshot/screenshot_midi_synth_main.png" width="200" /><br/>
+
+### MIDI Keyboard Sample  <br/>
+https://github.com/ohwada/Android_Samples/tree/master/MidiKeyboardSample
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/MidiKeyboardSample/screenshot/screenshot_midi_keyboard_main.png" width="200" /><br/>
+
 
 ## Others
 
