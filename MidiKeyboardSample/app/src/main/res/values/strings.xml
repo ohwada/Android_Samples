@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2018-05-01 K.OHWADA -->
+<resources>
+    <string name="app_name">MIDI Keyboard</string>
+
+    <string name="about_app">MIDI Keyboard View</string>
+    <string name="title_activity_synth_setup">MIDI Keyboard</string>
+
+    <string name="versionName">versionName</string>
+
+    <string name="receivers_text">Receivers for Keys: </string>
+
+    <string name="channel_text">Channel:</string>
+
+    <string name="program_text">Program:</string>
+
+    <string name="not_support_midi">this device does not support MIDI !</string>
+
+    <string name="error_port_busy">Selected port is in use or unavailable.</string>
+
+    <string name="port_open_ok">Port opened OK.</string>
+
+</resources>
