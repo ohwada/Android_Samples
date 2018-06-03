@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2018-03-01 K.OHWADA -->
+<resources>
+    <string name="app_name">MidiSynth Sample</string>
+
+    <string name="intro_message">
+        <![CDATA[
+This sample demonstrates how to use the MIDI API to receive and play MIDI messages coming from an
+attached input device.    
+        ]]>
+    </string>
+
+    <string name="synth_sender_text">Select Sender for Synth</string>
+    <string name="error_port_busy">Selected port is in use or unavailable.</string>
+    <string name="port_open_ok">Port opened OK.</string>
+
+    <string name="keep_screen_on">Keep screen on</string>
+
+    <string name="not_support_midi">this device does not support MIDI !</string>
+</resources>

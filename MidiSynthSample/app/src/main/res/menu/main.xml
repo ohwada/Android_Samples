@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2018-05-01 K.OHWADA -->
+<menu 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_keep_screen_on"
+        android:checkable="true"
+        android:checked="true"
+        android:title="@string/keep_screen_on"
+        app:showAsAction="never"/>
+
+</menu>
