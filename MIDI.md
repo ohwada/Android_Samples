@@ -26,6 +26,7 @@ send MIDI message from MIDI Keyboard on MAC to MIDI Synth on Android <br/>
 
 MAC side <br/>
 midi_keyboard.py works well <br/>
+https://github.com/ohwada/Android_Samples/tree/master/tools/ <br/>
 but GarageBand dont works <br/>
 
 ### Example 3  <br/>
