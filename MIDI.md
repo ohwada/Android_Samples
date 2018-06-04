@@ -23,9 +23,18 @@ send MIDI message from MIDI Keyboard to MIDI Synth  inside Android <br/>
 send MIDI message from MIDI Keyboard on MAC to MIDI Synth on Android <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/MidiSynthSample/scrrenshot/midi_mac_to_android.png" width="600" /><br/>
 
+
+MAC side <br/>
+midi_keyboard.py works well <br/>
+but GarageBand dont works <br/>
+
 ### Example 3  <br/>
 send MIDI message from MIDI Keyboard on Android to MIDI Synth on MAC <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/MidiKeyboardSample/screenshot/midi_android_keyboard_to_mac_synth.png" width="600" /><br/>
+
+MAC side <br/>
+Simple Synth works well <br/>
+http://notahat.com/simplesynth/
 
 ## Reference <br/>
 * https://developer.android.com/reference/android/media/midi/package-summary <br/>
