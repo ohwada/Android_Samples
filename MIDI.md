@@ -15,7 +15,7 @@ https://github.com/ohwada/Android_Samples/tree/master/MidiKeyboardSample  <br/>
 
 ### MIDI Player Sample1  <br/>
 play MIDI File with MIDI Symth <br/>
-https://github.com/ohwada/Android_Samples/tree/master/MidiPlayerSample1
+https://github.com/ohwada/Android_Samples/tree/master/MidiPlayerSample1 <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/MidiPlayerSample1/screenshot/screenshot_midi_player_play.png" width="200" /><br/>
 
 
