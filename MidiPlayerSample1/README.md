@@ -1,7 +1,7 @@
 MIDI Player Sample1  - Android Samples
 ===============
 
-play MIDI File <br/>
+play MIDI File with MIDI Symth <br/>
 with Android API 24  <br/>
 remake what made for USB MIDI to match Android API 24  <br/>
 

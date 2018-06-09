@@ -13,6 +13,12 @@ https://github.com/ohwada/Android_Samples/tree/master/MidiSynthSample  <br/>
 https://github.com/ohwada/Android_Samples/tree/master/MidiKeyboardSample  <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/MidiKeyboardSample/screenshot/screenshot_midi_keyboard_main.png" width="200" /><br/>
 
+### MIDI Player Sample1  <br/>
+play MIDI File with MIDI Symth <br/>
+https://github.com/ohwada/Android_Samples/tree/master/MidiPlayerSample1
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/MidiPlayerSample1/screenshot/screenshot_midi_player_play.png" width="200" /><br/>
+
+
 ## Usage <br/>
 
 ### Example 1  <br/>

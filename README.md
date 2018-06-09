@@ -172,6 +172,9 @@ sample codes for Android  MIDI API <br/>
 ### MIDI Keyboard Sample  <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/MidiKeyboardSample/screenshot/screenshot_midi_keyboard_main.png" width="200" /><br/>
 
+### MIDI Player Sample1  <br/>
+play MIDI File with MIDI Symth <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/MidiPlayerSample1/screenshot/screenshot_midi_player_play.png" width="200" /><br/>
 
 ## Others
 
