@@ -18,6 +18,11 @@ play MIDI File with MIDI Symth <br/>
 https://github.com/ohwada/Android_Samples/tree/master/MidiPlayerSample1 <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/MidiPlayerSample1/screenshot/screenshot_midi_player_play.png" width="200" /><br/>
 
+##Media Player MIDI Sample  <br/>
+play MIDI File with Media Player <br/>
+https://github.com/ohwada/Android_Samples/tree/master/MediaPlayerMidiSample <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/MediaPlayerMidiSample/screenshot/screenshot_media_player_list.png" width="200" /><br/>
+
 
 ## Usage <br/>
 
