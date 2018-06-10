@@ -1,0 +1,190 @@
+/**
+ * Media Player  Sample
+ * 2018-05-01 K.OHWADA
+ */
+
+package jp.ohwada.android.mediaplayermidisample;
+
+import android.app.Activity;
+import android.support.v7.app.AppCompatActivity;
+import android.media.MediaPlayer;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ListView;
+import android.widget.Toast;
+
+import java.io.File;
+import java.io.FileDescriptor;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+/*
+ * class MainActivity
+ */
+public class MainActivity extends AppCompatActivity {
+
+// debug
+    private final static boolean D = true;
+	private final static String TAG = "Midi";
+	private final static String TAG_SUB = "MainActivity";
+
+    // file name
+	// private final static int MIDI_FILE_ID_1 = R.raw.furusato;
+
+	// private final static int MIDI_FILE_ID_2 = R.raw.we_wish_you_a_merry_christmas;
+
+private MediaPlayer mMediaPlayer;
+
+    	private Permission mPermission;
+
+    private FileSelector mFileSelector ;
+
+
+/**
+ * == onCreate ==
+ */
+@Override
+public void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+		setContentView( R.layout.activity_main );
+
+		Button btnShow = (Button) findViewById(R.id.Button_show);
+		btnShow.setOnClickListener( new View.OnClickListener() {
+			@Override
+			public void onClick( View v ) {
+				prepareShowList( );
+			}
+		}); // btnShow
+
+		Button btnStop = (Button) findViewById(R.id.Button_stop);
+		btnStop.setOnClickListener( new View.OnClickListener() {
+			@Override
+			public void onClick( View v ) {
+				stopPlay( );
+			}
+		}); // btnStop
+
+		ListView listView = (ListView) findViewById( R.id.ListView_1 );
+        mFileSelector = new  FileSelector(this);
+        mFileSelector.setListView(listView);
+        mFileSelector.setup();
+        mFileSelector.setOnClickListener(new FileSelector.OnClickListener() {
+            @Override
+            public void onItemClick(File file) {
+                startPlay(file);
+            }
+        }); // setOnClickListener
+
+        mPermission = new Permission( this );
+        mPermission.setPermReadExternalStorage();
+
+} // onCreate
+
+
+	/*
+	 * === onDestroy ===
+	 */
+	@Override
+	protected void onDestroy() {
+		super.onDestroy();
+		stopPlay();
+	} // onDestroy
+
+
+    /**
+     * === onRequestPermissionsResult ===
+     */
+    @Override
+    public void onRequestPermissionsResult( int request, String[] permissions, int[] results ) {
+
+log_d("onRequestPermissionsResult");
+    	boolean ret = mPermission.procRequestPermissionsResult( request, permissions, results );
+
+        if ( ret ) {
+        	 mFileSelector.showList();
+        }
+
+        super.onRequestPermissionsResult(request, permissions, results);
+        
+    } // onRequestPermissionsResult
+
+
+/**
+ * startPlay
+ */
+private void startPlay( File file ) {
+    if (mMediaPlayer != null) {
+            toast_short("please stop");
+            return;
+    }
+
+// create MediaPlayer
+        mMediaPlayer = new MediaPlayer();
+        mMediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+            @Override
+            public void onCompletion(MediaPlayer mediaPlayer) {
+                log_d("onCompletion");
+                mediaPlayer.release();
+            }
+        }); // setOnCompletionListener
+
+    try {
+        String path = file.getAbsolutePath();
+        String name = file.getName();
+        log_d("startPlay: " + path);
+	    mMediaPlayer.setDataSource(path);
+	    mMediaPlayer.prepare();
+		mMediaPlayer.start();
+		toast_short(name);
+    } catch (IOException e) {
+                e.printStackTrace();
+	}
+} // startPlay
+
+/**
+ * stopPlay
+ */
+private void stopPlay() {
+    if (mMediaPlayer == null) {
+            return;
+    }
+
+    if (mMediaPlayer.isPlaying()) {
+        mMediaPlayer.stop();
+    }
+
+    mMediaPlayer.reset();
+    mMediaPlayer.release();
+mMediaPlayer = null;
+	toast_short("stop");
+} // stopPlay
+
+
+/**
+ * prepareShowList
+ */
+private void prepareShowList() {
+log_d("prepareShowList");
+    if ( mPermission.hasPerm(true) )  {
+		mFileSelector.showList();
+    }
+} // prepareShowList
+
+/**
+ * toast_short
+ */
+	private void toast_short( String msg ) {
+		ToastMaster.makeText( this, msg, Toast.LENGTH_SHORT ).show();
+	} // toast_short
+
+ 	/**
+	 * write into logcat
+	 */ 
+	private void log_d( String msg ) {
+	    if (D) Log.d( TAG, TAG_SUB + " " + msg );
+	} // log_d
+
+} // class MainActivity
+

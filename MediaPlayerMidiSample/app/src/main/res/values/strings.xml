@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2018-05-01 K.OHWADA -->
+<resources>
+    <string name="app_name">Media Player MIDI Sample</string>
+
+    <string name="description">
+Please put the MIDI files in Music / midi directory in Storage</string>
+
+    <string name="please_stop">Please stop \n player is running</string>
+
+    <!-- dialog permission  -->
+    <string name="dialog_permission_title">Request  Storage Permissions</string>
+    <string name="dialog_permission_message">
+this app read Music files in Storage</string>
+    <string name="button_dialog_yes">ALLOW</string>
+    <string name="button_dialog_no">Cancel</string>
+</resources>
