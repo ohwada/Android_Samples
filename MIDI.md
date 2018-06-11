@@ -78,3 +78,7 @@ https://github.com/philburk/android-midisuite <br/>
 
 * android-midi-lib <br/>
 https://github.com/LeffelMania/android-midi-lib <b
+
+* javax.sound.midi-for-Android <br/>
+https://github.com/kshoji/javax.sound.midi-for-Android <br/>
+
