@@ -54,4 +54,27 @@ Simple Synth works well <br/>
 http://notahat.com/simplesynth/
 
 ## Reference <br/>
+* https://www.midi.org/specifications/ <br/>
+
 * https://developer.android.com/reference/android/media/midi/package-summary <br/>
+
+
+### Links of Source Code <br/>
+
+* BLE-MIDI-for-Android <br/>
+https://github.com/kshoji/BLE-MIDI-for-Android <br/>
+
+* ADLMIDI-Player-Java <br/>
+https://github.com/Wohlstand/ADLMIDI-Player-Java/releases <br/>
+
+* Fingerplay-Midi <br/>
+https://github.com/Goddchen/Fingerplay-Midi <br/>
+
+* FlMML-for-Android <br/>
+https://github.com/trrk/FlMML-for-Android <br/>
+
+* android-midisuite <br/>
+https://github.com/philburk/android-midisuite <br/>
+
+* android-midi-lib <br/>
+https://github.com/LeffelMania/android-midi-lib <b
