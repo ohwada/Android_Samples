@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2018-05-01 K.OHWADA -->
+<resources>
+    <string-array name="receivers">
+        <item>"none"</item>
+    </string-array>
+</resources>
