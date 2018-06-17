@@ -6,7 +6,7 @@ send and recieve OSC Message <br/>
 
 * osc_send.pd <br/>
 send OSC Message <br/>
-<image src="=images/pd_osc_send_pd.png" width="500" /><br/>
+<image src="images/pd_osc_send_pd.png" width="500" /><br/>
 
 * javaosc.pd <br/>
 recieve OSC Message <br/>
