@@ -30,11 +30,11 @@ PureData patch:  osc_send.pd <br/>
 https://github.com/ohwada/Android_Samples/tree/master/tools/pure_data <br/>
 
 STEP 4 : run PureData on MAC <br/>
-<image src="https://github.com/ohwada/Android_Samples/blob/master/OscRecieverSample/screenshot/pd_osc_send_pd.png.png" width="500" /><br/>
+<image src="https://github.com/ohwada/Android_Samples/blob/master/OscRecieverSample/screenshot/pd_osc_send_pd.png" width="500" /><br/>
 
-STEP 4 : send OSC Message from MAC, when click "send" button   <br/>
+STEP 5 : send OSC Message from MAC, when click "send" button   <br/>
 and Android recieve it <br/>
-<image src="https://github.com/ohwada/Android_Samples/blob/master/OscRecieverSample/screenshot/screenshot_osc_reciver_recieved_123.png" width="300" /><br/>
+<image src="https://github.com/ohwada/Android_Samples/blob/master/OscRecieverSample/screenshot/screenshot_osc_reciever_recieved_123.png" width="300" /><br/>
 
 ### Reference <br/>
 * https://github.com/hoijui/JavaOSC <br/>
