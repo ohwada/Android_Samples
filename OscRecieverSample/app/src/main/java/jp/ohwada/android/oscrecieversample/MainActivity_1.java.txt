@@ -1,0 +1,244 @@
+/*
+ * Java OSC Sample
+ * 2018-05-01 K.OHWADA
+ */
+
+package jp.ohwada.android.oscrecieversample;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import com.illposed.osc.OSCBundle;
+import com.illposed.osc.OSCListener;
+import com.illposed.osc.OSCMessage;
+import com.illposed.osc.OSCPacket;
+import com.illposed.osc.OSCPort;
+import com.illposed.osc.OSCPortIn;
+import com.illposed.osc.OSCPortOut;
+
+import java.text.SimpleDateFormat;
+import java.util.List;
+
+public class MainActivity extends AppCompatActivity {
+
+        // debug
+	private final static boolean D = true;
+    	private final static String TAG = "OSC";
+    	private final static String TAG_SUB = "MainActivity";
+
+    	private final static String LF = "\n";
+
+        // OSC message
+    	private final static String ADDRESS_ON = "/s_new";
+
+        private TextView mTextView1;
+
+        private OSCPortIn mOSCPortIn;
+
+
+ 	/**
+	 * onCreate
+	 */ 
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+mTextView1 = (TextView) findViewById(R.id.TextView_1);
+
+        Button btnSetup = (Button) findViewById(R.id.Button_setup);
+        btnSetup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                    setup();
+            }
+        }); // btnSetup
+
+
+    } // onCreate
+
+
+	/*
+	 * == onDestroy ====
+	 */
+	@Override
+	protected void onDestroy() {
+		super.onDestroy();
+        closePort();
+	} // onDestroy
+
+/**
+ * == onCreateOptionsMenu ==
+ */
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return super.onCreateOptionsMenu(menu);
+    } // onCreateOptionsMenu
+
+    /**
+     * === onOptionsItemSelected ===
+     */
+    @Override
+    public boolean onOptionsItemSelected( MenuItem item ) {
+
+        int id = item.getItemId();
+        if (id == R.id.action_settings) {
+            toast_short("Settings");
+        } else if (id == R.id.action_close) {
+            closePort();
+        } 
+        return true;
+    } // onOptionsItemSelected
+
+ 	/**
+	 * setup
+	 */ 
+private void setup() {
+    log_d("setup");
+    String port = Integer.toString( OSCPort.defaultSCOSCPort() );
+			log_d("port: " + port);
+
+    try {
+	   mOSCPortIn = new OSCPortIn(OSCPort.defaultSCOSCPort());
+		} catch (Exception e) {
+            e.printStackTrace();
+		}
+if (mOSCPortIn == null) {
+    log_d("cannot create port");
+    toast_short( "cannot create port");
+    return;
+}
+
+	OSCListener listener = new OSCListener() {
+		public void acceptMessage(java.util.Date time, OSCMessage message) {
+			log_d("acceptMessage");
+            showMessage(time, message);
+		}
+	};
+
+	mOSCPortIn.addListener(ADDRESS_ON, listener);
+	mOSCPortIn.startListening();
+    mTextView1.setText("listening");
+    log_d("listening");
+    toast_short( "listening");
+} // setup
+
+ 	/**
+	 * showMessage
+	 */ 
+private void closePort() {
+
+	if (mOSCPortIn != null) {
+        mOSCPortIn.stopListening();
+		mOSCPortIn.close();
+    }
+
+	} // closePort
+
+ 	/**
+	 * showMessage
+	 */ 
+private void showMessage(java.util.Date time, OSCMessage message) {
+log_d("showMessage");
+
+    String msg = "time= " + logDate(time) + LF;
+    msg += "message= " + logMessage(message) +LF;
+
+    log_d(msg);
+    final String log_msg = msg;
+
+    runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                mTextView1.setText(log_msg);
+            }
+    }); // runOnUiThread
+
+} // showMessage
+
+
+ 	/**
+	 * logDate
+	 */ 
+private String logDate(java.util.Date time) {
+if (time == null) {
+    return "time is null";
+}
+
+SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+    String msg = null;
+if (sdf != null) {
+    msg = sdf.format(time);
+}
+    return msg;
+} // logdate
+
+
+ 	/**
+	 * logMessage
+	 */ 
+private String logMessage(OSCMessage message) {
+if (message == null) {
+    return "message is null";
+}
+
+String msg = "";
+msg += "addr= " + message.getAddress() + LF;
+msg += "message= " +  logArguments(message) + LF;
+return msg;
+} // logMessage
+
+
+ 	/**
+	 * logArguments
+	 */ 
+private String logArguments(OSCMessage message) {
+List<Object> args = message.getArguments();
+
+
+if (( args == null)||(args.size() == 0)) {
+    return "no args";
+}
+
+    String msg = "";
+    Object obj = null;
+    String str = null;
+
+    for(int i=0; i<args.size(); i++) {
+		try {
+            obj = args.get(i);
+            if (obj != null ) {
+                str = obj.toString();
+            }
+		} catch (Exception e) {
+            e.printStackTrace();
+		}
+        msg += "obj( " + i + " )= " + str +LF;
+    } // for
+
+    return msg;
+} // logArguments
+
+
+/**
+	 * toast_short
+	 */
+	protected void toast_short( String msg ) {
+		ToastMaster.makeText( this, msg, Toast.LENGTH_SHORT ).show();
+	} // toast_short'
+ 	/**
+	 * write into logcat
+	 */ 
+	private static void log_d( String msg ) {
+	    if (D) Log.d( TAG, TAG_SUB + " " + msg );
+	} // log_d
+
+} // class MainActivity
