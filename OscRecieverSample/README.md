@@ -11,6 +11,9 @@ display IP Address and Port <br/>
 listening Port, when click "Setup" button <br/>
 <image src="https://github.com/ohwada/Android_Samples/blob/master/OscRecieverSample/screenshot/screenshot_osc_reciever_listening.png" width="300" /><br/>
 
+recieve OSC Message <br/>
+<image src="https://github.com/ohwada/Android_Samples/blob/master/OscRecieverSample/screenshot/screenshot_osc_reciever_recieved_123.png" width="300" /><br/>
+
 ### Usage <br/>
 
 Example  <br/>
