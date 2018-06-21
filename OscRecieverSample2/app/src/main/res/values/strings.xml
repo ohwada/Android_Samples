@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2018-05-01 K.OHWADA -->
+<resources>
+    <string name="app_name">OSC Reciever Sample</string>
+
+ <!-- main activity -->
+    <string name="status_not_open">can not open port</string>
+    <string name="status_listening">port listening</string>
+ <string name="status_recieve">packet recieved</string>
+ <string name="status_invalid_osc_addr">packet has invalid OSC address</string>
+ <string name="status_not_convert">cannot convert to OSM message</string>
+    <string name="status_unmatch">no matched listener</string>
+
+<!-- activity_main.xml -->
+    <string name="label_ip_address">IP address:</string>
+    <string name="label_port">Port:</string>
+    <string name="button_setup">Setup</string>
+
+ <!-- menu main -->
+    <string name="action_settings">Settings</string>  
+    <string name="action_clear">clear msg</string> 
+    <string name="action_stop">stop service</string> 
+</resources>

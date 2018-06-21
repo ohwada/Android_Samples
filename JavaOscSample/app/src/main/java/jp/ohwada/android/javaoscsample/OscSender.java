@@ -170,7 +170,7 @@ private void logMessage(OSCMessage msg) {
 		byte[] bytes = msg.getByteArray();
         ByteUtil util = new ByteUtil();
         String text = util.toDebug(bytes);
-        log_d(text);
+        // log_d(text);
 } // logMessage
 
 

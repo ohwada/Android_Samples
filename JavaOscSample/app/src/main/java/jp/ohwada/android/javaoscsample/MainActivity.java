@@ -196,6 +196,9 @@ private void procSet() {
 	String addr = mEditTextAddress.getText().toString();
     log_d("procSet: " + addr);
 
+	mButtonOn1.setEnabled(true);
+    mButtonOff1.setEnabled(true);
+
     OSCPortOut port = mOscSender.openPortOut(addr);
     if (port == null) {
 			toast_short(R.string.set_not);
