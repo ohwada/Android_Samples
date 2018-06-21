@@ -165,6 +165,7 @@ get Gmail Label with Gmail API <br/>
 
 ## MIDI
 sample codes for Android  MIDI API <br/>
+https://github.com/ohwada/Android_Samples/blob/master/MIDI.md <br/>
 
 ### MIDI Synth Sample  <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/MidiSynthSample/scrrenshot/screenshot_midi_synth_main.png" width="200" /><br/>
@@ -183,6 +184,24 @@ play MIDI File with android-midi-lib <br/>
 ##Media Player MIDI Sample  <br/>
 play MIDI File with Media Player <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/MediaPlayerMidiSample/screenshot/screenshot_media_player_list.png" width="200" /><br/>
+
+
+## OSC
+sample codes for Android  OSC <br/>
+https://github.com/ohwada/Android_Samples/blob/master/OSC.md <br/>
+
+### Java OSC Sample  <br/>
+send OSC Message with JavaOSC Library  <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/JavaOscSample/screenshot/screenshot_java_osc_ip_addr.png" width="200" /><br/>
+
+### OSC Reciver Sample  <br/>
+recieve OSC Message with JavaOSC Library  <br/>
+<image src="https://github.com/ohwada/Android_Samples/blob/master/OscRecieverSample/screenshot/screenshot_osc_reciever_recieved_123.png" width="200" /><br/>
+
+### OSC Reciver Sample 2  <br/>
+recieve OSC Message with JavaOSC Library  <br/>
+improved version of OSC Reciver Sample  <br/>
+<image src="https://github.com/ohwada/Android_Samples/blob/master/OscRecieverSample2/screenshot/screenshot_osc_reciever_recieved.png" width="200" /><br/>
 
 
 ## Others
