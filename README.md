@@ -210,6 +210,10 @@ improved version of OSC Reciver Sample  <br/>
 send Broadcast Message from Service to Activity <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/ServiceSample1/screenshot/screenshot_service_timer.png" width="200" /><br/>
 
+### Service Sample 2 <br/>
+send and recieve messages between Activity and Service <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/ServiceSample2/screenshot/screenshot_service.png" width="200" /><br/>
+
 ### StreetView PanoramaView Sample
 display StreetView with Google Play Services maps:11.0.0 <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/StreetViewPanoramaViewSample/screenshot/screenshot_street_view_show.png" width="200" /><br/>
