@@ -2,7 +2,7 @@ Service Sample 1 - Android Samples
 ===============
 
 TimerService <br/>
-send Broadcast Message every second <br/>
+send Broadcast Message from Service to Activity <br/>
 
 ### screenshot <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/ServiceSample1/screenshot/screenshot_service_main.png" width="300" /><br/>
