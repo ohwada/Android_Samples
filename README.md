@@ -206,6 +206,10 @@ improved version of OSC Reciver Sample  <br/>
 
 ## Others
 
+### Kryo Sample <br/>
+Java binary serialization <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/KryoSample/screenshot/screenshot_kryo_test.png" width="200" /><br/>
+
 ### Service Sample 1 <br/>
 send Broadcast Message from Service to Activity <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/ServiceSample1/screenshot/screenshot_service_timer.png" width="200" /><br/>
