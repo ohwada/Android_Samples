@@ -206,6 +206,10 @@ improved version of OSC Reciver Sample  <br/>
 
 ## Others
 
+### Snackbar Sample <br/>
+Snackbar show a brief message at the bottom of the screen <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/SnackbarSample/screenshot/screenshot_snackbar_show_2.png" width="200" /><br/>
+
 ### Wasp DB Sample <br/>
 key/value data storage library for Android <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/WaspdbSample/screenshot/screenshot_wspdb_add_1.png" width="200" /><br/>
