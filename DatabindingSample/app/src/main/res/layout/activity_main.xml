@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- 2018-05-01 K.OHWADA  -->
+<layout 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Binding Objects -->
+    <data>
+        <variable name="user" type="jp.ohwada.android.databindingsample.User" />
+        <variable name="handlers" type="jp.ohwada.android.databindingsample.SampleEventHandlers" />
+    </data>
+
+    <!-- Views -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+<LinearLayout  
+  android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+        android:paddingBottom="8dp" >
+
+   <Button
+        android:id="@+id/Button_bind"
+        android:text="bind"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        />
+
+
+    <Button 
+        android:id="@+id/Button_change"
+        android:text="CHANGE"
+        android:onClick="@{handlers.onChangeClick}" 
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+</LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{user.name}" 
+            android:textSize="20sp"
+            android:layout_marginLeft="16dp" />
+
+    </LinearLayout>
+
+</layout>

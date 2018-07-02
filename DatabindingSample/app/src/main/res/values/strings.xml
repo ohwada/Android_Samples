@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- 2018-05-01 K.OHWADA  -->
+<resources>
+    <string name="app_name">Databinding Sample</string>
+    <string name="action_settings">Settings</string>
+</resources>
