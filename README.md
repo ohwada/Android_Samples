@@ -206,6 +206,10 @@ improved version of OSC Reciver Sample  <br/>
 
 ## Others
 
+### Databinding Sample <br/>
+bind Application Logic and Layout <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/DatabindingSample/screenshot/screenshot_databinding_bind.png" width="200" /><br/>
+
 ### Snackbar Sample <br/>
 Snackbar show a brief message at the bottom of the screen <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/SnackbarSample/screenshot/screenshot_snackbar_show_2.png" width="200" /><br/>
