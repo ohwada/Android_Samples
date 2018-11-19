@@ -16,7 +16,7 @@ start game, when click PLAY button <br/>
 how to play <br/>
 continue to hit  BACK button in Android device to explode each asteroid as it passes through the laser guide<br/>
 and then, You win or lose<br/>
-<image src="<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/JetBoy/screenshot/jetboy_win.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/JetBoy/screenshot/jetboy_win.png" width="300" /><br/>
 
 ### Reference <br/>
 * http://tool.oschina.net/uploads/apidocs/android/resources/samples/JetBoy/index.html
