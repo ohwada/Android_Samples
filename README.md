@@ -206,6 +206,10 @@ improved version of OSC Reciver Sample  <br/>
 
 ## Others
 
+### JetBoy <br/>
+JetBoy is Android sample game that demonstrates the use of the android.media.JetPlayer class<br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Jetboy/screenshot/screenshot_jetboy_start.png" width="300" /><br/>
+
 ### Databinding Sample <br/>
 bind Application Logic and Layout <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/DatabindingSample/screenshot/screenshot_databinding_bind.png" width="200" /><br/>
