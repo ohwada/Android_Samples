@@ -3,6 +3,13 @@ Android Samples
 
 sample codes for Android <br/>
 
+## Osmdroid1
+display OpenStreetMap <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmdroid1/screenshot/osmdroid1_map.png" width="300" /><br/>
+
+## Osmdroid2
+display  OpenStreetMapwith Marker<br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmdroid2/screenshot/osmdroid2_marker.png" width="300" /><br/>
 
 ## Image Library
 https://github.com/ohwada/Android_Samples/blob/master/Image_Library.md
