@@ -60,10 +60,10 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_main);
-
        Configuration.getInstance().load(getApplicationContext(),
                 PreferenceManager.getDefaultSharedPreferences(getApplicationContext()));
+
+        setContentView(R.layout.activity_main);
 
     mMapView = (MapView) findViewById(R.id.mapView);
 
@@ -86,6 +86,10 @@ public class MainActivity extends Activity {
     @Override
     public void onResume(){
         super.onResume();
+
+        Configuration.getInstance().load(getApplicationContext(),
+                PreferenceManager.getDefaultSharedPreferences(getApplicationContext()));
+
         if (mMapView!=null) {
 			mMapView.onResume();
         }
@@ -97,6 +101,11 @@ public class MainActivity extends Activity {
  */
     @Override
     public void onPause(){
+        super.onPause();
+
+        Configuration.getInstance().save(getApplicationContext(),
+                PreferenceManager.getDefaultSharedPreferences(getApplicationContext()));
+
         if (mMapView!=null) {
 			mMapView.onPause();
         }
