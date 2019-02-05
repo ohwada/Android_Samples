@@ -15,8 +15,7 @@ display  OpenStreetMapwith Markers<br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmdroid2/screenshot/osmdroid2_markers.png" width="300" /><br/>
 
 ###  Osmdroid 3 
-display OpenStreetMap with Tile overlay <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmdroid3/screenshot/osmdroid3_transport.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmdroid3/screenshot/osmdroid3_trasnport.png" width="300" /><br/>
 
 ###  Osmdroid 4
 display OpenStreetMap  with Tiles Overlay and Custom Tile Source <br/>
