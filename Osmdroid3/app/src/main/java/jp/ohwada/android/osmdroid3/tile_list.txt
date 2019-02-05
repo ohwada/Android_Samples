@@ -1,0 +1,12 @@
+Osmdroid Tile list
+
+name, tile server
+
+MAPNIK, https://a.tile.openstreetmap.org/
+FIETS_OVERLAY_NL, http://overlay.openstreetmap.nl/openfietskaart-overlay/
+BASE_OVERLAY_NL, http://overlay.openstreetmap.nl/basemap/
+ROADS_OVERLAY_NL, http://overlay.openstreetmap.nl/roads/
+HIKEBIKEMAP, http://a.tiles.wmflabs.org/hikebike/
+OPEN_SEAMAP, http://tiles.openseamap.org/seamark/
+USGS_TOPO, https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/
+USGS_SAT, https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryTopo/MapServer/tile/

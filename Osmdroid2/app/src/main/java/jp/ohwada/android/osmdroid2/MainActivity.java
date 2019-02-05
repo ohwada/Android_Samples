@@ -1,5 +1,6 @@
 /**
  * Osmdroid Sample
+ * OSM with MinimapItemizedoverlay
  * 2019-02-01 K.OHWADA 
  */
 
@@ -75,7 +76,7 @@ public class MainActivity extends Activity {
           GeoPoint centerPoint = new GeoPoint(MAP_LAT,MAP_LON);
           mapController.setCenter(centerPoint);
 
-        setupMarker();
+        // setupMarker();
 
     } //  onCreate
 
