@@ -21,6 +21,10 @@ display  OpenStreetMapwith Markers<br/>
 display OpenStreetMap  with Tiles Overlay and Custom Tile Source <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmdroid4/screenshot/osmdroid4_jp.png" width="300" /><br/>
 
+### Osmbonuspack1 
+display OpenStreetMap with loading KML
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmbonuspack1/screenshot/osmbonuspack1_paris_tour.png" width="300" /><br/>
+
 ## Image Library
 https://github.com/ohwada/Android_Samples/blob/master/Image_Library.md
 
