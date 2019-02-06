@@ -32,8 +32,15 @@ import org.osmdroid.views.overlay.FolderOverlay;
 
 /**
  *  class MainActivity
+ *  refetence : https://stackoverflow.com/questions/43158879/how-to-import-kml-with-osmdroid
  */
 public class MainActivity extends Activity {
+
+    // Yokohama
+    private static final double MAP_LAT = 35.4472391;
+    private static final double MAP_LON = 139.6414945;
+
+    private static final double MAP_ZOOM = 6.0;
 
      private static final int KML_RAW_ID = R.raw.paris_tour;
 
@@ -63,6 +70,10 @@ public class MainActivity extends Activity {
 
 // unnecessary to set latitude and longitude of center,zoom 
 // set automatically from kml file
+       IMapController mapController =  mMapView.getController();
+         mapController.setZoom(MAP_ZOOM);
+          GeoPoint centerPoint = new GeoPoint(MAP_LAT,MAP_LON);
+          mapController.setCenter(centerPoint);
 
         loadKml();
 
