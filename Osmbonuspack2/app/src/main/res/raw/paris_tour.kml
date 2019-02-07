@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>ParisTour</name>
+    <description/>
+    <Style id="icon-1037-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1037-biz-house.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1037-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1037-biz-house.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1037">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1037-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1037-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1399-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1399-rec-viewing-platform.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1399-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/1399-rec-viewing-platform.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1399">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1399-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1399-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-A61B4A-normal">
+      <IconStyle>
+        <color>ff4a1ba6</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-A61B4A-highlight">
+      <IconStyle>
+        <color>ff4a1ba6</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-A61B4A">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-A61B4A-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-A61B4A-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-A61B4A-nodesc-normal">
+      <IconStyle>
+        <color>ff4a1ba6</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-503-A61B4A-nodesc-highlight">
+      <IconStyle>
+        <color>ff4a1ba6</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-503-A61B4A-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-A61B4A-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-A61B4A-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-FF8277-normal">
+      <IconStyle>
+        <color>ff7782ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-FF8277-highlight">
+      <IconStyle>
+        <color>ff7782ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-FF8277">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-FF8277-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-FF8277-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-FF8277-nodesc-normal">
+      <IconStyle>
+        <color>ff7782ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-503-FF8277-nodesc-highlight">
+      <IconStyle>
+        <color>ff7782ff</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-503-FF8277-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-FF8277-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-FF8277-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-009D57-4000-nodesc-normal">
+      <LineStyle>
+        <color>ff579d00</color>
+        <width>4</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-009D57-4000-nodesc-highlight">
+      <LineStyle>
+        <color>ff579d00</color>
+        <width>6</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-009D57-4000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-009D57-4000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-009D57-4000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-DB4436-4000-nodesc-normal">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>4</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-DB4436-4000-nodesc-highlight">
+      <LineStyle>
+        <color>ff3644db</color>
+        <width>6</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-DB4436-4000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-DB4436-4000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-DB4436-4000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-3F5BA9-9201-53-normal">
+      <LineStyle>
+        <color>ffa95b3f</color>
+        <width>9.201</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>35a95b3f</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-3F5BA9-9201-53-highlight">
+      <LineStyle>
+        <color>ffa95b3f</color>
+        <width>13.8015</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>35a95b3f</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-3F5BA9-9201-53">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-3F5BA9-9201-53-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-3F5BA9-9201-53-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Places</name>
+      <Placemark>
+        <name>Paris</name>
+        <description>Ah ! Paris !...</description>
+        <styleUrl>#poly-3F5BA9-9201-53</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                2.27794647216797,48.877360828872,0
+                2.25425720214844,48.8466434068359,0
+                2.25449323654175,48.8419974499817,0
+                2.2567892074585,48.836221176215,0
+                2.26584434509277,48.8350630167157,0
+                2.2822380065918,48.8322946245467,0
+                2.2921085357666,48.8276614627895,0
+                2.30987548828125,48.8237059857384,0
+                2.33837127685547,48.8168114080544,0
+                2.36103057861328,48.8160201663491,0
+                2.37699508666992,48.8210499902443,0
+                2.39158630371094,48.8276614627896,0
+                2.39948272705078,48.8287915417457,0
+                2.40497589111328,48.8319556272378,0
+                2.41132736206055,48.8351195129224,0
+                2.41252899169922,48.8389611054962,0
+                2.41510391235352,48.8479989847486,0
+                2.41420269012451,48.8544939530535,0
+                2.41312980651855,48.8684411672813,0
+                2.40776538848877,48.8794493805819,0
+                2.39965438842773,48.8830053625689,0
+                2.39338874816895,48.8976217434995,0
+                2.38918304443359,48.9007250581654,0
+                2.35485076904297,48.9017406465732,0
+                2.31227874755859,48.8994837554201,0
+                2.29150772094727,48.8878591520852,0
+                2.27794647216797,48.877360828872,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Day 1</name>
+        <styleUrl>#line-DB4436-4000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            2.343092,48.8866881,0
+            2.3294556,48.8844693,0
+            2.3272723,48.8833034,0
+            2.3091003,48.8804063,0
+            2.2979665,48.8781864,0
+            2.2950697,48.8738609,0
+            2.3211193,48.8655052,0
+            2.3190057,48.8625621,0
+            2.3152453,48.8628126,0
+            2.3102832,48.862555,0
+            2.3019469,48.8623786,0
+            2.3000962,48.8577447,0
+            2.2979021,48.856047,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Day 2</name>
+        <styleUrl>#line-009D57-4000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            2.33322143554688,48.8339895766861,0
+            2.34894990921021,48.853166788894,0
+            2.35093474388123,48.8559905002186,0
+            2.35158920288086,48.8603387041641,0
+            2.33601093292236,48.8611010126927,0
+            2.35403537750244,48.8784474511173,0
+            2.36892700195312,48.8834357321262,0
+            2.38547086715698,48.8972726085424,0
+            2.38232731819153,48.900268389291,0
+            2.35904037952423,48.9022457883304,0
+            2.35700994729996,48.9271505246157,0
+            2.35978603363037,48.9353562537426,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Palais de la Découverte</name>
+        <styleUrl>#icon-503-FF8277-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.310822,48.866202,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arc de triomphe</name>
+        <description>Nice point of view on the Champs Elysées</description>
+        <styleUrl>#icon-1037</styleUrl>
+        <Point>
+          <coordinates>
+            2.29506969451904,48.8738608980774,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Obélisque</name>
+        <styleUrl>#icon-503-FF8277-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.32111930847168,48.8655052346379,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tour Eiffel</name>
+        <description>***</description>
+        <styleUrl>#icon-1399</styleUrl>
+        <Point>
+          <coordinates>
+            2.29790210723877,48.8560469728205,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sacré-Coeur de Montmartre
+</name>
+        <description>Nice place.</description>
+        <styleUrl>#icon-503-FF8277</styleUrl>
+        <Point>
+          <coordinates>
+            2.34309196472168,48.8866880773873,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Notre-Dame de Paris</name>
+        <description>***</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            2.34985113143921,48.8528985280342,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Le Louvre</name>
+        <description><![CDATA[*** But plan a full afternoon, and don't try to see all rooms.]]></description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            2.33566761016846,48.8609880788285,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centre Pompidou</name>
+        <description>** If you love books.</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            2.351975440979,48.8604234056851,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Basilique St Denis
+</name>
+        <styleUrl>#icon-503-A61B4A-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.35965728759766,48.9359200810281,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Catacombes</name>
+        <description><![CDATA[* A little bit <i>strange</i>]]></description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            2.33210563659668,48.8339330792052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cité des Sciences</name>
+        <description>** for La Géode</description>
+        <styleUrl>#icon-503-A61B4A</styleUrl>
+        <Point>
+          <coordinates>
+            2.3884105682373,48.8948568099588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

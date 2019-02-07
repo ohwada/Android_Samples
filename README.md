@@ -29,6 +29,10 @@ display OpenStreetMap with MinimapItemizedoverlay and custom Icon using Osmdroid
 display OpenStreetMap with loading KML
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmbonuspack1/screenshot/osmbonuspack1_paris_tour.png" width="300" /><br/>
 
+### Osmbonuspack2 
+display OpenStreetMap with loading KML and custom Style <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmbonuspack2/screenshot/bonuspack2_kml_custom_icon.png" width="300" /><br/>
+
 ## Image Library
 https://github.com/ohwada/Android_Samples/blob/master/Image_Library.md
 
