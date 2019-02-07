@@ -1,10 +1,10 @@
 /**
  * Osmdroid Sample
- * OSM with MinimapItemizedoverlay
+ * OSM with MinimapItemizedoverlay and custom Icon
  * 2019-02-01 K.OHWADA 
  */
 
-package jp.ohwada.android.osmdroid2;
+package jp.ohwada.android.osmdroid5;
 
 import android.app.Activity;
 import android.os.Bundle;
