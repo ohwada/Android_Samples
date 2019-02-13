@@ -41,6 +41,7 @@ import android.widget.RelativeLayout.LayoutParams;
 
 /**
  *  class MainActivity
+ *  reference : https://github.com/osmdroid/osmdroid/blob/master/OpenStreetMapViewer/src/main/java/org/osmdroid/samples/SampleWithTilesOverlayAndCustomTileSource.java
  */
 public class MainActivity extends Activity {
 

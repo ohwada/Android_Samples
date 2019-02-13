@@ -19,10 +19,11 @@ import  org.osmdroid.api.IMapController;
 
 /**
  *  class MainActivity
+ *  reference : https://github.com/osmdroid/osmdroid/blob/master/osmdroid-simple-map/src/main/java/org/osmdroid/sample/MapActivity.java
  */
 public class MainActivity extends Activity {
 
-    // yokohama
+    // Yokohama
     private static final double MAP_LAT = 35.4472391;
     private static final double MAP_LON = 139.6414945;
 

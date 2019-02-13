@@ -34,6 +34,7 @@ import java.util.List;
 
 /**
  *  class MainActivity
+ *  reference : https://github.com/osmdroid/osmdroid/blob/master/OpenStreetMapViewer/src/main/java/org/osmdroid/samples/SampleWithMinimapItemizedoverlay.java
  */
 public class MainActivity extends Activity {
 
@@ -43,7 +44,7 @@ public class MainActivity extends Activity {
     	private final static String TAG_SUB = "MainActivity";
 
 
-    // yokohama
+    // Yokohama
     private static final double MAP_LAT = 35.4472391;
     private static final double MAP_LON = 139.6414945;
 
