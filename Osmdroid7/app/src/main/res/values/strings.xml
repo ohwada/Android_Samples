@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<resources>
+    <string name="app_name">Osmdroid 7</string>
+    <string name="title_downloader">opn Tile Downloader</string>
+    <string name="title_map">open Offline Map</string>
+
+  <!-- downloader -->
+    <string name="cancel">Cancel</string>
+    <string name="cancelall">Cancel All Jobs</string>
+
+    <string name="cache_current_size">Cache Current Size</string>
+    <string name="cache_manager">Cache Manager</string>
+    <string name="cache_manager_description">The Cache Manager lets you manage what\'s cached on this device and enables you to download and cache tiles locally. Keep in mind, there may be legal implications. Use with caution and be sure to read the usage agreement(s) or terms of service with the tile source.</string>
+    <string name="cache_download">Start Download</string>
+    <string name="cache_delete_area">Delete Area</string>
+</resources>
