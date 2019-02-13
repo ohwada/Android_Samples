@@ -27,7 +27,7 @@ display OpenStreetMap with MinimapItemizedoverlay and custom Icon using Osmdroid
 
 ### Osmdroid 6 
 display Offline Map using Osmdroid <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmdroid6/screentshot/osmdroid6_offline_map.png" width="300" /> <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmdroid6/screenshot/osmdroid6_offline_map.png" width="300" /> <br/>
 
 ### Osmbonuspack1 
 display OpenStreetMap with loading KML
