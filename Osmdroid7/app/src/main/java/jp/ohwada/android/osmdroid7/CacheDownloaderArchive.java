@@ -50,7 +50,7 @@ implements View.OnClickListener, SeekBar.OnSeekBarChangeListener, TextWatcher {
 
         // zoom level
     	private final static int ZOOM_MIN_DEFAULT = 0;
-    	private final static int ZOOM_MAX_DEFAULT = 2;
+    	private final static int ZOOM_MAX_DEFAULT = 6;
 
     Activity mActivity;
     Resources mResources;
@@ -84,11 +84,6 @@ LayoutInflater inflater = LayoutInflater.from( mActivity);
 
         View root = inflater.inflate(R.layout.sample_cachemgr, null, false);
 
-        //prevent the action bar/toolbar menu in order to prevent tile source changes.
-        //if this is enabled, playstore users could actually download large volumes of tiles
-        //from tile sources that do not allow it., causing our app to get banned, which would be
-        //bad
-
         mMapView = new MapView(mActivity);
         ((LinearLayout) root.findViewById(R.id.mapview)).addView(mMapView);
         btnCache = (Button)root.findViewById(R.id.btnCache);
@@ -102,72 +97,6 @@ LayoutInflater inflater = LayoutInflater.from( mActivity);
 public MapView getMapView() {
             return mMapView;
 } // getMapView
-
-
-/**
- * onClick
- */
-    @Override
-    public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.executeJob:
-                updateEstimate(true);
-                break;
-
-            case R.id.btnCache:
-                showCacheManagerDialog();
-                break;
-
-        }
-    } // onClick
-
-
-/**
- * showCacheManagerDialog
- */
-    private void showCacheManagerDialog(){
-
-        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(
-                mActivity);
-
-
-        // set title
-        alertDialogBuilder.setTitle(R.string.cache_manager);
-        //.setMessage(R.string.cache_manager_description);
-
-        // set dialog message
-        alertDialogBuilder.setItems(new CharSequence[]{
-                        mResources.getString(R.string.cache_current_size),
-                        mResources.getString(R.string.cache_download),
-                        mResources.getString(R.string.cancel)
-                }, new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int which) {
-                        switch (which){
-                            case 0:
-                                mgr = new CacheManager(mMapView);
-                                showCurrentCacheInfo();
-                                break;
-                            case 1:
-                                downloadJobAlert();
-                            default:
-                                dialog.dismiss();
-                                break;
-                        }
-                    }
-                }
-        );
-
-
-        // create alert dialog
-        alertDialog = alertDialogBuilder.create();
-
-        // show it
-        alertDialog.show();
-
-
-        //mgr.possibleTilesInArea(mMapView.getBoundingBox(), 0, 18);
-        // mgr.
-    } // showCacheManagerDialog
 
 
 /**
@@ -258,11 +187,12 @@ public MapView getMapView() {
                 if (startJob) {
                     // TODO ; if not exists "osmdroid" directory
                     String outputName = Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator + DIR_NAME + File.separator + cache_output.getText().toString();
-log_d( "outputName: " + outputName );
+        log_d( "outputName: " + outputName );
                     writer =new SqliteArchiveTileWriter(outputName);
                     mgr = new CacheManager(mMapView, writer);
                 } else {
-                    if (mgr==null)
+                // if false, just update the dialog box
+                    if  (mgr == null)
                         mgr = new CacheManager(mMapView);
                 }
                 int zoommin = zoom_min.getProgress();
@@ -279,7 +209,6 @@ log_d( "outputName: " + outputName );
                     }
 
                     //this triggers the download
-// downloadAreaAsync(Context ctx, BoundingBox bb, final int zoomMin, final int zoomMax, final CacheManagerCallback callback)
  String msg = "zoommin : " + zoommin + " ; zoommax : " + zoommax +  " ; " + bb.toString();
 log_d( msg );
                     mgr.downloadAreaAsync(mActivity, bb, zoommin, zoommax, new CacheManager.CacheManagerCallback() {
@@ -314,7 +243,7 @@ String msg = "Download complete with " + errors + " errors";
                             //NOOP since we are using the build in UI
                             log_d(  "setPossibleTilesInArea: " + total );
                         }
-                    });
+                    }); // CacheManagerCallback
                 }
 
             }
@@ -326,51 +255,26 @@ String msg = "Download complete with " + errors + " errors";
 
 
 /**
- *  showCurrentCacheInfo
+ * View.OnClickListener
  */
-    private void showCurrentCacheInfo() {
-        toast_long("Calculating...");
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                final AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(
-                        mActivity);
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.executeJob:
+                updateEstimate(true);
+                break;
+
+            case R.id.btnCache:
+                downloadJobAlert();
+                break;
+
+        }
+    } // onClick
 
 
-                // set title
-                alertDialogBuilder.setTitle(R.string.cache_manager)
-                        .setMessage("Cache Capacity (bytes): " + mgr.cacheCapacity() + "\n"+
-                                "Cache Usage (bytes): " + mgr.currentCacheUsage());
-
-                // set dialog message
-                alertDialogBuilder.setItems(new CharSequence[]{
-
-                                mResources.getString(R.string.cancel)
-                        }, new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int which) {
-                                dialog.dismiss();
-                            }
-                        }
-                );
-
-
-
-
-                mActivity.runOnUiThread(new Runnable() {
-                    @Override
-                    public void run() {
-                        // show it
-                        // create alert dialog
-                        final AlertDialog alertDialog = alertDialogBuilder.create();
-                        alertDialog.show();
-                    }
-                });
-
-            }
-        }).start();
-
-    } // showCurrentCacheInfo
-
+/**
+ * SeekBar.OnSeekBarChangeListener
+ */
     @Override
     public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
         updateEstimate(false);
@@ -386,7 +290,9 @@ String msg = "Download complete with " + errors + " errors";
     public void onStopTrackingTouch(SeekBar seekBar) {
         // nop
     }
-
+/**
+ *  TextWatcher
+ */
     @Override
     public void beforeTextChanged(CharSequence s, int start, int count, int after) {
         // nop
@@ -401,6 +307,7 @@ String msg = "Download complete with " + errors + " errors";
     public void afterTextChanged(Editable s) {
         // nop
     }
+
 
 /**
  *  onPause

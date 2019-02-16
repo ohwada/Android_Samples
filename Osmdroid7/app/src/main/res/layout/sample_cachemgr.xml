@@ -12,7 +12,7 @@
 
     <Button android:id="@+id/btnCache"
         android:layout_width="fill_parent"
-        android:text="Cache Manager"
+        android:text="@string/cache_download"
         android:layout_height="wrap_content"></Button>
 
 </RelativeLayout>
