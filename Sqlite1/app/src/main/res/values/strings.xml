@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<resources>
+    <string name="app_name">Sqlite 1</string>
+
+    <string name="hint_name">名前</string>
+    <string name="hint_age">年齢</string>
+
+	<string name="button_insert">追加</string>
+    <string name="button_update">変更</string>
+    <string name="button_delete">削除</string>
+    <string name="button_delete_all">全て削除</string>
+
+    <string name="toast_input">名前と年齢を入力してください</string>
+    <string  name="toast_inserted">追加した</string>
+    <string name="toast_updateed">変更した</string>
+    <string name="toast_deleteed">削除した</string>
+    <string name="toast_failed">失敗した</string>
+</resources>
