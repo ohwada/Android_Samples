@@ -30,6 +30,9 @@ print my IP address <br/>
 * make_kml.py <br/>
 make kml file from csv file <br/>
 
+* parse_osm_json.py <br/>
+parse OAM Json and output KML file <br/>
+
 ### Reference <br/>
 * https://www.pygame.org/ <br/>
 * https://github.com/attwad/python-osc <br/>
