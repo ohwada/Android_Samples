@@ -1,0 +1,17 @@
+<resources>
+<!-- 2019-02-01 K.OHWADA -->
+    <string name="app_name">Osm1</string>
+
+<!-- activity_lmain.xml -->
+    <string name="button_setup">setup DB from Json</string>
+    <string name="button_map">open Map</string>
+    <string name="button_list">show record List</string>
+
+<!-- activity_map.xml -->
+    <string name="button_sesarch_1k">search 1Km</string>
+   <string name="button_sesarch_5k">search 5 Km</string>
+   <string name="button_sesarch_10k">search 10 Km</string>
+
+<!-- activity_list.xml -->
+    <string name="button_delete_all">delete all records</string>
+</resources>
