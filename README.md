@@ -5,7 +5,7 @@ sample codes for Android <br/>
 
 ###  Osm 1
 show Beef Bowl Map <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osm1/screenshot/osmd1_markers.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osm1/screenshot/osm1_markers.png" width="300" /><br/>
 
 ##  Osmdroid
 https://github.com/ohwada/Android_Samples/blob/master/osmdroid.md
