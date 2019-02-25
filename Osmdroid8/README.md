@@ -17,4 +17,5 @@ Map with Markers, custom Icon <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmdroid8/screenshot/osmdroid8_custom_markers.png" width="300" /><br/>
 
 ### Reference <br/>
-https://github.com/osmdroid/osmdroid
+- https://github.com/osmdroid/osmdroid
+- https://github.com/osmdroid/osmdroid/wiki/Markers,-Lines-and-Polygons
