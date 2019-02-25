@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<resources>
+    <string name="app_name">Osmdroid 8</string>
+
+    <string name="button_map">open Map with Marker</string>
+    <string name="button_custom">open Map with custom Marker</string>
+</resources>

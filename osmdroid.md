@@ -35,6 +35,10 @@ display Offline Map using Osmdroid <br/>
 Tile Downloader for Offline Map<br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmdroid7/screenshot/osmdroid7_downloader_input_dialog.png" width="300" /> <br/>
 
+### Osmdroid 8
+OpenStreetMap with Marker and window info <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmdroid8/screenshot/osmdroid8_info_kawasaki.png" width="300" /><br/>
+
 ### Osmbonuspack1 
 display OpenStreetMap with loading KML<br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmbonuspack1/screenshot/osmbonuspack1_paris_tour.png" width="300" /><br/>
@@ -42,6 +46,7 @@ display OpenStreetMap with loading KML<br/>
 ### Osmbonuspack2 
 display OpenStreetMap with loading KML and custom Style <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmbonuspack2/screenshot/bonuspack2_kml_custom_icon.png" width="300" /><br/>
+
 
 
 ## Japanese blog <br/>
