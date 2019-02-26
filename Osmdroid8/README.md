@@ -10,11 +10,14 @@ Main Menu
 Map with Markers <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmdroid8/screenshot/osmdroid8_markers.png" width="300" /><br/>
 
-Window Info<br/>
+Window Info <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmdroid8/screenshot/osmdroid8_info_kawasaki.png" width="300" /><br/>
 
-Map with Markers, custom Icon <br/>
+Map with custom Markers, custom Icon <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmdroid8/screenshot/osmdroid8_custom_markers.png" width="300" /><br/>
+
+Image in Window Info <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmdroid8/screenshot/osmdroid8_image_window.png" width="300" /><br/>
 
 ### Reference <br/>
 - https://github.com/osmdroid/osmdroid
