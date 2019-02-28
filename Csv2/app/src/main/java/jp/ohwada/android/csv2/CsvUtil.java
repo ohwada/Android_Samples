@@ -114,10 +114,7 @@ public void writeTest() {
         CsvParserSettings settings = new CsvParserSettings();
     BeanListProcessor<Shopping> rowProcessor = new BeanListProcessor<>(Shopping.class);
         settings.setProcessor(rowProcessor);
-
-settings.getFormat().setLineSeparator("\n");  // 改行コードは CR+LF
-        settings.setHeaderExtractionEnabled(true);      // 1行目はヘッダ行としてスキップする
-
+        settings.setHeaderExtractionEnabled(true);
     CsvRoutines routines = new CsvRoutines(settings);
     list = routines.parseAll( Shopping.class,  inputReader );
 
@@ -147,8 +144,10 @@ settings.getFormat().setLineSeparator("\n");  // 改行コードは CR+LF
     CsvWriter writer = null;
 
     try {
+        CsvWriterSettings settings = new CsvWriterSettings();
+        settings.setQuoteAllFields(true);
         fileWriter = new FileWriter(file);
-        writer = new CsvWriter( fileWriter, new CsvWriterSettings() );
+        writer = new CsvWriter( fileWriter, settings );
         writer.writeHeaders( CSV_HEADERS );
         // csvWriter.writeRowsAndClose(  );
         for (Shopping s: list) {

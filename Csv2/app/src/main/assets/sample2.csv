@@ -1,7 +1,8 @@
 "Name","Price","Quantity"
 "Apple", 10.0, 10
-"Banana", a11.2, 20
+"Banana", 11.2e1, 20
 "Coconut", 12.3, 30
-"Donut", 13.4, 40
+# Error converting 40e1
+"Donut", 13.4, 40e1
 "Eggplant", 14.5, 50
 "Fluke", 15.6, 60
