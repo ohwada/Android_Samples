@@ -11,6 +11,10 @@ show Beef Bowl Map <br/>
 read and write csv file using Opencsv <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Csv1/screenshot/csv1_sample1.png" width="300" /><br/>
 
+### Csv 2
+read and write csv file using univocity-parsers <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Csv2/screenshot/csv2_sample.png" width="300" /><br/>
+
 ##  Osmdroid
 https://github.com/ohwada/Android_Samples/blob/master/osmdroid.md
 
