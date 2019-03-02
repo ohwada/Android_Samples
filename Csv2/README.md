@@ -1,7 +1,7 @@
 Csv 2 - Android Samples
 ===============
 
-read and write csv file using univocity-parsers <br/>
+read and write CSV file using univocity-parsers <br/>
 
 ### screenshot <br/>
 Main Menu <br/>

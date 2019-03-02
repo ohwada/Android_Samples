@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<resources>
+    <string name="app_name">Csv 3</string>
+
+    <string name="button_1">read Sample 1</string>
+    <string name="button_2">read Sample 2</string>
+    <string name="button_3">write Csv</string>
+</resources>
