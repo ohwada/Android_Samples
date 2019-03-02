@@ -1,7 +1,7 @@
 Csv 1 - Android Samples
 ===============
 
-read and write csv file using Opencsv <br/>
+read and write csv file using OpenCSV <br/>
 
 ### screenshot <br/>
 Main Menu <br/>

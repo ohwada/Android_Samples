@@ -56,7 +56,13 @@ public String getMessage() {
     return builder.toString();
 } // getMessage
 
-
+    /**
+     * getWriteRow
+     */	
+public String[] getWriteRow() {
+ String[]  row = new String[] {name, getPriceString(), getQuantityString() };
+    return row;
+} // getWriteRow
 
  	/**
 	 * toString

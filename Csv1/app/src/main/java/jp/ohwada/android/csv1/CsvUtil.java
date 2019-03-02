@@ -18,7 +18,6 @@ import android.util.Log;
 import android.widget.Toast;
 import android.content.res.AssetManager;
 
-
 import com.opencsv.CSVReader;
 import com.opencsv.CSVWriter;
 
@@ -26,6 +25,7 @@ import java.io.File;
 import java.io.FileDescriptor;
 import java.io.FileReader;
 import java.io.FileWriter;
+import java.io.Reader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
@@ -110,7 +110,7 @@ public void writeTest() {
     /**
      * readCsv
      */
-    private List<Shopping> readCsv( InputStreamReader inputReader, boolean is_header ){
+    private List<Shopping> readCsv( Reader inputReader, boolean is_header ){
 
     if( inputReader == null ) return null;
 
@@ -129,10 +129,10 @@ public void writeTest() {
                     String name =  nextLine[0] ;
                     double price =  parseDouble( nextLine[1] );
                     int quantity =  parseInt( nextLine[2] );
-        Shopping s =  new Shopping(  name, price, quantity );
-        log_d( s.toString() );
-        list.add(s);
-    } // while
+                Shopping s =  new Shopping(  name, price, quantity );
+                log_d( s.toString() );
+                list.add(s);
+        } // while
 
         }catch (Exception ex) {
             if(D) ex.printStackTrace();
@@ -172,11 +172,7 @@ public void writeTest() {
             writer.writeNext( CSV_HEADERS );
 
     for(Shopping s: list) {
-                String[] items = new String[3];
-                 items[0] = s. name;
-                 items[1] = s.getPriceString();
-                 items[2] = s.getQuantityString();
-                writer.writeNext(items);
+                writer.writeNext( s.getWriteRow() );
             } // for
 
         }catch (Exception ex) {

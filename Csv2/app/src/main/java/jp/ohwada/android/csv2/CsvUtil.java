@@ -24,6 +24,7 @@ import java.io.File;
 import java.io.FileDescriptor;
 import java.io.FileReader;
 import java.io.FileWriter;
+import java.io.Reader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
@@ -104,9 +105,9 @@ public void writeTest() {
     /**
      * readCsv
      */
-    private List<Shopping> readCsv( InputStreamReader inputReader ){
+    private List<Shopping> readCsv( Reader reader ){
 
-    if( inputReader == null ) return null;
+    if( reader == null ) return null;
 
     List<Shopping> list = new ArrayList<Shopping>();
 
@@ -116,14 +117,14 @@ public void writeTest() {
         settings.setProcessor(rowProcessor);
         settings.setHeaderExtractionEnabled(true);
     CsvRoutines routines = new CsvRoutines(settings);
-    list = routines.parseAll( Shopping.class,  inputReader );
+    list = routines.parseAll( Shopping.class,  reader );
 
         }catch (Exception ex) {
             if(D) ex.printStackTrace();
         }
 
         try {
-             if( inputReader != null ) inputReader.close();
+             if( reader != null ) reader.close();
         }catch (Exception ex) {
                     if(D) ex.printStackTrace();
         }
