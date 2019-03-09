@@ -56,6 +56,10 @@ Tile Downloader for Offline Map <br/>
 OpenStreetMap with Marker and window info <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmdroid8/screenshot/osmdroid8_info_kawasaki.png" width="300" /><br/>
 
+### Osmdroid 9
+bookmark the location of the map  using Osmdroid <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmdroid9/screenshot/osmdroid9_dialog_title.png" width="300" /><br/>
+
 ### Osmbonuspack1 
 display OpenStreetMap with loading KML
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmbonuspack1/screenshot/osmbonuspack1_paris_tour.png" width="300" /><br/>

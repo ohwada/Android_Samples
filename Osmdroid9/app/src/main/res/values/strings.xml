@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<resources>
+    <string name="app_name">Osmdroid 9</string>
+
+<!-- activity_main.xml -->
+    <string name="button_setup">setup csv file for debug</string>
+    <string name="button_map">open Map</string>
+    <string name="button_list">show Bookmark List</string>
+
+<!-- activity_list.xml -->
+    <string name="button_delete">delete</string>
+    <string name="button_delete_all">delete all bookmarks</string>
+
+<!--  menu -->
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+    <string name="action_about">About</string>
+
+<!--  bookmark -->
+    <string name="action_add">Bookmark Current Location</string>
+    <string name="action_import">Import from CSV</string>
+    <string name="action_export">Export to CSV</string>
+
+</resources>
