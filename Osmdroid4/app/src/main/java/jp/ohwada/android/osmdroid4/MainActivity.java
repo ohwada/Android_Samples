@@ -125,7 +125,7 @@ private void setupCustomTile() {
 		// Add tiles layer with Custom Tile Source
 		final MapTileProviderBasic tileProvider = new MapTileProviderBasic(getApplicationContext());
 
-		final ITileSource tileSource = new XYTileSource("FietsRegionaal",  3, 18, 256, ".png",
+		final ITileSource tileSource = new XYTileSource("OSM Japan",  3, 18, 256, ".png",
 				new String[] { TILE_SERVER });
 
 		tileProvider.setTileSource(tileSource);
