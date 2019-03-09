@@ -20,13 +20,13 @@ Input Dialog to enter title and description <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmdroid9/screenshot/osmdroid9_dialog_title.png" width="300" /><br/>
 
 File Picker for import CSV  <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmdroid9/screenshot/osmdroid9_import_picke.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmdroid9/screenshot/osmdroid9_import_picker.png" width="300" /><br/>
 
 File Picker for export CSV  <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmdroid9/screenshot/osmdroid9_export_picke.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmdroid9/screenshot/osmdroid9_export_picker.png" width="300" /><br/>
 
 Input Dialog to enter output file name <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmdroid9/screenshot/osmdroid9dialog_export_filename.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmdroid9/screenshot/osmdroid9_dialog_export_filename.png" width="300" /><br/>
 
 ### Reference <br/>
 - https://github.com/osmdroid/osmdroid
