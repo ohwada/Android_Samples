@@ -43,6 +43,10 @@ OpenStreetMap with Marker and window info <br/>
 bookmark the location of the map  using Osmdroid <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmdroid9/screenshot/osmdroid9_dialog_title.png" width="300" /><br/>
 
+### Osmdroid 10
+display Map Tile of Japan GSI  using Osmdroid <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmdroid10/screenshot/osmdroid10_yokohama_gsi_std.png" width="300" /> <br/>
+
 ### Osmbonuspack1 
 display OpenStreetMap with loading KML<br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmbonuspack1/screenshot/osmbonuspack1_paris_tour.png" width="300" /><br/>

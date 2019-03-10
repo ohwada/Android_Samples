@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<resources>
+    <string name="app_name">Osmdroid 10</string>
+
+      <string name="button_1">地理院 標準地図</string>
+    <string name="button_2">地理院 空中写真</string>
+    <string name="button_3">clear overlay</string>
+</resources>
