@@ -72,6 +72,10 @@ display OpenStreetMap with loading KML <br/>
 display OpenStreetMap with loading KML and custom Style <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmbonuspack2/screenshot/bonuspack2_kml_custom_icon.png" width="300" /><br/>
 
+### Osmdroidwms 1
+display Map Tile of Japan MILT  using Osmdroid <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmdroidwms1/screenshot/osmdroidwms1_milt_border.png" width="300" /><br/>
+
 ## Image Library
 https://github.com/ohwada/Android_Samples/blob/master/Image_Library.md
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<resources>
+    <string name="app_name">Osmdroidwms 1</string>
+
+    <string name="button_1">市区町村界</string>
+    <string name="button_2">clear Overlay</string>
+</resources>
