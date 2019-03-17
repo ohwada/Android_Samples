@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<resources>
+    <string name="app_name">Nanohttpd 1</string>
+
+    <string name="button_start">start Server</string>
+    <string name="button_stop">stop Server</string>
+    <string name="label_ipaddr">Ip Address: </string>
+    <string name="label_port">Port: </string>
+</resources>
