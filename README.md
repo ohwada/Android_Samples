@@ -322,6 +322,9 @@ display StreetView with Google Play Services maps:11.0.0 <br/>
 display HTML in WebView <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/WebViewSample/screenshot/screenshot_web_view_html.png" width="200" /><br/>
 
+###  WebView 2
+click listener of a tag <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/WebView2/screenshot/webview2_clicked.png" width="300" /><br/>
 
 ### HTML in TextView
 display HTML in TextView <br/>

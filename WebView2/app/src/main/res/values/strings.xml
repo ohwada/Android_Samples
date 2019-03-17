@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<resources>
+    <string name="app_name">WebView 2</string>
+
+    <string name="button_1">show HTML</string>
+    <string name="button_2">click listener</string>
+    <string name="button_3">clear</string>
+</resources>
