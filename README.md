@@ -278,6 +278,10 @@ improved version of OSC Reciver Sample  <br/>
 
 ## Others
 
+### MyIpAddress 1 <br/>
+IP Address of Android phone myself <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/MyIpAddress1/screenshot/myipaddress1_main.png" width="300" /><br/>
+
 ### FilePicker 1 <br/>
 read and write file with FilePicker <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Filepicker1/screenshot/filepicker1_picker_read.png" width="300" /><br/>

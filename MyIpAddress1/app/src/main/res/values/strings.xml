@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<resources>
+    <string name="app_name">MyIpAddress1</string>
+    <string name="label_1">My IpAddress</string>
+</resources>
