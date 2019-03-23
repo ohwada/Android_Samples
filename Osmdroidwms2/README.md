@@ -8,7 +8,7 @@ Main <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmdroidwms2/screenshot/osmdroidwms2_main.png" width="300" /><br/>
 
 Layer List parsed capabilities <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmdroidwms2/screenshot/osmdroidwms2_laer_list.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmdroidwms2/screenshot/osmdroidwms2_layer_list.png" width="300" /><br/>
 
 Layer Dialog <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osmdroidwms2/screenshot/osmdroidwms2_layer_dialog.png" width="300" /><br/>
