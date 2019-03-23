@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<resources>
+    <string name="app_name">Osmdroidwms 2</string>
+
+	<string name="button_parse">parse WMS Capabilities</string>
+	<string name="button_1">show WMS</string>
+	<string name="button_2">clear overlay</string>
+</resources>
