@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+   <TextView
+        android:text="@string/label_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+   <EditText
+        android:id="@+id/EditText_dialog_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+   <TextView
+        android:text="@string/label_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+   <EditText
+        android:id="@+id/EditText_dialog_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+   <Button
+        android:id="@+id/Button_dialog_submit"
+        android:text="@string/button_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp" />
+
+</LinearLayout>

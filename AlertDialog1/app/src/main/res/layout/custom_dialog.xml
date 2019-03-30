@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+      <!-- Title -->
+        <TextView
+            android:id="@+id/TextView_dialog_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlack"
+            android:layout_gravity="center_horizontal"  
+           android:gravity="center_horizontal"  />
+
+    <!-- Message -->
+        <TextView
+            android:id="@+id/TextView_dialog_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:textSize="16sp" />
+
+        <!-- Positive button -->
+        <Button
+            android:id="@+id/Button_dialog_positive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:textSize="20sp"
+            android:background="@drawable/bg_button"
+            android:layout_gravity="center_horizontal" 
+           android:gravity="center" />    
+
+    </LinearLayout>

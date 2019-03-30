@@ -282,6 +282,10 @@ improved version of OSC Reciver Sample  <br/>
 
 ## Others
 
+### AlertDialog1 <br/>
+customize of AlertDialog <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/AlertDialog1/screenshot/alertdialog1_icon.png" width="300" /><br/>
+
 ### Nanohttpd 1 <br/>
 Web Server on Android using NanoHttpd <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Nanohttpd1/screenshot/nanohttpd1_pc_form.png" width="300" /><br/>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<resources>
+    <string name="app_name"></string>
+
+<!-- activity_main.xml -->
+    <string name="button_1">Simple</string>
+    <string name="button_2">Tree Buttons</string>
+    <string name="button_3">List Dialog</string>
+    <string name="button_4">with Icon</string>
+    <string name="button_5">Custom Title</string>
+    <string name="button_6">Custom Message</string>
+   <string  name="button_7">Custom Button</string>
+    <string  name="button_8">Custom Layout</string>
+    <string name="button_9">Image Dialog</string>
+    <string name="button_10">Input Dialog</string>
+
+<!-- input_dialog.xml -->
+    <string name="label_name">Name</string>
+    <string name="label_age">Age</string>
+    <string name="button_submit">submit</string>
+
+<!-- MainActivity -->
+    <string name="sample_title">Sample</string>
+    <string name="sample_message">The quick brown fox jumps over the lazy dog</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+  <string name="button_yes">Yes</string>
+  <string name="button_no">No</string>
+</resources>
