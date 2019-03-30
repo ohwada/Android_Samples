@@ -14,7 +14,7 @@ Three Button Dialog <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/AlertDialog1/screenshot/alertdialog1_three_buton.png" width="300" /><br/>
 
 List Dialog <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/AlertDialog1/screenshot/alertdialog1_three_list.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/AlertDialog1/screenshot/alertdialog1_list.png" width="300" /><br/>
 
 Dialog with Icon<br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/AlertDialog1/screenshot/alertdialog1_icon.png" width="300" /><br/>
