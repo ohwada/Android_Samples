@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+<!-- Theme_YesNoDialog  -->
+<style name="Theme_YesNoDialog"
+        parent="Theme.AppCompat.Light.Dialog">
+    <item name="android:windowNoTitle">true</item>
+    <item name="dialogTitle">@style/DialogTitleStyle</item>
+    <item name="dialogMessage">@style/DialogMessageStyle</item>
+    <item name="dialogButton">@style/DialogButtonStyle</item>
+</style>
+
+<!-- Theme_TransparentDialog  -->
+<style name="Theme_TransparentDialog">
+        parent="@style/Theme_YesNoDialog">
+    <item name="android:windowBackground">@color/yellow_transparent</item>
+    <item name="android:gravity">bottom</item>
+    <item name="dialogButton">@style/TransparentDialogButtonStyle</item>
+</style>
+
+<!-- DialogTitleStyle  -->
+<style name="DialogTitleStyle">
+<!-- text color  -->
+    <item name="android:textColor">@color/colorPrimary</item>
+<!-- text size  -->
+    <item name="android:textSize">@dimen/dialog_title_size</item>
+</style>
+
+<!-- DialogMessageStyle  -->
+<style name="DialogMessageStyle">
+<!-- deault value  -->
+</style>
+
+<!-- DialogButtonStyle  -->
+<style name="DialogButtonStyle">
+<!-- button text color  -->
+    <item name="android:textColor">@color/colorAccent</item>
+<!-- button text size  -->
+    <item name="android:textSize">@dimen/dialog_button_size</item>
+<!-- button background  -->
+    <item name="android:background">@android:drawable/btn_default_small</item>
+</style>
+
+<!-- TransparentDialogButtonStyle  -->
+<style name="TransparentDialogButtonStyle"
+parent="DialogButtonStyle">
+<!-- button alpha  -->
+    <item name="android:alpha">0.2</item>
+</style>
+
+</resources>

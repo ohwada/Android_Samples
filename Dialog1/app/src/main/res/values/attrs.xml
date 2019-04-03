@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<resources>
+
+<!-- Theme_YesNoDialog  -->
+<declare-styleable name="Theme_YesNoDialog">
+        <attr name="dialogTitle" format="reference"/>
+        <attr name="dialogMessage" format="reference"/>
+        <attr name="dialogButton" format="reference"/>
+</declare-styleable>
+
+</resources>

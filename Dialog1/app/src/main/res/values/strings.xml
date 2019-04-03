@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<resources>
+    <string name="app_name">Dialog1</string>
+
+!-- activity_main.xml -->
+    <string name="button_1">Standard</string>
+    <string name="button_2">Simple</string>
+    <string name="button_3">Custom Width</string>
+    <string name="button_4">Custom Gravity</string>
+    <string name="button_5">Custom Background</string>
+    <string name="button_6">Transparent Background</string>
+    <string name="button_7">Transparent Theme</string>
+
+<!-- MainActivity -->
+    <string name="sample_title">Sample</string>
+    <string name="sample_message">The quick brown fox jumps over the lazy dog</string>
+  <string name="button_yes">Yes</string>
+  <string name="button_no">No</string>
+    <string name="button_ok">OK</string>
+
+</resources>

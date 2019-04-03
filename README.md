@@ -7,6 +7,17 @@ sample codes for Android <br/>
 show Beef Bowl Map <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osm1/screenshot/osm1_markers.png" width="300" /><br/>
 
+### Dialog <br/>
+https://github.com/ohwada/Android_Samples/blob/master/dialog.md <br/>
+
+### AlertDialog1 <br/>
+customize of AlertDialog <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/AlertDialog1/screenshot/alertdialog1_icon.png" width="300" /><br/>
+
+### Dialog1 <br/>
+Yes No Dialog resembles AlerDialog<br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Dialog1/screenshot/Dialog1_standard.png" width="300" /><br/>
+
 ## CSV Library
 https://github.com/ohwada/Android_Samples/blob/master/csv.md <br/>
 
@@ -281,10 +292,6 @@ improved version of OSC Reciver Sample  <br/>
 
 
 ## Others
-
-### AlertDialog1 <br/>
-customize of AlertDialog <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/AlertDialog1/screenshot/alertdialog1_icon.png" width="300" /><br/>
 
 ### Nanohttpd 1 <br/>
 Web Server on Android using NanoHttpd <br/>

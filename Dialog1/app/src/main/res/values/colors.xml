@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2015-12-01 K.OHWADA -->
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- transparent -->
+    <color name="green_transparent">#40008000</color>   
+    <color name="yellow_transparent">#40F0F000</color>
+</resources>
