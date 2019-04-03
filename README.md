@@ -7,6 +7,7 @@ sample codes for Android <br/>
 show Beef Bowl Map <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osm1/screenshot/osm1_markers.png" width="300" /><br/>
 
+
 ### Dialog <br/>
 https://github.com/ohwada/Android_Samples/blob/master/dialog.md <br/>
 
@@ -16,7 +17,8 @@ customize of AlertDialog <br/>
 
 ### Dialog1 <br/>
 Yes No Dialog resembles AlerDialog<br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Dialog1/screenshot/Dialog1_standard.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Dialog1/screenshot/dialog1_standard.png" width="300" /><br/>
+
 
 ## CSV Library
 https://github.com/ohwada/Android_Samples/blob/master/csv.md <br/>

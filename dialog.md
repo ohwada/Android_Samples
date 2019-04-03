@@ -9,7 +9,7 @@ customize of AlertDialog <br/>
 
 ### Dialog1 <br/>
 Yes No Dialog resembles AlerDialog<br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Dialog1/screenshot/Dialog1_standard.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Dialog1/screenshot/dialog1_standard.png" width="300" /><br/>
 
 ## reference
 hthttps://developer.android.com/guide/topics/ui/dialogs <br/>
