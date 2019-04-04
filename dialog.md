@@ -13,7 +13,7 @@ Yes No Dialog resembles AlerDialog<br/>
 
 ### ImageDialog 1 <br/>
 show Image in AlertDialog  <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Imagedialog1/screenshot/imagedialog1_image.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/ImageDialog1/screenshot/imagedialog1_image.png" width="300" /><br/>
 
 ## reference
 https://developer.android.com/guide/topics/ui/dialogs <br/>
