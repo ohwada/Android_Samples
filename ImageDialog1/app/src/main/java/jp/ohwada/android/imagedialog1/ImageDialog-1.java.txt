@@ -1,0 +1,100 @@
+ /**
+ * ImageDialog Sample
+ * 2019-02-01 K.OHWADA 
+ */
+ 
+package jp.ohwada.android.imagedialog1;
+
+ import android.app.AlertDialog;
+ import android.content.Context;
+ import android.graphics.Bitmap;
+ import android.graphics.BitmapFactory;
+ import android.graphics.Point;
+ import android.util.DisplayMetrics;
+ import android.view.Display;
+ import android.view.WindowManager;
+ import android.widget.ImageView;
+import android.util.Log;
+
+ import java.io.File;
+ import java.io.FileInputStream;
+ import java.io.FileNotFoundException;
+
+ public class ImageDialog {
+
+	// dubug
+	private final static boolean D = true; 
+	private final static String TAG = "ImageDialog";
+	private final static String TAG_SUB = "ImageDialog";
+
+ private static final double WIDTH_RATIO_DEFAULT = 0.5;
+
+private Context mContext;
+
+    private FileUtility mFileUtil;
+
+    private int   mDisplayWidth;
+
+    private int   mDisplayHeight;
+
+    private int  mImageWidth;
+
+/** 
+ * constractor
+ */
+public  ImageDialog(Context context) {
+    mContext = context;
+    mFileUtil = new FileUtility(context);
+    setupDisplayParam();
+    mImageWidth = (int)(mDisplayWidth * WIDTH_RATIO_DEFAULT);
+} // ImageDialog
+
+/** 
+ * showImageDialog
+ */
+public void showImageDialog(File file) {
+
+    String title = file.getName();
+
+    // Bitmap bitmap  = mFileUtil.getScaledBitmap(file,  mImageWidth,  mImageWidth);
+    Bitmap bitmap  = mFileUtil.getScaledBitmap(file,  360,  240);
+    // Bitmap bitmap  = mFileUtil.getBitmap(file);
+    ImageView imageView = new ImageView(mContext);
+    imageView.setImageBitmap( bitmap );
+
+    new AlertDialog.Builder(mContext)
+         .setTitle( title )
+        .setView(  imageView )
+        .setPositiveButton( R.string.button_ok, null ) 
+        .show();
+} // showImageDialog
+
+
+/**
+ * setupDisplayParam
+ */ 
+private void setupDisplayParam() {
+        WindowManager wm = (WindowManager)
+            mContext.getSystemService( Context.WINDOW_SERVICE );
+        Display display = wm.getDefaultDisplay();
+        Point size = new Point();
+        display.getSize( size );
+          mDisplayWidth = size.x;
+          mDisplayHeight = size.y;
+} //  setupDisplayParam
+
+
+/**
+ * write into logcat
+ */ 
+private void log_d( String msg ) {
+	    if (D) Log.d( TAG, TAG_SUB + " " + msg );
+} // log_d
+
+
+} // class ImageUtil
+
+
+
+
+

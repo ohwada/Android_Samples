@@ -19,6 +19,10 @@ customize of AlertDialog <br/>
 Yes No Dialog resembles AlerDialog<br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Dialog1/screenshot/dialog1_standard.png" width="300" /><br/>
 
+### ImageDialog 1 <br/>
+show Image in AlertDialog  <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Imagedialog1/screenshot/imagedialog1_image.png" width="300" /><br/>
+
 
 ## CSV Library
 https://github.com/ohwada/Android_Samples/blob/master/csv.md <br/>
