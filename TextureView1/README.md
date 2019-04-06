@@ -10,10 +10,10 @@ Main Menu <br/>
 
 
 draw line on canvas  <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/TextureView1/screenshot/textureview1_canvas.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/TextureView1/screenshot/textureview1_canvas_1.png" width="300" /><br/>
 
 draw small rect on canvas  <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/TextureView1/screenshot/textureview1_canvas.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/TextureView1/screenshot/textureview1_canvas_2.png" width="300" /><br/>
 
 draw triangle using Open GL <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/TextureView1/screenshot/textureview1_gl_triangle.png" width="300" /><br/>
