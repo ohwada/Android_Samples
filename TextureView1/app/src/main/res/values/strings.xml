@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<resources>
+    <string name="app_name">TextureView 1</string>
+
+    <string name="camera_activity">Camera</string>
+    <string name="camera2_activity">Camera2</string>
+    <string name="gltriangle_activity">GL Triangle</string>
+    <string name="canvas_activity">Canvas</string>
+    <string name="canvas2_activity">Canvas2</string>
+    
+<!-- menu -->
+    <string name="rotate_left">Rotate Left</string>
+    <string name="rotate_right">Rotate Right</string>
+    <string name="increase_alpha">Increase Alpha</string>
+    <string name="decrease_alpha">Decrease Alpha</string>
+
+<!-- camera -->
+    <string name="request_permission">This app needs camera permission.</string>
+    <string name="msg_not_support_carera_api">This device doesn\'t support Camera API.</string>
+    <string name="msg_not_support_carera_api2">This device doesn\'t support Camera2 API.</string>
+    <string name="msg_not_found_back_camera">not found back camera</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+</resources>
