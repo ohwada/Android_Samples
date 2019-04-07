@@ -8,6 +8,13 @@ show Beef Bowl Map <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osm1/screenshot/osm1_markers.png" width="300" /><br/>
 
 
+## Camera2 API <br/>
+https://github.com/ohwada/Android_Samples/blob/master/camera2.md <br/>
+
+### Camera21
+Camera Preview using  Camera2 API <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera21/screenshot/camera21_preview.png" width="300" /><br/>
+
 ### Dialog <br/>
 https://github.com/ohwada/Android_Samples/blob/master/dialog.md <br/>
 
