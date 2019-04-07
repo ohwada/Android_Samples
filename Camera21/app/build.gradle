@@ -5,7 +5,7 @@ android {
     buildToolsVersion "27.0.3"
     defaultConfig {
         applicationId "jp.ohwada.android.camera21"
-        minSdkVersion 16 // Jelly Bean
+        minSdkVersion 21 // Lollipop
         targetSdkVersion 27 // Oreo
         versionCode 1
         versionName "1.0"
