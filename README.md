@@ -15,6 +15,10 @@ https://github.com/ohwada/Android_Samples/blob/master/camera2.md <br/>
 Camera Preview using  Camera2 API <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera21/screenshot/camera21_preview.png" width="300" /><br/>
 
+### Camera22
+Take Picture using  Camera2 API <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera22/screenshot/camera22_preview.png" width="300" /><br/>
+
 ### Dialog <br/>
 https://github.com/ohwada/Android_Samples/blob/master/dialog.md <br/>
 
