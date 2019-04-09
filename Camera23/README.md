@@ -5,7 +5,7 @@ Record Video  using  Camera2 API <br/>
 
 ### screenshot <br/>
 Camera Preview <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera23/screenshot/camera23_preview.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera23/screenshot/carema23_preview.png" width="300" /><br/>
 
 Recording Video, when click "record" button <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera23/screenshot/camera23_recording.png" width="300" /><br/>
