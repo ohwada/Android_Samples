@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 24 // Nougat
-    buildToolsVersion "24.0.1"
+    compileSdkVersion 27 // Oreo
+    buildToolsVersion "27.0.3"
     defaultConfig {
-        applicationId "jp.ohwada.android.sqlite1"
-        minSdkVersion 16 // Jelly Bean
-        targetSdkVersion 24 // Nougat
+        applicationId "jp.ohwada.android.camera23"
+        minSdkVersion 21 // Lollipop
+        targetSdkVersion 27 // Oreo
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -22,6 +22,6 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 
-    compile 'com.android.support:appcompat-v7:24.0.0'
+    compile group: 'com.android.support', name: 'appcompat-v7', version: '27.1.1'
 
 }
