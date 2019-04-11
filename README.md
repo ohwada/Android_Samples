@@ -23,6 +23,10 @@ Take Picture using  Camera2 API <br/>
 Record Video  using  Camera2 API <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera23/screenshot/carema23_preview.png" width="300" /><br/>
 
+### Camera 24
+Take Picture with RAW format using  Camera2 API <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera24/screenshot/camera24_preview.png" width="300" /><br/>
+
 ### Dialog <br/>
 https://github.com/ohwada/Android_Samples/blob/master/dialog.md <br/>
 
