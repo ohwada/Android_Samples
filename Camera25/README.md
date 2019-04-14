@@ -5,7 +5,7 @@ overlay on camera preview using  Camera2 API <br/>
 
 ### screenshot <br/>
 Camera Preview <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera25/screenshot/camera25_preview.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera25/screenshot/camera25_previvew.png" width="300" /><br/>
 
 overlay on camera preview <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera25/screenshot/camera25_overlay.png" width="300" /><br/>
