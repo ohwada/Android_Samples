@@ -27,6 +27,11 @@ Record Video  using  Camera2 API <br/>
 Take Picture with RAW format using  Camera2 API <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera24/screenshot/camera24_preview.png" width="300" /><br/>
 
+### Camera 25
+overlay on camera preview using  Camera2 API <br/>
+overlay on camera preview <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera25/screenshot/camera25_overlay.png" width="300" /><br/>
+
 ### Dialog <br/>
 https://github.com/ohwada/Android_Samples/blob/master/dialog.md <br/>
 
