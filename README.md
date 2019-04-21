@@ -32,6 +32,10 @@ overlay on camera preview using  Camera2 API <br/>
 overlay on camera preview <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera25/screenshot/camera25_overlay.png" width="300" /><br/>
 
+### Camera 26
+Face Detection using  Camera2 API <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera26/screenshot/camera26_detected.png" width="300" /><br/>
+
 ### Dialog <br/>
 https://github.com/ohwada/Android_Samples/blob/master/dialog.md <br/>
 

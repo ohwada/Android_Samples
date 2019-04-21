@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<resources>
+    <string name="app_name">Camera26</string>
+
+    <string name="request_permission">This app needs camera permission.</string>
+    <string name="msg_not_support">This device doesn\'t support Camera2 API.</string>
+    <string name="msg_not_support_face_detect">This camera doesn\'t support Face Detect</string>
+    <string name="msg_not_found">not found back camera</string>
+    <string  name="msg_not_found_front">not found front camera</string>
+    <string name="button_ok">OK</string>
+<string name="button_cancel">Cancel</string>
+    <string name="button_detect">Face Detect</string>
+</resources>
