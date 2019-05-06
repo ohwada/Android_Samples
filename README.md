@@ -332,6 +332,10 @@ improved version of OSC Reciver Sample  <br/>
 
 ## Others
 
+### Vision 1 <br/>
+Face Detection using  Vision API <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Vision1/screenshot/vision1_face_detect.png" width="300" /><br/>
+
 ### TextureView 1 <br/>
 sample code of  TextureView <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/TextureView1/screenshot/textureview1_gl_triangle.png" width="300" /><br/>

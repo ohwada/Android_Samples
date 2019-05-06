@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<resources>
+    <string name="app_name">Vision1</string>
+
+    <string name="msg_low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="msg_not_available">Face detector dependencies are not yet available.</string>
+    <string name="button_ok">OK</string>
+</resources>
