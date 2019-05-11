@@ -41,6 +41,11 @@ Take Picture using  Camera2 API <br/>
  and Camera2Source similar to CameraSource of Vision API <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera27/screenshot/camera27_picture_saved.png" width="300" /><br/>
 
+### Camera 28
+Face Detection using  Camera2 API <br/>
+ and Camera2Source similar to CameraSource of Vision API <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera28/screenshot/camera28_face_detect.png" width="300" /><br/>
+
 ### Dialog <br/>
 https://github.com/ohwada/Android_Samples/blob/master/dialog.md <br/>
 

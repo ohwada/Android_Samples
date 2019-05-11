@@ -4,7 +4,6 @@ android {
     compileSdkVersion 27 // Oreo
     buildToolsVersion "27.0.3"
     defaultConfig {
-        applicationId "jp.ohwada.android.camera26"
         minSdkVersion 21 // Lollipop
         targetSdkVersion 27 // Oreo
         versionCode 1
