@@ -337,6 +337,10 @@ improved version of OSC Reciver Sample  <br/>
 
 ## Others
 
+### RoundedImageView1 <br/>
+show Rounded image using  RoundedImageView <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/RoundedImageView1/screenshot/rounded_image_view1_main.png" width="300" /><br/>
+
 ### Vision 1 <br/>
 Face Detection using  Vision API <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Vision1/screenshot/vision1_face_detect.png" width="300" /><br/>
