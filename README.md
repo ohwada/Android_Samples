@@ -46,6 +46,12 @@ Face Detection using  Camera2 API <br/>
  and Camera2Source similar to CameraSource of Vision API <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera28/screenshot/camera28_face_detect.png" width="300" /><br/>
 
+### Camera 29
+Take Picture with Shutter Sound using  Camera2 API <br/>
+ and Camera2Source similar to CameraSource of Vision API <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera29/screenshot/camera29_preview.png" width="300" /><br/>
+
+
 ### Dialog <br/>
 https://github.com/ohwada/Android_Samples/blob/master/dialog.md <br/>
 
