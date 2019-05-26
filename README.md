@@ -3,6 +3,15 @@ Android Samples
 
 sample codes for Android <br/>
 
+
+### Vision 1 <br/>
+Face Detection using  Vision API <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Vision1/screenshot/vision1_face_detect.png" width="300" /><br/>
+
+### Vision2
+Detect Faces from Camera images using  camara2 API and Mobile Vision API <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Vision2/screenshot/vision2_face_detect.png" width="300" /><br/>
+
 ###  Osm 1
 show Beef Bowl Map <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osm1/screenshot/osm1_markers.png" width="300" /><br/>
@@ -346,10 +355,6 @@ improved version of OSC Reciver Sample  <br/>
 ### RoundedImageView1 <br/>
 show Rounded image using  RoundedImageView <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/RoundedImageView1/screenshot/rounded_image_view1_main.png" width="300" /><br/>
-
-### Vision 1 <br/>
-Face Detection using  Vision API <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Vision1/screenshot/vision1_face_detect.png" width="300" /><br/>
 
 ### TextureView 1 <br/>
 sample code of  TextureView <br/>
