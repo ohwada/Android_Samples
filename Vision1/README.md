@@ -1,7 +1,7 @@
 Vision 1 - Android Samples
 ===============
 
-Face Detection using  Vision API <br/>
+Face Detection from Photo using  Mobile Vision API <br/>
 
 
 ### screenshot <br/>
