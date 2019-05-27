@@ -352,6 +352,10 @@ improved version of OSC Reciver Sample  <br/>
 
 ## Others
 
+### AudioPlayer1 <br/>
+play Audio Files using MediaPlayer <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/AudioPlayer1/screenshot/audio_player1_file_list.png" width="300" /><br/>
+
 ### RoundedImageView1 <br/>
 show Rounded image using  RoundedImageView <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/RoundedImageView1/screenshot/rounded_image_view1_main.png" width="300" /><br/>

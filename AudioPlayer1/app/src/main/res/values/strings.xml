@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AudioPlayer1</string>
+
+    <string name="button_copy">copy Files from assets</string>  
+    <string name="button_play">Play</string>
+    <string name="button_pause">Pause</string>
+    <string name="button_stop">Stop</string>
+</resources>
+
