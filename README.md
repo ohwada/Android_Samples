@@ -16,7 +16,6 @@ Detect Faces from Camera images using  camara2 API and Mobile Vision API <br/>
 show Beef Bowl Map <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osm1/screenshot/osm1_markers.png" width="300" /><br/>
 
-
 ## Camera2 API <br/>
 https://github.com/ohwada/Android_Samples/blob/master/camera2.md <br/>
 
@@ -60,8 +59,18 @@ Take Picture with Shutter Sound using  Camera2 API <br/>
  and Camera2Source similar to CameraSource of Vision API <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera29/screenshot/camera29_preview.png" width="300" /><br/>
 
+## MediaPlayer <br/>
+https://github.com/ohwada/Android_Samples/blob/master/MediaPlayer.md <br/>
 
-### Dialog <br/>
+### AudioPlayer1 <br/>
+play Audio Files using MediaPlayer <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/AudioPlayer1/screenshot/audio_player1_play.png" width="300" /><br/>
+
+### VideoPlayer <br/>
+play Video files using MediaPlayer <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/VideoPlayer1/screenshot/video_player1_play.png" width="300" /><br/>
+
+## Dialog <br/>
 https://github.com/ohwada/Android_Samples/blob/master/dialog.md <br/>
 
 ### AlertDialog1 <br/>
@@ -351,6 +360,10 @@ improved version of OSC Reciver Sample  <br/>
 
 
 ## Others
+
+### VideoPlayer <br/>
+play Video files using MediaPlayer <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/VideoPlayer1/screenshot/video_player1_play.png" width="300" /><br/>
 
 ### AudioPlayer1 <br/>
 play Audio Files using MediaPlayer <br/>
