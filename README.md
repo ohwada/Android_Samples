@@ -61,7 +61,8 @@ Take Picture with Shutter Sound using  Camera2 API <br/>
 
 ### Camera 211
 Auto Focus using  Camera2 API <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera29/screenshot/camera211_auto_focus.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera211/screenshot/camera211_auto_focus.png" width="300" /><br/>
+
 
 ## MediaPlayer <br/>
 https://github.com/ohwada/Android_Samples/blob/master/MediaPlayer.md <br/>
