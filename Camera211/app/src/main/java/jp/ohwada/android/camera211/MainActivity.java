@@ -452,9 +452,9 @@ new Camera2Source.AutoFocusCallback() {
  * procAutoFocus
  */ 
 private void procAutoFocus(boolean success) {
-    //hideAutoFocusImage_onUI();
+    hideAutoFocusImage_onUI();
     if(success) {
-            //showToast_onUI("AutoFocus Successful");
+            showToast_onUI("AutoFocus Successful");
     } else {
             showToast_onUI("AutoFocus Faild");
     }
