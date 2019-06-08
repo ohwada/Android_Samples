@@ -48,5 +48,10 @@ Auto Focus using  Camera2 API <br/>
  and Camera2Source similar to CameraSource of Vision API <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera211/screenshot/camera211_auto_focus.png" width="300" /><br/>
 
+### Camera 212
+explore  supported Camera2 Features using  Camera2 API <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera 212/screenshot/camera212_main.png" width="300" /><br/>
+
+
 ### Reference <br/>
 https://developer.android.com/reference/android/hardware/camera2/package-summary
