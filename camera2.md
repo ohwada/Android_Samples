@@ -50,7 +50,7 @@ Auto Focus using  Camera2 API <br/>
 
 ### Camera 212
 explore  supported Camera2 Features using  Camera2 API <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera 212/screenshot/camera212_main.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera212/screenshot/camera212_main.png" width="300" /><br/>
 
 
 ### Reference <br/>
