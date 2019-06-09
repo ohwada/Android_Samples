@@ -16,6 +16,9 @@ Detect Faces from Camera images using  camara2 API and Mobile Vision API <br/>
 Detect Barcodes from Camera images using  camara2 API and Vision API <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Vision3/screenshot/vision3_detect.png" width="300" /><br/>
 
+### Vision4
+Detect Texts from Camera images using  camara2 API and Vision API <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Vision3/screenshot/vision4_detect.png" width="300" /><br/>
 
 ###  Osm 1
 show Beef Bowl Map <br/>

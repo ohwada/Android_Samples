@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<resources>
+    <string name="app_name">Vision4</string>
+
+<!-- android_manifest.xml -->
+    <string name="title_activity_main">Ocr Detector Sample</string>
+    <string name="title_activity_ocr_capture">Read Text</string>
+
+<!-- activity_main.xml -->
+    <string name="cb_auto_focus">Auto Focus</string>
+    <string name="cb_use_flash">Use Flash</string>
+    <string name="button_read_text">Detect Text</string>
+    <string name="status_ocr_header">Click &quot;Detect Text&quot; to detect text</string>
+
+<!-- ActivityMain -->
+    <string name="status_ocr_success">Text read successfully</string>
+    <string name="status_ocr_failure">No text captured</string>
+    <string name="status_ocr_error">"Error reading text: %1$s"</string>
+
+<!-- OcrCaptureactivity -->
+    <string name="low_storage_error">Ocr dependencies cannot be downloaded due to low device storage</string>
+
+<!-- CameraPerm -->
+    <string name="request_permission">This app needs CAMERA permission.</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+
+</resources>
