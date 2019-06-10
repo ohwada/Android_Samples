@@ -380,7 +380,7 @@ improved version of OSC Reciver Sample  <br/>
 
 ### Preference1 <br/>
 Sample of Preference <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Preference1/sreenshot/preference1_general.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Preference1/sreenshot/Preference1_general.png" width="300" /><br/>
 
 ### VideoPlayer1 <br/>
 play Video files using MediaPlayer <br/>
