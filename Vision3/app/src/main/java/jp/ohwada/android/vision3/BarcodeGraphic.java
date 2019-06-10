@@ -33,13 +33,24 @@ public class BarcodeGraphic extends GraphicOverlay.Graphic {
     private final static String TAG = "Vision";
     private final static String TAG_SUB = "BarcodeGraphic";
 
+
+ /**
+ * Color for rectangle and infos on detected Barcodes
+ */
     private static final int COLOR_CHOICES[] = {
             Color.BLUE,
             Color.CYAN,
             Color.GREEN
     };
 
+
+ /**
+ * index for COLOR_CHOICES
+ * This variable must be static
+ * make different value ​​and color for Barcodes
+ */
     private static int mCurrentColorIndex = 0;
+
 
     private int mId;
 
