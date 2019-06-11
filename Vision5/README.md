@@ -10,7 +10,7 @@ Camera Preview<br/>
 
 start to detect Face, when click Detect button <br/>
 and overlay face position, orientation, and landmarks  on the detected Faces <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Vision5/screenshot/vision5_face_detect.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Vision5/screenshot/vision5_detect.png" width="300" /><br/>
 
 
 ### Reference <br/>
