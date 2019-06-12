@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<resources>
+    <string name="app_name">Vision6</string>
+
+    <string name="request_permission">This app needs CAMERA permission.</string>
+    <string name="msg_not_support">This device doesn\'t support Camera2 API.</string>
+    <string name="msg_not_found">not found back camera</string>
+
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_flip">Flip</string>
+    <string name="button_detect">Detect</string>
+
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+</resources>

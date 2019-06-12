@@ -24,6 +24,11 @@ Detect Texts from Camera images using  camara2 API and Vision API <br/>
 Detect Faces from Camera images using  camara2 API and Vision API <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Vision5/screenshot/vision5_detect.png" width="300" /><br/>
 
+### Vision6
+Detect Faces from Camera images using  camara2 API and Vision API <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Vision6/screenshot/vision6_face_detect.png" width="300" /><br/>
+
+
 ###  Osm 1
 show Beef Bowl Map <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Osm1/screenshot/osm1_markers.png" width="300" /><br/>
