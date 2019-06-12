@@ -26,7 +26,7 @@ Detect Faces from Camera images using  camara2 API and Vision API <br/>
 
 ### Vision6
 Detect Faces from Camera images using  camara2 API and Vision API <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Vision6/screenshot/vision6_face_detect.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Vision6/screenshot/vision6_detect.png" width="300" /><br/>
 
 
 ###  Osm 1
