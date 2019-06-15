@@ -84,6 +84,9 @@ Auto Focus using  Camera2 API <br/>
 explore  supported Camera2 Features using  Camera2 API <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera212/screenshot/camera212_main.png" width="300" /><br/>
 
+### Camera 213
+record Video  using  Camera2 API <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera 213/screenshot/camera213_preview.png" width="300" /><br/>
 
 ## MediaPlayer <br/>
 https://github.com/ohwada/Android_Samples/blob/master/MediaPlayer.md <br/>

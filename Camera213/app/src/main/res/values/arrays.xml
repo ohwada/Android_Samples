@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2018-05-01 K.OHWADA -->
+<resources>
+    <string-array name="pref_list_output_format_titles">
+        <item>THREE_GPP</item>
+        <item>MPEG_4</item>
+        <item>WEBM</item>
+    </string-array>
+
+    <string-array name="pref_list_output_format_values">
+        <item>1</item>
+        <item>2</item>
+        <item>9</item>
+    </string-array>
+
+</resources>

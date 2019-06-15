@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<resources>
+    <string name="app_name">Camera213</string>
+
+<!-- camera preview -->
+    <string name="request_permission">This app needs CAMERA permission.</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_flip">Flip</string>
+
+<!-- video -->
+    <string name="record_video">Video</string>
+    <string name="stop_video">Stop</string>
+    <string name="button_setting">Setting</string>
+
+    <!-- pref_settings.xml -->
+    <string name="pref_title_audio">with Audio</string>
+    <string name="pref_description_audio">record Video with audion from MIC</string>
+
+    <string name="pref_title_storage">save in DCIM</string>
+    <string name="pref_description_storage">save Video in DCIM directoty in External Storage</string>
+
+    <string name="pref_title_list_output_format">Output Format</string>
+
+</resources>

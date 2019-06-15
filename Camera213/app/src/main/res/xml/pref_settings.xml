@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <SwitchPreference
+        android:key="switch_audio"
+        android:defaultValue="false"
+        android:summary="@string/pref_description_audio"
+        android:title="@string/pref_title_audio" />
+
+    <SwitchPreference
+        android:key="switch_storage"
+        android:defaultValue="false"
+        android:summary="@string/pref_description_storage"
+        android:title="@string/pref_title_storage" />
+
+    <ListPreference
+        android:key="list_output_format"
+        android:defaultValue="2"
+        android:entries="@array/pref_list_output_format_titles"
+        android:entryValues="@array/pref_list_output_format_values"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_list_output_format" />
+
+</PreferenceScreen>
