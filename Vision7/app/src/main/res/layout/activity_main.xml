@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="false">
+
+    <jp.ohwada.android.vision7.ui.CameraSourcePreview
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+<jp.ohwada.android.vision7.ui.GraphicOverlay
+            android:id="@+id/faceOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </jp.ohwada.android.vision7.ui.CameraSourcePreview>
+
+
+    <LinearLayout
+        android:id="@+id/control"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/linear_layout_control_height"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:background="@color/control_background">
+
+    <Space 
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/Button_detect"
+            android:text="@string/button_detect" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1" />
+
+    <Space 
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_weight="1" />
+
+    </LinearLayout>
+
+</FrameLayout>
