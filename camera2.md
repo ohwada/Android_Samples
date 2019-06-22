@@ -56,5 +56,9 @@ explore  supported Camera2 Features using  Camera2 API <br/>
 record Video  using  Camera2 API <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera213/screenshot/camera213_preview.png" width="300" /><br/>
 
+### Camera 214
+Take Picture with Raw format  using  Camera2 API <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera 214/screenshot/camera214_preview.png" width="300" /><br/>
+
 ### Reference <br/>
 https://developer.android.com/reference/android/hardware/camera2/package-summary

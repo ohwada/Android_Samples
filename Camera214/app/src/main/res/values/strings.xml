@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<resources>
+    <string name="app_name">Camera214</string>
+
+    <string name="request_permission">This app needs CAMERA permission.</string>
+    <string name="request_permission_camera_storage">This app needs CAMERA and WRITE_EXTERNAL_STORAGE permissions.</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_picture">Picture</string>
+</resources>
