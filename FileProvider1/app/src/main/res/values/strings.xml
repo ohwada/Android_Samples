@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<resources>
+    <string name="app_name">FileProvider1</string>
+
+    <string name="button_copy">Copy</string>
+    <string name="button_camera">Camera</string>
+
+    <string name="dialog_select_title">select the next procedure</string>
+    <string name="dialog_select_view">Viewer</string>
+    <string name="dialog_select_send">Share</string>
+    <string name="chooser_title_viewer">select the viewer app</string>
+    <string name="chooser_title_share">select the share app</string>
+</resources>

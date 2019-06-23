@@ -1,0 +1,96 @@
+/**
+ * File Provider Sample
+ * 2019-02-01 K.OHWADA
+ */
+
+package jp.ohwada.android.fileprovider1;
+
+
+import android.app.Activity;
+import android.content.Context;
+import android.content.pm.PackageManager;
+import android.support.v4.app.ActivityCompat;
+import android.util.Log;
+
+import java.util.ArrayList;
+
+
+/** 
+ *  class PermissionUtils
+ *  original : https://github.com/GoogleCloudPlatform/cloud-vision/tree/master/android
+ */
+public class PermissionUtils {
+
+   // debug
+	private final static boolean D = true;
+    private final static String TAG = "CloudVision";
+    private final static String TAG_SUB = "PermissionUtils";
+
+
+/**
+  * requestPermission
+ */ 
+    public static boolean requestPermission(
+            Activity activity, int requestCode, String[] permissions) {
+        boolean granted = true;
+        Context context = activity;
+        ArrayList<String> permissionsNeeded = new ArrayList<>();
+
+        for (int i=0; i<permissions.length; i++) {
+                String permission = permissions[i];
+                boolean hasPermission = checkSelfPermission(context, permission);
+                granted &= hasPermission;
+                if (!hasPermission) {
+                        permissionsNeeded.add(permission);
+                }
+        } // for
+
+        if (granted) {
+            return true;
+        } else {
+                    String[] perms1 = new String[permissionsNeeded.size()];
+                    String[] perms2 = permissionsNeeded.toArray(perms1);
+                    requestPermissions( activity, perms2, requestCode);
+            return false;
+        }
+    }
+
+
+
+/**
+  * checkSelfPermission
+ */ 
+public static void requestPermissions(Activity activity, String[] permissions, int requestCode) {
+            ActivityCompat.requestPermissions(activity, permissions,
+requestCode);
+}
+
+
+/**
+  * checkSelfPermission
+ */ 
+public static boolean checkSelfPermission(Context context, String permission) {
+        int permissionCheck = ActivityCompat.checkSelfPermission(context, permission);
+        boolean hasPermission = (permissionCheck == PackageManager.PERMISSION_GRANTED);
+        return hasPermission;
+}
+
+
+/**
+  * permissionGranted
+ */ 
+    public static boolean permissionGranted(
+            int requestCode, int permissionCode, int[] grantResults) {
+        return requestCode == permissionCode && grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED;
+    }
+
+
+/**
+ * write into logcat
+ */ 
+private static void log_d( String msg ) {
+	    if (D) Log.d( TAG, TAG_SUB + " " + msg );
+} // log_d
+
+
+} // class PermissionUtils

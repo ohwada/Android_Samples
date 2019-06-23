@@ -398,6 +398,10 @@ improved version of OSC Reciver Sample  <br/>
 
 ## Others
 
+### FileProvider1 <br/>
+Share Files  <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/FileProvider1/screenshot/file_provider1_select_dialog.png" width="300" /><br/>
+
 ### Preference1 <br/>
 Sample of Preference <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Preference1/sreenshot/Preference1_general.png" width="300" /><br/>
