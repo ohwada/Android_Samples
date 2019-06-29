@@ -62,7 +62,7 @@ Take Picture with Raw format  using  Camera2 API <br/>
 
 ### Camera 215
 zoom Camera using  Camera2 API <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera215/screenshot/camera215_picture_zoom.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera215/screenshot/Camera215_zoom.png" width="300" /><br/>
 
 ### Reference <br/>
 https://developer.android.com/reference/android/hardware/camera2/package-summary

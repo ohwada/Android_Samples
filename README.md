@@ -96,6 +96,11 @@ record Video  using  Camera2 API <br/>
 Take Picture with Raw format  using  Camera2 API <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera214/screenshot/camera214_preview.png" width="300" /><br/>
 
+### Camera 215
+zoom Camera using  Camera2 API <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera215/screenshot/Camera215_zoom.png" width="300" /><br/>
+
+
 ## MediaPlayer <br/>
 https://github.com/ohwada/Android_Samples/blob/master/MediaPlayer.md <br/>
 
