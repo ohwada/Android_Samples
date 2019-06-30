@@ -18,6 +18,6 @@ public class Constant {
  * set your API KEY
  * require in VisionClient
  */
-    public static final String CLOUD_VISION_API_KEY = "AIzaSyDz-lVg7JBWw2FtTV-jKEd2vsv3YrskE8k";
+    public static final String CLOUD_VISION_API_KEY = "Your API Key";
 
 } // class class Constant
