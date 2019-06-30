@@ -32,6 +32,10 @@ Detect Faces from Camera images using  camara2 API and Vision API <br/>
 Detect Faces and Barcodes from Camera images using  camara2 API and Vision API <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Vision7/screenshot/vision7_detect.png" width="300" /><br/>
 
+### CloudVision1
+Detect Image Label using CloudVision API <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/CloudVision1/screenshot/cloud_vision1_result_dog.png" width="300" /><br/>
+
 
 ###  Osm 1
 show Beef Bowl Map <br/>

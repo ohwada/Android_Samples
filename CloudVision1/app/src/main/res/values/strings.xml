@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<resources>
+    <string name="app_name">" CloudVision1"</string>
+
+<!-- activity_main.xml -->
+    <string name="button_copy">Copy</string>
+    <string name="button_start">Start</string>
+
+<!-- MainActivity -->
+    <string name="dialog_select_prompt">Choose a picture</string>
+    <string name="dialog_select_camera">Camera</string>
+    <string name="dialog_select_gallery">Gallery</string>
+    <string name="image_picker_error">Something is wrong with that image. Pick a different one please.</string>
+    <string name="loading_message">Uploading image. Please wait.</string>
+
+    <string name="chooser_title_gallery">Choose app</string>
+    <string name="dialog_upload_title">upload image to cloud vision</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+
+    <string name="response_header">I found these things:\n</string>
+
+</resources>

@@ -1,7 +1,7 @@
 Android Vision
 ===============
 
-sample codes  of Mobile Vision API <br/>
+sample codes of MobileVision API and CloudVision API <br/>
 
 ### Vision1
 Face Detection from Photo using  Mobile Vision API <br/>
@@ -33,6 +33,11 @@ overlay GooglyEyes on the detected Face <br/>
 ### Vision7
 Detect Faces and Barcodes from Camera images using  camara2 API and Vision API <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Vision7/screenshot/vision7_detect.png" width="300" /><br/>
+
+### CloudVision1
+Detect Image Label using CloudVision API <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/CloudVision1/screenshot/cloud_vision1_result_dog.png" width="300" /><br/>
+
 
 ### Reference <br/>
 - https://developers.google.com/vision/
