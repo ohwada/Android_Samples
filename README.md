@@ -407,6 +407,13 @@ improved version of OSC Reciver Sample  <br/>
 
 ## Others
 
+
+### Html1 <br/>
+show rendered HTML in TextView <br/>
+remove HTML tags <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Html1/screenshot/html1_main.png" width="300" /><br/>
+
+
 ### FileProvider1 <br/>
 Share Files  <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/FileProvider1/screenshot/file_provider1_select_dialog.png" width="300" /><br/>

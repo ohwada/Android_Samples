@@ -1,0 +1,32 @@
+package jp.ohwada.android.html1;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+
+public class CommentDelete {
+
+    private static final Pattern COMMENT_START = Pattern.compile("<[^>/!]{1}[^>]*?>");
+    private static final Pattern COMMENT_END = Pattern.compile("</[^>!]*?>");
+
+    public static String removeTags(String str) {
+        return removePattern(removePattern(str, COMMENT_START), COMMENT_END);
+    }
+
+    public static String removePattern(String target, Pattern pattern) {
+
+
+        Matcher matcher = pattern.matcher(target);
+        StringBuilder buff = new StringBuilder();
+        int start = 0;
+        while (matcher.find()) {
+            buff.append(target.substring(start, matcher.start()));
+            start = matcher.end();
+        }
+        buff.append(target.substring(start, target.length()));
+
+        return buff.toString();
+    }
+
+
+}
