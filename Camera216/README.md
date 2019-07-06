@@ -8,7 +8,7 @@ Camera Preview <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera216/screenshot/Camera216_preview.png" width="300" /><br/>
 
 show Setting Fragment, when click "Setting" button <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera216/screenshot/camera216_setting.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera216/screenshot/Camera216_setting.png" width="300" /><br/>
 
 show Location in Photo app <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera216/screenshot/Camera216_photo_location.png" width="300" /><br/>
