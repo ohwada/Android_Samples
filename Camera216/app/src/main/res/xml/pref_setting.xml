@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="switch_location"
+        android:summary="@string/pref_description_location"
+        android:title="@string/pref_title_location" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="switch_storage"
+        android:summary="@string/pref_description_storage"
+        android:title="@string/pref_title_storage" />
+
+</PreferenceScreen>

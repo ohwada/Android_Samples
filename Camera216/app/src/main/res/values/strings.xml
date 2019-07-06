@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<resources>
+    <string name="app_name">Camera216</string>
+
+    <string name="request_permission">This app needs camera permission.</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_picture">Picture</string>
+    <string name="button_setting">Setting</string>
+
+    <!-- pref_setting.xml -->
+    <string name="pref_title_location">save Location</string>
+    <string name="pref_description_location">save Picture with Location</string>
+  <string name="pref_title_storage">save in SD Card</string>
+    <string name="pref_description_storage">save Picture in SD Card</string>
+
+</resources>
