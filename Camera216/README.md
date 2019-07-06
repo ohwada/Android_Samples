@@ -5,7 +5,7 @@ Take Picture with Location using  Camera2 API and LocationManager <br/>
 
 ### screenshot <br/>
 Camera Preview <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera216/screenshot/camera216_preview.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera216/screenshot/Camera216_preview.png" width="300" /><br/>
 
 show Setting Fragment, when click "Setting" button <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera216/screenshot/camera216_setting.png" width="300" /><br/>
