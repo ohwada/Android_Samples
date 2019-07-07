@@ -49,6 +49,13 @@
                 android:textSize="14sp"
                 android:layout_marginBottom="8dp" />
 
+            <TextView
+                android:id="@+id/TextView_error"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_marginBottom="8dp" />
+
             <ImageView
                 android:id="@+id/ImageView_main"
                 android:layout_width="match_parent"

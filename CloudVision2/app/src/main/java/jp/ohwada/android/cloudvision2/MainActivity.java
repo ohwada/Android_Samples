@@ -232,6 +232,8 @@ private void procItemClick( int position, long id ) {
  */
 private void showImageDialog(WebItem item) {
 
+    log_d("showImageDialog: " + item.toString());
+
     final String pageUrl = item.getPageUrl();
     String title = item.getTitle();
     String imageUrl = item.getImageUrl();
@@ -284,7 +286,14 @@ private void startWeb( String url) {
 
             @Override
             public void onPostExecute(WebDetection response) {
+                    log_d("onPostExecute");
                     procPostExecute(response) ;
+            }
+
+            @Override
+            public void onError(String error) {
+                log_d("onError");
+                procResponseError_onUI(error);
             }
 
     }); // VisionCallback

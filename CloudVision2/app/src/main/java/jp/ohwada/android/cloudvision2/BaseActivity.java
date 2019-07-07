@@ -11,6 +11,7 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -63,6 +64,8 @@ public class BaseActivity extends Activity {
  * TextView for the result of image recognition
  */ 
     protected TextView mTextViewDetails;
+
+   protected TextView mTextViewError;
 
 
 /**
@@ -137,6 +140,8 @@ public class BaseActivity extends Activity {
 
         mTextViewDetails = (TextView)findViewById(R.id.TextView_details);
         mImageViewMain = (ImageView)findViewById(R.id.ImageView_main);
+
+        mTextViewError = (TextView)findViewById(R.id.TextView_error);
 
         mVisionClient = new VisionClient(this);
         mCameraUtil = new CameraUtil(this);
@@ -342,7 +347,14 @@ protected void showUploadDialog(final Bitmap bitmap) {
 
             @Override
             public void onPostExecute(String result) {
+                log_base("onPostExecute");
                 procPostExecute(result);
+            }
+
+            @Override
+            public void onError(String error) {
+                log_base("onError");
+                procResponseError_onUI(error);
             }
 
     }); // VisionCallback
@@ -355,13 +367,37 @@ protected void showUploadDialog(final Bitmap bitmap) {
  */
 protected void procPostExecute(String result) {
                     String text = getString(R.string.response_header);
+                    String msg = "";
                     if (result == null ) {
                             text += "no result";
+                            msg = "cloud vision faild";
                     } else {
                             text += result;
+                            msg = "cloud vision successful";
                     }
                     mTextViewDetails.setText(text);
+                    showToast(msg);
 } // procPostExecute
+
+
+
+/**
+ * procResponseError_onUI
+ */ 
+protected void procResponseError_onUI(final String error) {
+
+    log_base("procResponseError:" + error);
+
+    runOnUiThread(new Runnable() {
+        @Override
+        public void run() {
+                mTextViewError.setText(error);
+                mTextViewError.setTextColor(Color.RED);
+                showToast("cloud vision Faild");
+        }
+    }); // runOnUiThread
+
+} // procResponseError_onUI
 
 
 /**

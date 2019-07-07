@@ -17,6 +17,7 @@ import android.util.Log;
 
 
 import com.google.api.client.extensions.android.http.AndroidHttp;
+import com.google.api.client.googleapis.json.GoogleJsonError;
 import com.google.api.client.googleapis.json.GoogleJsonResponseException;
 import com.google.api.client.http.HttpTransport;
 import com.google.api.client.json.JsonFactory;
@@ -69,6 +70,7 @@ public class VisionClient  extends VisionClientBase {
  */	
 public interface WebDetectionCallback {
     void onPostExecute(WebDetection response);
+    void onError(String error);
 }
 
 
@@ -126,6 +128,25 @@ private Feature createWebDetectionFeature() {
         return feature;
 
 } // createWebDetectionFeature
+
+
+/** 
+ *  callbackJsonError
+ */
+@Override
+protected void  callbackJsonError(GoogleJsonError jsonError) {
+
+        if(jsonError == null) return;
+
+        String error = getJsonError( jsonError);
+        if(error == null) return;
+        log_d( "error: " + error );
+
+        if (mWebDetectionCallback != null ) {
+                mWebDetectionCallback.onError(error);
+        }
+
+} // callbackJsonError
 
 
 /** 

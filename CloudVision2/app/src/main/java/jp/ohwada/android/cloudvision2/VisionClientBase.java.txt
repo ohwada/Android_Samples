@@ -54,7 +54,7 @@ public class VisionClientBase  {
     // debug
 	protected final static boolean D = true;
     protected final static String TAG = "CloudVision";
-    protected final static String TAG_BASE = "VisionClientBase";
+    private final static String TAG_BASE = "VisionClientBase";
 
 
 /**
@@ -386,19 +386,19 @@ public VisionTask(Activity activity, Vision.Images.Annotate annotate) {
 protected AnnotateImageResponse sendRequest(Vision.Images.Annotate request) {
 
             BatchAnnotateImagesResponse batchResponse = null;
-            GoogleJsonError jsonError = null;
+            GoogleJsonError error = null;
             try {
                 log_base("created Cloud Vision request object, sending request");
                  batchResponse = request.execute();
             } catch (GoogleJsonResponseException e) {
-                    jsonError = e.getDetails();
+                    error = e.getDetails();
 			        e.printStackTrace();
             } catch (IOException e) {
 			        e.printStackTrace();
             }
 
-            if (jsonError != null) {
-                callbackJsonError(jsonError);
+            if (error != null) {
+                procJsonError(error);
             }
 
             if(batchResponse == null) return null;
@@ -414,30 +414,12 @@ protected AnnotateImageResponse sendRequest(Vision.Images.Annotate request) {
 
 
 /** 
- *  callbackJsonError
+ *  procJsonError
  */
-protected void  callbackJsonError(GoogleJsonError jsonError) {
+private void  procJsonError(GoogleJsonError jsonError) {
 
         if(jsonError == null) return;
-
-        String error = getJsonError( jsonError);
-        if(error == null) return;
-        log_base( "error: " + error );
-
-        if (mCallback != null ) {
-                mCallback.onError(error);
-        }
-
-} // callbackJsonError
-
-
-/** 
- *  getJsonError
- */
-protected String  getJsonError(GoogleJsonError jsonError) {
-
-        if(jsonError == null) return null;
-        log_base("getJsonError: " + jsonError.toString() );
+        log_base("procJsonError: " + jsonError.toString() );
 
        Integer code = jsonError.getCode();
         String message = jsonError.getMessage();
@@ -450,17 +432,19 @@ protected String  getJsonError(GoogleJsonError jsonError) {
         sb.append(message);
         sb.append(LF);
         sb.append(infos);
-        return sb.toString();
-
-} // getJsonError
+        String error = sb.toString();
+        log_base( "error: " + error );
+        if (mCallback != null ) {
+                mCallback.onError(error);
+        }
+}
 
 
 /** 
  *  getErrorInfoList
  */
-protected String getErrorInfoList(List<GoogleJsonError.ErrorInfo> list ) {
+private String getErrorInfoList(List<GoogleJsonError.ErrorInfo> list ) {
 
-        log_base("getErrorInfoList");
          StringBuilder sb = new StringBuilder();
         for(GoogleJsonError.ErrorInfo info: list) {
                 if(list == null) continue;
@@ -470,19 +454,14 @@ protected String getErrorInfoList(List<GoogleJsonError.ErrorInfo> list ) {
 
         } // for
         return sb.toString();
-
-} // getErrorInfoList
-
+}
 
 
 /** 
  *  getErrorInfo
  */
-protected String getErrorInfo(GoogleJsonError.ErrorInfo info) {
-
+private String getErrorInfo(GoogleJsonError.ErrorInfo info) {
         if(info == null) return null;
-        log_base("getErrorInfo");
-
         String domain = info.getDomain();
         String message = info.getMessage();
         String reason = info.getReason();
@@ -496,8 +475,7 @@ protected String getErrorInfo(GoogleJsonError.ErrorInfo info) {
         sb.append(message);
         sb.append(LF);
         return sb.toString();
-
-} // getErrorInfo
+}
 
 
 /** 
@@ -514,7 +492,6 @@ protected void callbackResponse(AnnotateImageResponse response) {
                                 mCallback.onError(error);
                         }
                 }
-
 } // callbackResponse
 
 
@@ -566,7 +543,7 @@ protected String convertLabelToString(EntityAnnotation label) {
 /** 
  *  getResponseError
  */
-protected String getResponseError(AnnotateImageResponse response) {
+private String getResponseError(AnnotateImageResponse response) {
     log_base("getResponseError");
     Status  status = response.getError();
     if(status == null ) return null;
@@ -586,15 +563,14 @@ protected String getResponseError(AnnotateImageResponse response) {
         sb.append(LF);
     }
     return sb.toString();
-
-} // getResponseError
+}
 
 
 
 /** 
  *  getStatusDetails
  */
-protected String getStatusDetails(Status status) {
+private String getStatusDetails(Status status) {
     log_base("getStatusDetails");
     List<Map<String,Object>> list = status.getDetails();
     if(list == null) return null;
@@ -607,15 +583,13 @@ protected String getStatusDetails(Status status) {
     }
     sb.append(LF);
     return sb.toString();
-
-} // getStatusDetails
-
+}
 
 
 /** 
  *  getMapDetails
  */
-protected String getMapDetails(Map<String,Object> map) {
+private String getMapDetails(Map<String,Object> map) {
 
         if(map == null) return null;
         Set<String> keySet = map.keySet();
@@ -632,8 +606,7 @@ protected String getMapDetails(Map<String,Object> map) {
                 sb.append(LF);
         } // for
         return sb.toString();
-
-} // getMapDetails
+}
 
 
 } // class VisionClientBase

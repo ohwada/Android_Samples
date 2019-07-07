@@ -3,16 +3,15 @@
  * WebItem
  * 2019-02-01 K.OHWADA
  */
-
 package jp.ohwada.android.cloudvision2;
 
-
-import java.util.Locale;
 
 /**
  * class WebItem
  */
 public class WebItem {
+
+    private static final String LF = "\n";
 
     private String  pageTitle;
 
@@ -78,6 +77,24 @@ public String getTitle() {
     }
     return title;
 } // getTitle
+
+
+/** 
+ *  toString
+ */
+public String toString() {
+            StringBuilder sb = new StringBuilder();
+            sb.append(" pageTitle: ");
+            sb.append(pageTitle);
+            sb.append(LF);
+            sb.append(" pageUrl: ");
+            sb.append(pageUrl);
+            sb.append(LF);
+            sb.append(" imageUrl: ");
+            sb.append(imageUrl);
+            sb.append(LF);
+        return sb.toString();
+}
 
 
 } // class class WebItem
