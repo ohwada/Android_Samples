@@ -16,6 +16,7 @@ import android.util.Log;
 
 
 import com.google.api.client.extensions.android.http.AndroidHttp;
+import com.google.api.client.googleapis.json.GoogleJsonError;
 import com.google.api.client.googleapis.json.GoogleJsonResponseException;
 import com.google.api.client.http.HttpTransport;
 import com.google.api.client.json.JsonFactory;
@@ -30,13 +31,17 @@ import com.google.api.services.vision.v1.model.BatchAnnotateImagesResponse;
 import com.google.api.services.vision.v1.model.EntityAnnotation;
 import com.google.api.services.vision.v1.model.Feature;
 import com.google.api.services.vision.v1.model.Image;
+import com.google.api.services.vision.v1.model.Status;
 
 
 import java.io.IOException;
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Locale;
+import java.util.Map;
+import java.util.Set;
 
 
 /**
@@ -88,6 +93,7 @@ public class VisionClient  {
  */	
 public interface VisionCallback {
     void onPostExecute(String result);
+    void onError(String error);
 }
 
 
@@ -379,13 +385,19 @@ public VisionTask(Activity activity, Vision.Images.Annotate annotate) {
 private AnnotateImageResponse sendRequest(Vision.Images.Annotate request) {
 
             BatchAnnotateImagesResponse batchResponse = null;
+            GoogleJsonError jsonError = null;
             try {
                 log_d("created Cloud Vision request object, sending request");
                  batchResponse = request.execute();
             } catch (GoogleJsonResponseException e) {
+                    jsonError = e.getDetails();
 			        e.printStackTrace();
             } catch (IOException e) {
 			        e.printStackTrace();
+            }
+
+            if (jsonError != null) {
+                procJsonError(jsonError);
             }
 
             if(batchResponse == null) return null;
@@ -401,15 +413,94 @@ private AnnotateImageResponse sendRequest(Vision.Images.Annotate request) {
 
 
 /** 
+ *  procJsonError
+ */
+private void  procJsonError(GoogleJsonError jsonError) {
+
+        if(jsonError == null) return;
+        log_d("procJsonError: " + jsonError.toString() );
+
+       Integer code = jsonError.getCode();
+        String message = jsonError.getMessage();
+        List<GoogleJsonError.ErrorInfo> list = jsonError.getErrors();
+        String infos = getErrorInfoList( list );
+        StringBuilder sb = new StringBuilder();
+        sb.append("code: ");
+        sb.append(code);
+        sb.append(LF);
+        sb.append(message);
+        sb.append(LF);
+        sb.append(infos);
+        String error = sb.toString();
+        log_d( "error: " + error );
+        if (mCallback != null ) {
+                mCallback.onError(error);
+        }
+
+} // procJsonError
+
+
+
+/** 
+ *  getErrorInfoList
+ */
+private String getErrorInfoList(List<GoogleJsonError.ErrorInfo> list ) {
+
+        log_d("getErrorInfoList");
+         StringBuilder sb = new StringBuilder();
+        for(GoogleJsonError.ErrorInfo info: list) {
+                if(list == null) continue;
+                String str = getErrorInfo(info);
+                if(str == null) continue;
+                sb.append(str);
+
+        } // for
+        return sb.toString();
+
+} // getErrorInfoList
+
+
+
+/** 
+ *  getErrorInfo
+ */
+private String getErrorInfo(GoogleJsonError.ErrorInfo info) {
+
+        if(info == null) return null;
+        log_d("getErrorInfo");
+
+        String domain = info.getDomain();
+        String message = info.getMessage();
+        String reason = info.getReason();
+        StringBuilder sb = new StringBuilder();
+        sb.append("domain: ");
+        sb.append(domain);
+        sb.append(LF);
+        sb.append("reason: ");
+        sb.append(reason);
+        sb.append(LF);
+        sb.append(message);
+        sb.append(LF);
+        return sb.toString();
+
+} // getErrorInfo
+
+
+/** 
  *  callbackResponse
  */
 private void callbackResponse(AnnotateImageResponse response) {
                 if(response == null) return;
                 String result = convertResponseToString(response);
+                String error = getResponseError(response);
                 if(mCallback != null ) {
                         // callback to Activity
                         mCallback.onPostExecute(result);
+                        if(error != null ) {
+                                mCallback.onError(error);
+                        }
                 }
+
 } // callbackResponse
 
 
@@ -456,6 +547,79 @@ private String convertLabelToString(EntityAnnotation label) {
         return str_label;
 
 } // convertLabelToString
+
+
+/** 
+ *  getResponseError
+ */
+private String getResponseError(AnnotateImageResponse response) {
+    log_d("getResponseError");
+    Status  status = response.getError();
+    if(status == null ) return null;
+    Integer code = status.getCode();
+    String message = status.getMessage();
+    String details = getStatusDetails(status);
+    StringBuilder sb = new StringBuilder();
+        sb.append("code: ");
+        sb.append(code);
+         sb.append(LF);
+        sb.append("message: ");
+        sb.append(message);
+        sb.append(LF);
+    if(details != null) {
+        sb.append("details: ");
+        sb.append(details);
+        sb.append(LF);
+    }
+    return sb.toString();
+
+} // getResponseError
+
+
+
+/** 
+ *  getStatusDetails
+ */
+private String getStatusDetails(Status status) {
+    log_d("getStatusDetails");
+    List<Map<String,Object>> list = status.getDetails();
+    if(list == null) return null;
+    StringBuilder sb = new StringBuilder();
+    for(Map<String,Object> map: list) {
+            String details = getMapDetails(map);
+            if(details != null ) {
+                    sb.append(details);
+            }
+    }
+    sb.append(LF);
+    return sb.toString();
+
+} // getStatusDetails
+
+
+
+/** 
+ *  getMapDetails
+ */
+private String getMapDetails(Map<String,Object> map) {
+
+        if(map == null) return null;
+        Set<String> keySet = map.keySet();
+        StringBuilder sb = new StringBuilder();
+
+        for (Iterator<String> iterator = keySet.iterator(); iterator.hasNext(); ) {
+                String key = iterator.next();
+                Object obj = map.get(key);
+                sb.append(key);
+                sb.append(": ");
+                if(obj != null) {
+                        sb.append(obj.toString());
+                }
+                sb.append(LF);
+        } // for
+        return sb.toString();
+
+} // getMapDetails
 
 
 } // class VisionClient

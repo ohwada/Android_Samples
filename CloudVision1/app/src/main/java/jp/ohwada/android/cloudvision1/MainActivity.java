@@ -11,6 +11,7 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -68,6 +69,8 @@ public class MainActivity extends Activity {
  * TextView for the result of image recognition
  */ 
     private TextView mTextViewDetails;
+
+   private TextView mTextViewError;
 
 
 /**
@@ -134,6 +137,9 @@ public class MainActivity extends Activity {
 
 
         mTextViewDetails = (TextView)findViewById(R.id.TextView_details);
+
+        mTextViewError = (TextView)findViewById(R.id.TextView_error);
+
         mImageViewMain = (ImageView)findViewById(R.id.ImageView_main);
 
         mVisionClient = new VisionClient(this);
@@ -330,10 +336,18 @@ private void showUploadDialog(final Bitmap bitmap) {
 
             @Override
             public void onPostExecute(String result) {
+                log_d("onPostExecute");
                 procPostExecute(result);
             }
 
+            @Override
+            public void onError(String error) {
+                log_d("onError");
+                procResponseError_onUI(error);
+            }
+
     }); // VisionCallback
+
 
  } // callCloudVision
 
@@ -355,6 +369,26 @@ private void procPostExecute(String result) {
         mTextViewDetails.setText(text);
         showToast(msg);
 } // procPostExecute
+
+
+
+/**
+ * procResponseError_onUI
+ */ 
+private void procResponseError_onUI(final String error) {
+
+    log_d("procResponseError:" + error);
+
+    runOnUiThread(new Runnable() {
+        @Override
+        public void run() {
+                mTextViewError.setText(error);
+                mTextViewError.setTextColor(Color.RED);
+                showToast("cloud vision Faild");
+        }
+    }); // runOnUiThread
+
+} // procResponseError_onUI
 
 
 /**
