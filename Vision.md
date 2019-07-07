@@ -35,8 +35,12 @@ Detect Faces and Barcodes from Camera images using  camara2 API and Vision API <
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Vision7/screenshot/vision7_detect.png" width="300" /><br/>
 
 ### CloudVision1
-Detect Image Label using CloudVision API <br/>
+Label Detect using CloudVision API <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/CloudVision1/screenshot/cloud_vision1_result_dog.png" width="300" /><br/>
+
+### CloudVision2
+WEB Detect using CloudVision API <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/CloudVision2/screenshot/cloud_vision2_result_list.png" width="300" /><br/>
 
 
 ### Reference <br/>
