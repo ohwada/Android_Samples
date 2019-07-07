@@ -9,10 +9,10 @@ Main<br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/CloudVision2/screenshot/cloud_vision2_main.png" width="300" /><br/>
 
 show Dialog, when click "Start" button <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/CloudVision2/screenshot/cloud_vision2_select_dialog.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/CloudVision2/screenshot/cloud_vision2_select_dialog.png" width="300" /><br/><br />
 
 show Gallery, when click "Gallery" button <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/CloudVision2/screenshot/cloud_vision2_gallery.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/CloudVision2/screenshot/cloud_vision2_gallery.png" width="300" /><br/><br />
 
 show Dialog, when select Photo in Gallery <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/CloudVision2/screenshot/cloud_vision2_upload_dialog.png" width="300" /><br/>
