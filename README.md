@@ -124,6 +124,11 @@ play Audio Files using MediaPlayer <br/>
 play Video files using MediaPlayer <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/VideoPlayer1/screenshot/video_player1_play.png" width="300" /><br/>
 
+### VoiceRecorder1 <br/>
+record Voice using MediaRecorder <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/VoiceRecorder1/screenshot/voice_recorder1_list.png" width="300" /><br/>
+
+
 ## Dialog <br/>
 https://github.com/ohwada/Android_Samples/blob/master/dialog.md <br/>
 

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<resources>
+    <string name="app_name">VoiceRecorder1</string>
+
+<!-- permission -->
+    <string name="request_permission">This app needs RECORD_AUDIO permission</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+
+<!-- playerControl -->
+    <string name="button_play">Play</string>
+    <string name="button_pause">Pause</string>
+
+<!-- recorderControl -->
+    <string name="button_record">Record</string>
+    <string name="button_stop">Stop</string>
+    <string name="button_setting">Setting</string>
+
+<!-- file_dialog -->
+    <string name="file_dialog_title">Play File</string>
+    <string name="button_delete">Delete</string>
+
+</resources>
