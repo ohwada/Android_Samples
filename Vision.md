@@ -34,6 +34,12 @@ overlay GooglyEyes on the detected Face <br/>
 Detect Faces and Barcodes from Camera images using  camara2 API and Vision API <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Vision7/screenshot/vision7_detect.png" width="300" /><br/>
 
+### Vision8
+Detect Faces from image files using Vision API <br/>
+show rectangle aroud the Face  <br/>
+trimming out the Face  <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Vision8/screenshot/vision8_rectangle.png" width="300" /><br/>
+
 ### CloudVision1
 Label Detect using CloudVision API <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/CloudVision1/screenshot/cloud_vision1_result_dog.png" width="300" /><br/>
