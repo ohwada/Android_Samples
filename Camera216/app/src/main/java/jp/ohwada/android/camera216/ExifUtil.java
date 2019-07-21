@@ -98,7 +98,12 @@ public static void saveAttributes(ExifInterface exif) {
  * setGpsAttributes
  */ 
 public static ExifInterface setGpsAttributes(ExifInterface exif, Location location) {
-    if(location == null) return null;
+// 
+    if (location == null) {
+            //return the original exif, if no location
+            return exif;
+    }
+
     double lat =  location.getLatitude() ;
     double lon =  location.getLongitude() ;
 	double alt =  location.getAltitude();
