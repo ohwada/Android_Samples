@@ -685,7 +685,7 @@ protected void setUpExtend(CameraCharacteristics characteristics) {
 
 
 /**
-   * checkAvailableCapabilities
+   * setUp3ACotrol
   */
 protected void setUp3ACotrol(CameraCharacteristics characteristics) {
 
