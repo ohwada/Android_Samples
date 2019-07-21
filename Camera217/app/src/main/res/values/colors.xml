@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+<!-- control exposure -->
+<!-- white -->
+    <color name="control_exposure_background">#ffffff</color>
+    <color name="buton_up_down_background">#ffffff</color>
+<!-- black -->
+    <color name="text">#000000</color>
+
+<!-- control camera -->
+<!-- blue -->
+    <color name="control_camera_background">#cc0000f0</color>
+    <color name="button_camera_background">#cc0000f0</color>
+
+<!-- white -->
+    <color name="buton_settings_background">#ffffff</color>
+
+</resources>

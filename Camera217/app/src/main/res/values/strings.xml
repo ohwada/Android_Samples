@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<resources>
+    <string name="app_name">Camera217</string>
+
+<!-- permission -->
+    <string name="request_permission">This app needs CAMERA permission.</string>
+    <string name="request_permission_camera_storage">This app needs CAMERA and WRITE_EXTERNAL_STORAGE permissions.</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+
+<!-- activity_main.xml -->
+    <string name="switch_ae">AE</string>
+
+    <!-- pref_settings.xml -->
+    <string name="pref_title_storage">save in DCIM</string>
+    <string name="pref_description_storage">save Picture in DCIM directoty in External Storage</string>
+    <string name="pref_title_dng">save DNG</string>
+    <string name="pref_description_dng">save with Raw format</string>
+
+</resources>

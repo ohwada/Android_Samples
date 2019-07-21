@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+    <FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  >
+
+    <jp.ohwada.android.camera217.ui.CameraSourcePreview
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+<!-- control camera : right bar -->
+    <LinearLayout
+        android:id="@+id/control_camera" android:layout_width="@dimen/control_camera_width"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="right"
+        android:background="@color/control_camera_background"  >
+
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/Button_camera"
+            android:src="@drawable/ic_camera_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/button_camera_background"  />
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+<!-- control exposure : under bar -->
+    <LinearLayout
+        android:id="@+id/control_exposure"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/control_exposure_height"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"  
+        android:background="@color/control_exposure_background" >
+
+        <Space
+            android:layout_width="40dp"
+            android:layout_height="10dp"  />
+
+    <Switch
+        android:id="@+id/Switch_ae"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical" 
+        android:showText="true"
+        android:text="@string/switch_ae" 
+        android:textColor="@color/text"  />
+
+        <Space
+            android:layout_width="40dp"
+            android:layout_height="10dp" />
+
+        <ImageButton
+            android:id="@+id/Button_exposure_time_down"
+            android:src="@drawable/ic_chevron_left_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" 
+            android:background="@color/buton_up_down_background"  />
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp"  />
+
+        <TextView
+            android:id="@+id/TextView_exposure_time"
+            android:textColor="@color/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  
+            android:layout_gravity="center_vertical" />
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp"  />
+
+        <ImageButton
+            android:id="@+id/Button_exposure_time_up"
+            android:src="@drawable/ic_chevron_right_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" 
+            android:background="@color/buton_up_down_background"  />
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp" />
+
+        <ImageButton
+            android:id="@+id/Button_iso_down"
+            android:src="@drawable/ic_chevron_left_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" 
+            android:background="@color/buton_up_down_background"  />
+
+        <TextView
+            android:id="@+id/TextView_iso"
+            android:textColor="@color/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" />
+
+
+
+        <ImageButton
+            android:id="@+id/Button_iso_up"
+            android:src="@drawable/ic_chevron_right_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" 
+            android:background="@color/buton_up_down_background"  />
+
+        <Space
+            android:layout_width="40dp"
+            android:layout_height="10dp" />
+
+        <ImageButton
+            android:id="@+id/Button_settings"
+            android:src="@drawable/ic_settings_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"  
+            android:background="@color/buton_settings_background"  />
+
+        <Space
+            android:layout_width="40dp"
+            android:layout_height="10dp"  />
+
+    </LinearLayout>
+
+    </FrameLayout>
