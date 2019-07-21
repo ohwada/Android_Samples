@@ -119,6 +119,10 @@ zoom Camera using  Camera2 API <br/>
 Take Picture with Location using  Camera2 API and LocationManager <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera216/screenshot/Camera216_photo_location.png" width="300" /><br/>
 
+### Camera 217
+take Picture with Manul Exposure using  Camera2 API <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera217/screenshot/Camera217_preview.png" width="300" /><br/>
+
 
 ## MediaPlayer <br/>
 https://github.com/ohwada/Android_Samples/blob/master/MediaPlayer.md <br/>

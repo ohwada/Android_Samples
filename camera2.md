@@ -70,7 +70,7 @@ Take Picture with Location using  Camera2 API and LocationManager <br/>
 
 ### Camera 217
 take Picture with Manul Exposure using  Camera2 API <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera217/screenshot/camera217_preview.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera217/screenshot/Camera217_preview.png" width="300" /><br/>
 
 
 ### Reference <br/>
