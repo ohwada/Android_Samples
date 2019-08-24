@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2018-05-01 K.OHWADA -->
+<resources>
+    <string-array name="pref_list_image_format_titles">
+        <item>JPEG</item>
+        <item>YUV 420</item>
+        <item>RAW</item>
+    </string-array>
+
+    <string-array name="pref_list_image_format_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="pref_list_number_of_shots_titles">
+        <item>One shot</item>
+        <item>3 Times</item>
+        <item>5 Times</item>
+    </string-array>
+
+    <string-array name="pref_list_number_of_shots_values">
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+    </string-array>
+</resources>

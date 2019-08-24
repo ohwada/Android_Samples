@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<resources>
+    <string name="app_name">Camera 218</string>
+
+<!-- CameraPerm -->
+    <string name="request_camera_permission">This app needs CAMERA permission.</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+
+<!-- activity_main.xml -->
+    <string name="button_picture">Picture</string>
+    <string name="button_setting">Setting</string>
+
+    <!-- pref_settings.xml -->
+    <string name="pref_title_storage">save in DCIM</string>
+    <string name="pref_description_storage">save Picture in DCIM directoty in External Storage</string>
+
+    <string name="pref_title_manual">Manual Exposure</string>
+    <string name="pref_description_manual">capture burst while changing parameters</string>
+
+    <string name="pref_title_save_together">save together</string>
+    <string name="pref_description_save_together">save Images together when captureBurst is completed</string>
+
+    <string name="pref_title_list_image_format">Image Reader Format</string>
+   <string name="pref_default_list_image_format">2</string>
+    <string name="pref_title_list_number_of_shots">Number of Shots</string>
+ <string name="pref_default_list_number_of_shots">3</string>
+
+</resources>

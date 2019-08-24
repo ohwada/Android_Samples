@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <SwitchPreference
+        android:key="switch_storage"
+        android:defaultValue="false"
+        android:summary="@string/pref_description_storage"
+        android:title="@string/pref_title_storage" />
+
+    <SwitchPreference
+        android:key="switch_manual"
+        android:defaultValue="false"
+        android:summary="@string/pref_description_manual"
+        android:title="@string/pref_title_manual" />
+
+    <SwitchPreference
+        android:key="switch_save_together"
+        android:defaultValue="true"
+        android:summary="@string/pref_description_save_together"
+        android:title="@string/pref_title_save_together" />
+
+    <ListPreference
+        android:key="list_image_format"
+        android:defaultValue="@string/pref_default_list_image_format"
+        android:entries="@array/pref_list_image_format_titles"
+        android:entryValues="@array/pref_list_image_format_values"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_list_image_format" />
+
+    <ListPreference
+        android:key="list_number of shots"
+        android:defaultValue="@string/pref_default_list_number_of_shots"
+        android:entries="@array/pref_list_number_of_shots_titles"
+        android:entryValues="@array/pref_list_number_of_shots_values"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_list_number_of_shots" />
+
+</PreferenceScreen>

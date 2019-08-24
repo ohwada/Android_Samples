@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+<!-- activity_main -->
+    <dimen name="linear_layout_control_height">92dp</dimen>
+
+</resources>
