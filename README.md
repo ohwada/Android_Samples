@@ -125,7 +125,7 @@ take Picture with Manul Exposure using  Camera2 API <br/>
 
 ### Camera 218
 take Picture with Burst mode using  Camera2 API <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera218/screenshot/camera218_preview.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera218/screenshot/Camera218_preview.png" width="300" /><br/>
 
 
 ## MediaPlayer <br/>
