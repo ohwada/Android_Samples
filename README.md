@@ -3,7 +3,6 @@ Android Samples
 
 sample codes for Android <br/>
 
-
 ### Vision 1 <br/>
 Face Detection using  Vision API <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Vision1/screenshot/vision1_face_detect.png" width="300" /><br/>
@@ -46,6 +45,11 @@ Label Detect using CloudVision API <br/>
 ### CloudVision2
 WEB Detect using CloudVision API <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/CloudVision2/screenshot/cloud_vision2_result_list.png" width="300" /><br/>
+
+
+### ScreenCapture1 <br/>
+ScreenCapture using  MediaProjection API <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/ScreenCapture1/screenshot/screen_capture_1_start.png" width="300" /><br/>
 
 
 ###  Osm 1

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<resources>
+    <string name="app_name">ScreenCapture1</string>
+
+<!-- activity_main.xml -->
+    <string name="intro_message">
+        <![CDATA[
+This sample demonstrates how to use Media Projection API introduced in Android 5.0 Lollipop. Press
+"Start" to start capturing the screen.
+        ]]>
+    </string>
+
+<!-- MainActivity.java -->
+    <string name="button_start">Start</string>
+    <string name="button_stop">Stop</string>
+    <string name="msg_user_cancelled">User denied screen sharing permission</string>
+</resources>
