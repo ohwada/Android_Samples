@@ -49,7 +49,14 @@ WEB Detect using CloudVision API <br/>
 
 ### ScreenCapture1 <br/>
 ScreenCapture using  MediaProjection API <br/>
+mirroring to SutfaceView
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/ScreenCapture1/screenshot/screen_capture_1_start.png" width="300" /><br/>
+
+### ScreenCapture2 <br/>
+ScreenCapture using  MediaProjection API <br/>
+show ScreenShot with Bitmap <br/>
+save ScreenShot <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/ScreenCapture2/screenshot/screen_capture_2_take_1.png" width="300" /><br/>
 
 
 ###  Osm 1
