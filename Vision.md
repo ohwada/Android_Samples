@@ -48,6 +48,10 @@ Label Detect using CloudVision API <br/>
 WEB Detect using CloudVision API <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/CloudVision2/screenshot/cloud_vision2_result_list.png" width="300" /><br/>
 
+### CloudVision3
+Label Detect with Remote Image using CloudVision API <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/CloudVision3/screenshot/cloud_vision3_result_dog.png" width="300" /><br/>
+
 
 ### Reference <br/>
 - https://developers.google.com/vision/

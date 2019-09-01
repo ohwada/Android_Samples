@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<resources>
+
+<!-- SettingDialog -->
+<string-array name="setting_dialog_items">
+    <!-- Face Image -->
+    <item>Original</item>
+    <item>with Bounding</item>
+    <item>with Landmarks</item>
+</string-array>
+
+</resources>

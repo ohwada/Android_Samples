@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-02-01 K.OHWADA -->
+<resources>
+    <string name="app_name">CloudVision3</string>
+
+
+<!-- activity_main.xml -->
+    <string name="button_copy">Copy</string>
+    <string name="button_start">Start</string>
+    <string name="button_setting">Setting</string>
+
+<!-- MainActivity -->
+    <string name="setting_dialog_title">Face Image</string>
+    <string name="image_url_list_dialog_title">Choose a image url</string>
+    <string name="confirm_dialog_title">request to CloudVision</string>
+      <string name="requesting_message">requesting vision. Please wait.</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="response_header">I found these things:\n</string>
+    <string name="response_no_result">No Result</string>
+    <string name="msg_request_successful">request Successful</string>
+    <string name="msg_request_faild">request Faild</string>
+    <string name="msg_wrong_format">wrong format URL</string>
+
+<!-- VisionClientBase -->
+    <string name="progress_dialog_message">Requesting vision. Please wait.</string>
+
+</resources>

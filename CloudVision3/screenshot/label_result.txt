@@ -1,0 +1,44 @@
+Result of Label detection
+
+----------
+DOG
+
+Dog: 0.995
+Mammal: 0.989
+Vertebrate: 0.985
+Canidae: 0.981
+Cocker spaniel: 0.897
+Dog breed: 0.889
+Carnivore: 0.855
+Sporting Group: 0.843
+Grass: 0.822
+Companion dog: 0.804
+
+----------
+CAT
+
+Cat: 0.996
+Small to medium-sized cats: 0.976
+Felidae: 0.963
+Whiskers: 0.942
+Russian blue: 0.907
+Korat: 0.887
+Eye: 0.829
+British shorthair: 0.827
+Carnivore: 0.806
+Snout: 0.784
+
+----------
+FISH
+
+Fish: 0.989
+anemone fish: 0.986
+clownfish: 0.978
+Underwater: 0.976
+  Pomacentridae: 0.972
+Sea anemone: 0.969
+Marine biology: 0.963
+Coral reef: 0.939
+Organism: 0.927
+Fish: 0.916
+----------
