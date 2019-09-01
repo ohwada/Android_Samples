@@ -27,3 +27,6 @@ show the resullt,  when the result is back <br/>
 
 ### Reference <br/>
 - https://cloud.google.com/vision/
+
+### Docement <br/>
+- https://qiita.com/ohwada/items/b34718df6a6362e493dc
