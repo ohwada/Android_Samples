@@ -11,7 +11,7 @@ show image URL list Dialog, when click "Start" button <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/CloudVision3/screenshot/cloud_vision3_image_url_list_dialog.png" width="300" /><br/>
 
 show confirm Dialog, when select URL in list <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/CloudVision3/screenshot/cloud_vision3_confirm_dialog_dog.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/CloudVision3/screenshot/cloud_vision3_comfirm_dialog_dog.png" width="300" /><br/>
 
 
 show Result,  when the result is back <br/>
@@ -20,3 +20,7 @@ show Result,  when the result is back <br/>
 
 ### Reference <br/>
 - https://cloud.google.com/vision/
+
+### Docement <br/>
+- https://qiita.com/ohwada/items/70a3336fbc158661331c
+
