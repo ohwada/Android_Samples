@@ -50,6 +50,10 @@ WEB Detect using CloudVision API <br/>
 Label Detect with Remote Image using CloudVision API <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/CloudVision3/screenshot/cloud_vision3_result_dog.png" width="300" /><br/>
 
+### CloudVision4
+Face Detect using CloudVision API <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/CloudVision4/screenshot/cloud_vision4_bounding.png" width="300" /><br/>
+
 
 ### ScreenCapture1 <br/>
 ScreenCapture using  MediaProjection API <br/>
