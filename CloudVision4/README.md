@@ -26,3 +26,6 @@ show Image with bounding,  when the result is back <br/>
 
 ### Reference <br/>
 - https://cloud.google.com/vision/
+
+### Docement <br/>
+- https://qiita.com/ohwada/items/31b4b184b88e053d710c
