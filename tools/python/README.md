@@ -24,6 +24,9 @@ send OSM Message for Android OSM reciever <br/>
 recieve OSM Message for Android JavaOSM  <br/>
 
 ## others <br/>
+* send_ssdp.py <br/>
+send SSDP  Discovery on UDP <br/>
+
 * my_ip_address.py <br/>
 print my IP address <br/>
 
