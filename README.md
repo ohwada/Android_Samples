@@ -454,6 +454,9 @@ improved version of OSC Reciver Sample  <br/>
 
 ## Others
 
+### SSDP Client <br/>
+send SSDP Discovery command <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/SsdpClient/screenshot/ssdp_client_result_dialog.png" width="300" /><br/>
 
 ### Html1 <br/>
 show rendered HTML in TextView <br/>

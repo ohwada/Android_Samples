@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-08-01 K.OHWADA -->
+<resources>
+    <string name="app_name">SsdpClient</string>
+
+<!-- activity_main.xml -->
+    <string name="button_start">Start</string>
+
+<!-- SsdpClient -->
+    <string name="progress_dialog_message">Searching. Please wait.</string>
+    <string name="button_ok">OK</string>
+</resources>
