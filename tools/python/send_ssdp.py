@@ -2,7 +2,7 @@
 #coding:utf-8
 
 # send SSDP  Discovery on UDP
-# 2029-08-01 K.OHWADA
+# 2019-08-01 K.OHWADA
 # reference : http://telracsmoratori.blog.fc2.com/blog-entry-106.html
 
 import socket
