@@ -99,9 +99,9 @@ public class MainActivity extends Activity {
  */ 
 private void startDiscovery() {
 
-    mClient.discovery(new SsdpClient.Discovery Callback() {
+    mClient.discovery(new SsdpClient.DiscoveryCallback(){
        @Override
-            public void onResult(List<SearchResult> list) {
+            public void onResult(List<SearchResult> list){
                     log_d("onResult");
                     mList = list ;
                     showList(list);

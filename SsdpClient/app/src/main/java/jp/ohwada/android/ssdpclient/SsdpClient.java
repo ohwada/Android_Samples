@@ -84,14 +84,13 @@ public class SsdpClient {
 
 
 /**
-  * interface Discovery Callback
+  * interface DiscoveryCallback
  */	
-public interface Discovery Callback {
+public interface DiscoveryCallback {
     void onResult(List<SearchResult> list);
     // void onError(String error);
 }
 
-DiscoveryTask
 
     private Context mContext;
 
@@ -103,7 +102,7 @@ DiscoveryTask
 /**
   * Discovery Callback
  */
-    private Discovery Callback  mCallback;
+    private DiscoveryCallback  mCallback;
 
 
 /**
@@ -149,7 +148,7 @@ protected void setUpProgressDialog(Context context) {
 /**
  * search 
  */
-    public void discovery(Discovery Callback callback) {
+    public void discovery(DiscoveryCallback callback) {
 
         log_d("discovery");
         mCallback = callback;
