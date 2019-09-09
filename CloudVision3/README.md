@@ -19,8 +19,9 @@ show Result,  when the result is back <br/>
 
 
 ### Reference <br/>
-- https://cloud.google.com/vision/
+- https://developer.android.com/reference/android/hardware/camera2/package-summary
+- https://developer.android.com/reference/java/net/ServerSocket
 
 ### Docement <br/>
-- https://qiita.com/ohwada/items/70a3336fbc158661331c
+- https://qiita.com/ohwada/items/
 
