@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-08-01 K.OHWADA -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jp.ohwada.android.camera219">
+
+<!-- uses-permission CAMERA -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+<!-- permissions  -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+<!-- application -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:name="jp.ohwada.android.camera219.AndroidApplication"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+<!-- MainActivity -->
+        <activity android:name=".MainActivity"
+            android:screenOrientation="landscape" 
+			android:configChanges="keyboardHidden|orientation|screenSize" 
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+<!-- SettingsActivity -->
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:screenOrientation="landscape"
+			android:configChanges="keyboardHidden|orientation|screenSize" >
+        </activity>
+
+<!-- BootupReceiver -->
+        <receiver
+            android:name=".BootupReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+<!-- ConnectivityChangeReceiver -->
+        <receiver
+            android:name=".ConnectivityChangeReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

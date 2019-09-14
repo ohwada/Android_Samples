@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-08-01 K.OHWADA -->
+<resources>
+    <string-array name="Rotation">
+        <item>0</item>
+        <item>90</item>
+        <item>180</item>
+        <item>270</item>
+    </string-array>
+    <string-array name="RotationText">
+        <item>0°</item>
+        <item>90° (slow)</item>
+        <item>180° (slow)</item>
+        <item>270° (slow)</item>
+    </string-array>
+
+    <string-array name="Resolution">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="ResolutionText">
+        <item>3264x2448</item>
+        <item>1280x960</item>
+        <item>800x600</item>
+        <item>640x480</item>
+        <item>480x360</item>
+        <item>320x240</item>
+    </string-array>
+
+</resources>
