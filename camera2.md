@@ -78,7 +78,7 @@ take Picture with Burst mode using  Camera2 API <br/>
 
 ### Camera 219
 WebCamera using  Camera2 API <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera219/screenshot/camera219_preview.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera219/screenshot/Camera219_preview.png" width="300" /><br/>
 
 
 ### Reference <br/>

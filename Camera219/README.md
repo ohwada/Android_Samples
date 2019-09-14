@@ -7,10 +7,10 @@ WebCamera using  Camera2 API <br/>
 
 ### screenshot <br/>
 Camera Preview <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera219/screenshot/camera219_preview.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera219/screenshot/Camera219_preview.png" width="300" /><br/>
 
 show Setting Activity, when click "Setting" icon <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera219/screenshot/camera219_setting_activity.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera219/screenshot/Camera219_setting_activity.png" width="300" /><br/>
 
 ### Features <br/>
 - Web Camera with Motion JPEG
