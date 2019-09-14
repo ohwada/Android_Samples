@@ -23,3 +23,4 @@ show Setting Activity, when click "Setting" icon <br/>
 - https://developer.android.com/reference/android/hardware/camera2/package-summary
 
 ### Docement <br/>
+- https://qiita.com/ohwada/items/fe78617c9c9b5650077b
