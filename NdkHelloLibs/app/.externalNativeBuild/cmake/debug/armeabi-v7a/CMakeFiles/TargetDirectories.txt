@@ -1,0 +1,3 @@
+/Users/ohwada/AndroidStudioProjects/NdkHelloLibs/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/ohwada/AndroidStudioProjects/NdkHelloLibs/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/ohwada/AndroidStudioProjects/NdkHelloLibs/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/hello-libs.dir

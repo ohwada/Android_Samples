@@ -1,0 +1,57 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/ohwada/AndroidStudioProjects/NdkHelloLibs/app/src/main/cpp/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/ohwada/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/ohwada/AndroidStudioProjects/NdkHelloLibs/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"hello-libs-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "hello-libs",
+			"buildCommand" : "/Users/ohwada/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/ohwada/AndroidStudioProjects/NdkHelloLibs/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target hello-libs",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/ohwada/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ohwada/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dhello_libs_EXPORTS -I/Users/ohwada/AndroidStudioProjects/NdkHelloLibs/app/src/main/cpp/../../../../distribution/gmath/include -I/Users/ohwada/AndroidStudioProjects/NdkHelloLibs/app/src/main/cpp/../../../../distribution/gperf/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/ohwada/AndroidStudioProjects/NdkHelloLibs/app/src/main/cpp/hello-libs.cpp",
+					"workingDirectory" : "/Users/ohwada/AndroidStudioProjects/NdkHelloLibs/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/ohwada/AndroidStudioProjects/NdkHelloLibs/app/.externalNativeBuild/cmake/debug/obj/armeabi-v7a/libhello-libs.so",
+			"toolchain" : "1268469436037393422"
+		},
+		"lib_gmath-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "lib_gmath",
+			"buildType" : "debug",
+			"output" : "/Users/ohwada/AndroidStudioProjects/NdkHelloLibs/app/src/main/cpp/../../../../distribution/gmath/lib/armeabi-v7a/libgmath.a",
+			"toolchain" : "1268469436037393422"
+		},
+		"lib_gperf-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "lib_gperf",
+			"buildType" : "debug",
+			"output" : "/Users/ohwada/AndroidStudioProjects/NdkHelloLibs/app/src/main/cpp/../../../../distribution/gperf/lib/armeabi-v7a/libgperf.so",
+			"toolchain" : "1268469436037393422"
+		}
+	},
+	"toolchains" : 
+	{
+		"1268469436037393422" : 
+		{
+			"cCompilerExecutable" : "/Users/ohwada/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/ohwada/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
