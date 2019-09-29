@@ -459,6 +459,10 @@ improved version of OSC Reciver Sample  <br/>
 ## AAR
 sample codes for AAR( Android Archive ) <br/>
 
+### AarDemo1
+show Library Activity <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/AarDemo1/screenshot/aar_demo1_library_activity.png" width="300" /><br/>
+
 ### AarLib1
 Android Library Sample <br/>
 show Sample Activity <br/>
