@@ -458,6 +458,11 @@ improved version of OSC Reciver Sample  <br/>
 
 ## Others
 
+### NdkHelloLibs
+NDK Sample <br/>
+show Message from Library <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/NdkHelloLibs/screenshot/ndk_hello_libs_main.png" width="300" /><br/>
+
 ### SSDP Client <br/>
 send SSDP Discovery command <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/SsdpClient/screenshot/ssdp_client_result_dialog.png" width="300" /><br/>
@@ -466,7 +471,6 @@ send SSDP Discovery command <br/>
 show rendered HTML in TextView <br/>
 remove HTML tags <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Html1/screenshot/html1_main.png" width="300" /><br/>
-
 
 ### FileProvider1 <br/>
 Share Files  <br/>
