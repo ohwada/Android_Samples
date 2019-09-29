@@ -455,8 +455,15 @@ recieve OSC Message with JavaOSC Library  <br/>
 improved version of OSC Reciver Sample  <br/>
 <image src="https://github.com/ohwada/Android_Samples/blob/master/OscRecieverSample2/screenshot/screenshot_osc_reciever_recieved.png" width="200" /><br/>
 
+## AAR
+sample codes for AAR( Android Archive ) <br/>
+
+### AarLib1
 
 ## Others
+Android Library Sample <br/>
+show Sample Activity <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/AarLib1/screenshot/aar_lib1_library_activity.png" width="300" /><br/>
 
 ### NdkHelloLibs
 NDK Sample <br/>
