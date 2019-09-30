@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-08-01 K.OHWADA -->
+<resources>
+    <string name="app_name">MediaMuxer2</string>
+
+<!-- CameraPerm -->
+    <string name="request_camera_permission">This app needs CAMERA permission.</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+
+    <string name="button_start">Start</string>
+
+</resources>

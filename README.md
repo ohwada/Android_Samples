@@ -158,6 +158,10 @@ Sample code for MediaCodec and MediaMuxer <br/>
 Encode and Mux Test <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/MediaMuxer1/screenshot/media_muxer1_main.png" width="300" /><br/>
 
+### MediaMuxer2 <br/>
+CameraToMpegTest <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/MediaMuxer2/screenshot/media_muxer2_main.png" width="300" /><br/>
+
 
 ## MediaPlayer <br/>
 https://github.com/ohwada/Android_Samples/blob/master/MediaPlayer.md <br/>
