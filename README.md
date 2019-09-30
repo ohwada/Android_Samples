@@ -151,6 +151,14 @@ WebCamera using  Camera2 API <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera219/screenshot/Camera219_preview.png" width="300" /><br/>
 
 
+## MediaCodec <br/>
+Sample code for MediaCodec and MediaMuxer <br/>
+
+### MediaMuxer1 <br/>
+Encode and Mux Test <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/MediaMuxer1/screenshot/media_muxer1_main.png" width="300" /><br/>
+
+
 ## MediaPlayer <br/>
 https://github.com/ohwada/Android_Samples/blob/master/MediaPlayer.md <br/>
 
