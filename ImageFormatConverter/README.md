@@ -4,7 +4,7 @@ ImageFormatConverter - Android Samples
 convert YUV420_888 to YUV420Planar <br/>
 for the purpose of inputing image data from Camera device into MediaCodec <br/>
 
-this project is clone from  <br/>
+this project is fork from  <br/>
 Camera2PreviewStreamMediaCodecVideoRecording <br/>
 https://github.com/get2abhi/Camera2PreviewStreamMediaCodecVideoRecording <br/>
 
