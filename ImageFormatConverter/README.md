@@ -12,7 +12,11 @@ this project build Android Library include native code <br/>
 
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/ImageFormatConverter/docs/lib_overview.png" width="500" /><br/>
 
+
 ### Sample App <br/>
+- record Video using Camera2 API and MediaCodec <br/>
+https://github.com/ohwada/Android_Samples/tree/master/Camera221
+
 
 ### Reference <br/>
 - https://developer.android.com/ndk
