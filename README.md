@@ -150,6 +150,10 @@ take Picture with Burst mode using  Camera2 API <br/>
 WebCamera using  Camera2 API <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera219/screenshot/Camera219_preview.png" width="300" /><br/>
 
+### Camera 221
+ record Video using Camera2 API and MediaCodec <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera221/screenshot/Camera221_preview.png" width="300" /><br/>
+
 
 ## MediaCodec <br/>
 Sample code for MediaCodec and MediaMuxer <br/>

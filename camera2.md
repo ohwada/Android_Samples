@@ -82,7 +82,7 @@ WebCamera using  Camera2 API <br/>
 
 ### Camera 221
  record Video using Camera2 API and MediaCodec <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera221/screenshot/camera221_preview.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera221/screenshot/Camera221_preview.png" width="300" /><br/>
 
 
 ### Reference <br/>
