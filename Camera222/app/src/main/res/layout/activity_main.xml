@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-08-01 K.OHWADA -->
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="false">
+
+    <jp.ohwada.android.camera222.ui.CameraSourcePreview
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/TextView_ipaddr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top" 
+        android:textSize="20sp"
+        android:textColor="@color/text"  
+        android:background="@color/text_background" />
+
+<!-- control  : bottom bar -->
+    <LinearLayout
+        android:id="@+id/control_camera" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom" >
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/TextView_connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical" 
+        android:textSize="18sp"
+        android:textColor="@color/text"  
+        android:background="@color/text_background"  />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/TextView_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical" 
+        android:textSize="16sp"
+        android:textColor="@color/text"  
+        android:background="@color/text_background" />
+
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp" 
+            android:layout_weight="1" />
+
+    <ImageButton
+        android:id="@+id/Button_settings"
+        android:src="@android:drawable/ic_menu_preferences"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical" 
+        android:layout_margin="16dp" />
+
+    </LinearLayout>
+
+</FrameLayout>

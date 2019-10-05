@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-08-01 K.OHWADA -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="port"
+        android:defaultValue="8080"
+        android:title="@string/pref_port_title" 
+        android:inputType="number" />
+    <ListPreference
+        android:key="resolution"
+        android:title="@string/pref_resolution_title"
+        android:defaultValue="1"
+        android:entries="@array/resolution_entries"
+        android:entryValues="@array/resolutions" />
+    <ListPreference
+        android:key="encoder"
+        android:title="@string/pref_encoder_title"
+        android:defaultValue="0"
+        android:entries="@array/encoder_entries"
+        android:entryValues="@array/encoders" />
+</PreferenceScreen>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-08-01 K.OHWADA -->
+<resources>
+    <string name="app_name">Camera222</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+
+<!-- camera preview -->
+    <string name="request_camera_permission">This app needs CAMERA permission.</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    
+
+    <!-- pref_settings.xml -->
+    <string name="pref_port_title">Port number</string>
+    <string name="pref_resolution_title">Resolution</string>
+    <string name="pref_encoder_title">Encoder</string>
+
+</resources>
