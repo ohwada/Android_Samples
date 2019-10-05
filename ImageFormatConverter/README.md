@@ -15,7 +15,9 @@ this project build Android Library include native code <br/>
 
 ### Sample App <br/>
 - record Video using Camera2 API and MediaCodec <br/>
-https://github.com/ohwada/Android_Samples/tree/master/Camera221
+https://github.com/ohwada/Android_Samples/tree/master/Camera221 <br/>
+- streaming H264 using Camera2 API and MediaCodec <br/>
+https://github.com/ohwada/Android_Samples/tree/master/Camera222 <br/>
 
 
 ### Reference <br/>
