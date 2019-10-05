@@ -26,3 +26,5 @@ can not play neither H263 nor VP8 <br/>
 - https://developer.android.com/reference/android/hardware/camera2/package-summary
 
 ### Docement <br/>
+- https://qiita.com/ohwada/items/dd69fdd5297e042d237d
+
