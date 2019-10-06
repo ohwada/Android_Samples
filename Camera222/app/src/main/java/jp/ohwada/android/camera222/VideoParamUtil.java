@@ -11,6 +11,9 @@ import java.util.List;
 
 /**
   *  class VideoParamUtil
+  *  TODO :
+  *  played video turns green
+  *  at only resolution 480x360
   */
 public class VideoParamUtil {
 
@@ -32,10 +35,15 @@ public class VideoParamUtil {
     private final static int HD_HEIGHT = 720;
     private static final int HD_BIT_RATE = 1200000; // 1.2Mbps
 
+
     // SD (High quality)
+    // TODO :
+    // played video turns green
+    // at only this resolution
     private final static int SD_WIDTH = 480;
     private final static int SD_HEIGHT = 360;
     private static final int SD_BIT_RATE = 220000; // 220Kbps
+
 
     // SD (Low quality)
     private final static int LOW_WIDTH = 176;

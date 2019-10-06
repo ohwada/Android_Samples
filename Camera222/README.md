@@ -22,6 +22,12 @@ https://github.com/ohwada/Android_Samples/tree/master/ImageFormatConverter <br/>
 the ffplay can play H264 stream <br/>
 can not play neither H263 nor VP8 <br/>
 
+
+### TODO <br/>
+played video turns green,  at only resolution 480x360 <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera222/screenshot/ffplay_on_mac_480x360.png" width="200" /><br/>
+
+
 ### Reference <br/>
 - https://developer.android.com/reference/android/hardware/camera2/package-summary
 
