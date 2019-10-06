@@ -26,6 +26,7 @@ they can not play neither H263 nor VP8 <br/>
 
 ### TODO <br/>
 played video turns green,  at only resolution 480x360 <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera221/screenshot/vlc_on_mac_480x360.png" width="200" /><br/>
 
 
 ### Reference <br/>
