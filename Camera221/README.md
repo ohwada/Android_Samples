@@ -24,6 +24,10 @@ https://github.com/ohwada/Android_Samples/tree/master/ImageFormatConverter <br/>
 the VLC and the ffplay can play H264 file as Video <br/>
 they can not play neither H263 nor VP8 <br/>
 
+### TODO <br/>
+played video turns green,  at only resolution 480x360 <br/>
+
+
 ### Reference <br/>
 - https://developer.android.com/reference/android/hardware/camera2/package-summary
 - https://developer.android.com/reference/android/media/MediaCodec
