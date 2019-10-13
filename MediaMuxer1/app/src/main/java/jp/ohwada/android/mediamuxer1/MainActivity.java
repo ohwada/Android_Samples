@@ -1,5 +1,5 @@
 /**
- * MediaMuxer Sample
+ * MediaCodec and MediaMuxer Sample
  * 2019-08-01 K.OHWADA
  */
 package jp.ohwada.android.mediamuxer1;
@@ -17,10 +17,15 @@ import android.widget.Toast;
  */
 public class MainActivity extends Activity {
 
+    // debug
+    private static final String TAG = "MainActivity";
+
+
     // QVGA at 2Mbps
     private static final int WIDTH = 320;
     private static final int HEIGHT = 240;
     private static final int BIT_RATE = 2000000;
+
 
 /**
   * onCreate
