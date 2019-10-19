@@ -42,6 +42,20 @@ import net.majorkernelpanic.streaming.video.VideoQuality;
 
 /**
  * class MainActivity
+ * 
+ * TODO
+ * the phenomenon varies depending on the size of the image.
+ * SD Low quality( 176x144)
+ * displayed black screen
+ * 
+ *SD High quality ( 480x360)
+ *displayed green screen
+ *
+ * VGA ( 640x 480 )
+ *displays correctly,  but response is slow
+ * does not easily reflect, when chang direction of the camera. 
+it takes about 10 seconds.
+ *
  */
 public class MainActivity extends Activity {
 
