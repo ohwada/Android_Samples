@@ -90,7 +90,7 @@ streaming H264 using Camera2 API and MediaCodec <br/>
 
 ### Camera 223
 RTSP Server using Camera2 API and MediaCodec <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera222/screenshot/camera223_preview.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera223/screenshot/camera223_preview.png" width="300" /><br/>
 
 
 ### Reference <br/>

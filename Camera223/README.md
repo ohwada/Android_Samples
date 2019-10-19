@@ -8,10 +8,10 @@ RTSP Server using Camera2 API and MediaCodec <br/>
 
 ### screenshot <br/>
 Camera Preview <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera222/screenshot/camera223_preview.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera223/screenshot/camera223_preview.png" width="300" /><br/>
 
 show Setting Activity, when click "Setting" icon <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera222/screenshot/camera223_setting_activity.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera223/screenshot/Camera223_setting_activity.png" width="300" /><br/>
 
 
 ### ImageFormatConverter <br/>
