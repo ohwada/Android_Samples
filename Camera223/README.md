@@ -39,6 +39,7 @@ it takes about 10 seconds. <br/>
 
 
 ### Reference <br/>
+
 - https://developer.android.com/reference/android/hardware/camera2/package-summary
 - https://github.com/fyhertz/libstreaming
 
