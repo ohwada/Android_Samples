@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-08-01 K.OHWADA -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:key="switch_audio"
+        android:defaultValue="false"
+        android:summary="@string/pref_description_audio"
+        android:title="@string/pref_title_audio" />
+    <EditTextPreference
+        android:key="port"
+        android:defaultValue="8086"
+        android:title="@string/pref_port_title" 
+        android:inputType="number" />
+    <ListPreference
+        android:key="resolution"
+        android:title="@string/pref_resolution_title"
+        android:defaultValue="2"
+        android:entries="@array/resolution_entries"
+        android:entryValues="@array/resolutions" />
+</PreferenceScreen>

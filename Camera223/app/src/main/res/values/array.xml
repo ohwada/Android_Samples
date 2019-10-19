@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-08-01 K.OHWADA -->
+<resources>
+    <string-array name="resolutions">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="resolution_entries">
+        <item>1280x720</item>
+        <item>800x600</item>
+        <item>640x480</item>
+        <item>480x360</item>
+        <item>320x240</item>
+        <item>176x144</item>
+    </string-array>
+
+</resources>
