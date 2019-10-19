@@ -18,6 +18,8 @@ this project build Android Library include native code <br/>
 https://github.com/ohwada/Android_Samples/tree/master/Camera221 <br/>
 - streaming H264 using Camera2 API and MediaCodec <br/>
 https://github.com/ohwada/Android_Samples/tree/master/Camera222 <br/>
+- RTSP Server using Camera2 API and MediaCodec <br/>
+https://github.com/ohwada/Android_Samples/tree/master/Camera223 <br/>
 
 
 ### Reference <br/>
