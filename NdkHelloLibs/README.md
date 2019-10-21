@@ -4,6 +4,7 @@ NdkHelloLibs - Android Samples
 NDK Sample <br/>
 
 show Message from Library <br/>
+this sample shows you how to manage 3rd party C/C++ libraries with Android Studio. <br/>
 
 ### Screenshot <br/>
 show Activity, when launch the app <br/>
