@@ -501,10 +501,17 @@ Android Library Sample <br/>
 show Sample Activity <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/AarLib1/screenshot/aar_lib1_library_activity.png" width="300" /><br/>
 
+
 ### NdkHelloLibs
 NDK Sample <br/>
-show Message from Library <br/>
+show Message from native Library <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/NdkHelloLibs/screenshot/ndk_hello_libs_main.png" width="300" /><br/>
+
+### Ndk2
+NDK Sample <br/>
+show Message from native code <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Ndk2/screenshot/ndk2_main.png" width="300" /><br/>
+
 
 ### SSDP Client <br/>
 send SSDP Discovery command <br/>
