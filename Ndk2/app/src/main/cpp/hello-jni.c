@@ -1,7 +1,9 @@
 /**
   * NDK Sample
   * 2019-08-01 K.OHWADA
+ * original : https://github.com/android/ndk-samples/tree/master/hello-jni
   */
+
 
 /*
  * Copyright (C) 2016 The Android Open Source Project
