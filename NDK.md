@@ -23,5 +23,5 @@ this sample is an Aadd-on to Hello JNI sample to demonstrate calling back to Jav
 
 ## Reference <br/>
 - https://developer.android.com/ndk
-- https://github.com/android/ndk-samples/tree/master/hello-jniCallback
+- https://github.com/android/ndk-samples/
 
