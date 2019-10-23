@@ -483,6 +483,25 @@ improved version of OSC Reciver Sample  <br/>
 <image src="https://github.com/ohwada/Android_Samples/blob/master/OscRecieverSample2/screenshot/screenshot_osc_reciever_recieved.png" width="200" /><br/>
 
 
+## NDK
+sample codes for Android  NDK  ( Native Development Kit ) <br/>
+https://github.com/ohwada/Android_Samples/blob/master/NDK.md <br/>
+
+### NdkHelloLibs
+this sample shows you how to manage 3rd party C/C++ libraries with Android Studio. <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/NdkHelloLibs/screenshot/ndk_hello_libs_main.png" width="300" /><br/>
+
+### Ndk2
+hello-jni <br/>
+this sample use JNI to call C code from a Android Java Activity. <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Ndk2/screenshot/ndk2_main.png" width="300" /><br/>
+
+### Ndk3
+hello-jniCallback <br/>
+this sample is an Aadd-on to Hello JNI sample to demonstrate calling back to Java from C code <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Ndk3/screenshot/ndk3_main.png" width="300" /><br/>
+
+
 ## AAR
 sample codes for AAR( Android Archive ) <br/>
 
@@ -500,22 +519,6 @@ show Sample Activity <br/>
 Android Library Sample <br/>
 show Sample Activity <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/AarLib1/screenshot/aar_lib1_library_activity.png" width="300" /><br/>
-
-
-### NdkHelloLibs
-NDK Sample <br/>
-show Message from native Library <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/NdkHelloLibs/screenshot/ndk_hello_libs_main.png" width="300" /><br/>
-
-### Ndk2
-NDK Sample <br/>
-show Message from native code <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Ndk2/screenshot/ndk2_main.png" width="300" /><br/>
-
-### Ndk3
-NDK Sample <br/>
-this sample is an Aadd-on to Hello JNI sample to demonstrate calling back to Java from C code <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Ndk3/screenshot/ndk3_main.png" width="300" /><br/>
 
 
 ### SSDP Client <br/>

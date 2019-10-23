@@ -3,6 +3,7 @@ Ndk2 - Android Samples
 
 NDK Sample <br/>
 
+hello-jni <br/>
 show Message from native code <br/>
 this sample use JNI to call C code from a Android Java Activity. <br/>
 
