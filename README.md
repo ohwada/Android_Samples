@@ -512,6 +512,11 @@ NDK Sample <br/>
 show Message from native code <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Ndk2/screenshot/ndk2_main.png" width="300" /><br/>
 
+### Ndk3
+NDK Sample <br/>
+this sample is an Aadd-on to Hello JNI sample to demonstrate calling back to Java from C code <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Ndk3/screenshot/ndk3_main.png" width="300" /><br/>
+
 
 ### SSDP Client <br/>
 send SSDP Discovery command <br/>
