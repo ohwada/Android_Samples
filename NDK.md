@@ -20,6 +20,11 @@ hello-jniCallback <br/>
 this sample is an Aadd-on to Hello JNI sample to demonstrate calling back to Java from C code <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Ndk3/screenshot/ndk3_main.png" width="300" /><br/>
 
+### Ndk4 <br/>
+Hello GL2 <br/>
+this sample draws a triangle using GLES 2.0 API. <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Ndk4/screenshot/ndk4_main.png" width="300" /><br/>
+
 
 ## Reference <br/>
 - https://developer.android.com/ndk
