@@ -29,7 +29,7 @@ this sample draws a triangle using GLES 2.0 API. <br/>
 GL ES 3.0 JNI <br/>
 fills small rotating squares on on the entire screen <br/>
 this sample demonstrates how to use OpenGL ES 3.0 from JNI/native code. <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Ndk5/screenshot/ndk5_main.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Ndk5/screen/ndk5_main.png" /><br/>
 
 
 ## Reference <br/>
