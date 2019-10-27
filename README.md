@@ -513,6 +513,12 @@ this sample demonstrates how to use OpenGL ES 3.0 from JNI/native code. <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Ndk5/screen/ndk5_main.png" width="300" /><br/>
 
 
+### Ndk6 <br/>
+Bitmap Plasma <br/>
+this sample uses JNI to render a plasma effect in an Androide <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Ndk6/screenshot/ndk6_main.png" width="300" /><br/>
+
+
 ## AAR
 sample codes for AAR( Android Archive ) <br/>
 
