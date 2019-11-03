@@ -166,9 +166,12 @@ RTSP Server using Camera2 API and MediaCodec <br/>
 ## OpenCV
 https://github.com/ohwada/Android_Samples/blob/master/OpenCV.md <br/>
 
-
 ### Opencv412Lib
 build OpenCV Android 4.1.2 with Android Studio 2.2 <br/>
+
+### Opencv41  <br/>
+show message as whether build and load Successfully <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv41/screenshot/opencv41_main.png" width="300" /><br/>
 
 
 ## MediaCodec <br/>
