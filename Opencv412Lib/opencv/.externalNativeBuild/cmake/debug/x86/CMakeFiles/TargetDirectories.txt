@@ -1,0 +1,2 @@
+/Users/ohwada/AndroidStudioProjects/Opencv412Lib/opencv/.externalNativeBuild/cmake/debug/x86/CMakeFiles/edit_cache.dir
+/Users/ohwada/AndroidStudioProjects/Opencv412Lib/opencv/.externalNativeBuild/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
