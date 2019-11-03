@@ -163,6 +163,14 @@ RTSP Server using Camera2 API and MediaCodec <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera223/screenshot/camera223_preview.png" width="300" /><br/>
 
 
+## OpenCV
+https://github.com/ohwada/Android_Samples/blob/master/OpenCV.md <br/>
+
+
+### Opencv412Lib
+build OpenCV Android 4.1.2 with Android Studio 2.2 <br/>
+
+
 ## MediaCodec <br/>
 Sample code for MediaCodec and MediaMuxer <br/>
 

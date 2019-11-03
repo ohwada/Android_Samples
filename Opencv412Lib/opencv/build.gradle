@@ -1,0 +1,74 @@
+//
+// OPenCV Sample
+// 2019-10-01 K.OHWADA
+//
+
+//
+// This file is part of OpenCV project.
+// It is subject to the license terms in the LICENSE file found in the top-level directory
+// of this distribution and at http://opencv.org/license.html.
+// Notes about integration OpenCV into existed Android Studio application project are below (application 'app' module should exist).
+// This file is located in <OpenCV-android-sdk>/sdk directory (near 'etc', 'java', 'native' subdirectories)
+//
+
+
+apply plugin: 'com.android.library'
+
+println "OpenCV: " + project.buildscript.sourceFile
+
+android {
+    compileSdkVersion 28 // Pie
+    buildToolsVersion "28.0.3"
+    defaultConfig {
+        minSdkVersion 16 // Jelly Bean
+        targetSdkVersion 28 // Pie
+        ndk {
+            abiFilters 'armeabi-v7a'
+        }
+        externalNativeBuild {
+            cmake {
+                arguments "-DANDROID_STL=c++_shared"
+                // targets "opencv_jni_shared"
+            }
+        }
+    }
+    buildTypes {
+        debug {
+            packagingOptions {
+                // doNotStrip '**/*.so'  // controlled by OpenCV CMake scripts
+            }
+        }
+        release {
+            packagingOptions {
+                // doNotStrip '**/*.so'  // controlled by OpenCV CMake scripts
+            }
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_6
+        targetCompatibility JavaVersion.VERSION_1_6
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['native/libs']
+            java.srcDirs = ['java/src']
+            aidl.srcDirs = ['java/src']
+            res.srcDirs = ['java/res']
+            manifest.srcFile 'java/AndroidManifest.xml'
+        }
+    }
+    externalNativeBuild {
+        cmake {
+            // packaged "libc++_shared.so" to AAR(Android Library)
+            // path (project.projectDir.toString() + '/libcxx_helper/CMakeLists.txt')
+            path 'CMakeLists.txt'
+        }
+    }
+}
+dependencies {
+
+    compile 'com.android.support:appcompat-v7:27.1.1'
+
+}
