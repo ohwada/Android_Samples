@@ -1,8 +1,8 @@
-OpenCV for Android SDK
+OpenCV for Android 
 ===============
 
 sample codes for OpenCV Android<br/>
-- http://opencv.org/platforms/android <br/>
+http://opencv.org/platforms/android <br/>
 
 ## Sample Codes  <br/>
 
