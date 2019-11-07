@@ -10,7 +10,12 @@ and output AAR(Android Library)
 
 ### Opencv41  <br/>
 show message as whether build and load Successfully <br/>
-https://github.com/ohwada/Android_Samples/tree/master/Opencv41 <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv41/screenshot/opencv41_main.png" width="300" /><br/>
+
+### Opencv42  <br/>
+display Camera Preview <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv42/screenshot/opencv42_preview.png" width="300" /><br/>
+
 
 ### Reference <br/>
 - http://opencv.org/platforms/android
