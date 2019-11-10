@@ -4,12 +4,12 @@ apply plugin: 'com.android.application'
 // 2019-10-01 K.OHWADA
 
 android {
-    compileSdkVersion 28 // Pie
+    compileSdkVersion 26 // Oreo
     buildToolsVersion "28.0.3"
     defaultConfig {
         applicationId "jp.ohwada.android.opencv412lib"
-        minSdkVersion 16 // Jelly Bean
-        targetSdkVersion 28 // Pie
+        minSdkVersion 21 // Lollipop
+        targetSdkVersion 26 // Oreo
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -21,10 +21,7 @@ android {
         }
     }
 }
-
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-
     compile 'com.android.support:appcompat-v7:27.1.1'
-
 }

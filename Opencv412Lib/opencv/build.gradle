@@ -1,5 +1,5 @@
 //
-// OPenCV Sample
+// OpenCV Sample
 // 2019-10-01 K.OHWADA
 //
 
@@ -17,11 +17,11 @@ apply plugin: 'com.android.library'
 println "OpenCV: " + project.buildscript.sourceFile
 
 android {
-    compileSdkVersion 28 // Pie
+    compileSdkVersion 26 // Oreo
     buildToolsVersion "28.0.3"
     defaultConfig {
-        minSdkVersion 16 // Jelly Bean
-        targetSdkVersion 28 // Pie
+        minSdkVersion 21 // Lollipop
+        targetSdkVersion 26 // Oreo
         ndk {
             abiFilters 'armeabi-v7a'
         }
@@ -68,7 +68,5 @@ android {
     }
 }
 dependencies {
-
     compile 'com.android.support:appcompat-v7:27.1.1'
-
 }
