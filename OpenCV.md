@@ -20,6 +20,11 @@ tutorial-1-camerapreview <br/>
 display Camera Preview <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv42/screenshot/opencv42_preview.png" width="300" /><br/>
 
+### Opencv43  <br/>
+tutorial-3-cameracontrol <br/>
+convert camera images to sepia <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv43/screenshot/opencv43_effect_sepia.png" width="300" /><br/>
+
 
 ## Reference <br/>
 - http://opencv.org/platforms/android
