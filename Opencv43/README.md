@@ -30,7 +30,7 @@ Camera Preview <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv43/screenshot/opencv43_preview.png" width="300" /><br/>
 
 Menu Color Effect <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv43/screenshot/opencv43_menu_effect.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv43/screenshot/opencv43_menu_color_effect.png" width="300" /><br/>
 
 Effect Sepia <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv43/screenshot/opencv43_effect_sepia.png" width="300" /><br/>
