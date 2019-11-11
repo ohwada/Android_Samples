@@ -25,6 +25,9 @@ tutorial-3-cameracontrol <br/>
 convert camera images to sepia <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv43/screenshot/opencv43_effect_sepia.png" width="300" /><br/>
 
+### Opencv44  <br/>
+15-puzzle <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv44/screenshot/opencv44_main.png" width="300" /><br/>
 
 ## Reference <br/>
 - http://opencv.org/platforms/android
