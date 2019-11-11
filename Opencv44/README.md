@@ -13,10 +13,10 @@ show Permission Dialog, , when launch the app <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv44/screenshot/opencv44_camera_permission.png" width="300" /><br/>
 
 Main <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv44/screenshot/opencv44_main.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv44/screenshot/Opencv44_main.png" width="300" /><br/>
 
 Menu <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv44/screenshot/opencv44_menu.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv44/screenshot/Opencv44_menu.png" width="300" /><br/>
 
 
 ### Opencv412Lib <br/>
