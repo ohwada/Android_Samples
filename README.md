@@ -187,7 +187,7 @@ convert camera images to Sepia <br/>
 
 ### Opencv45  <br/>
 show Histograms <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv45/screenshot/opencv45_histograms.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv45/screenshot/Opencv45_histgrams.png" width="300" /><br/>
 
 
 ## MediaCodec <br/>
