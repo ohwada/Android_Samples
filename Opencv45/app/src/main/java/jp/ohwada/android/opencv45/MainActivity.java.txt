@@ -1,0 +1,17 @@
+/**
+ * OpenCV Sample
+ * 2019-10-01 K.OHWADA
+ * original : https://github.com/opencv/opencv/tree/master/samples/android/image-manipulations
+ */
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+}

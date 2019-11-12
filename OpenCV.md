@@ -22,12 +22,18 @@ display Camera Preview <br/>
 
 ### Opencv43  <br/>
 tutorial-3-cameracontrol <br/>
-convert camera images to sepia <br/>
+convert camera images to Sepia <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv43/screenshot/opencv43_effect_sepia.png" width="300" /><br/>
 
 ### Opencv44  <br/>
 15-puzzle <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv44/screenshot/Opencv44_main.png" width="300" /><br/>
+
+### Opencv45  <br/>
+image-manipulations <br/>
+show Histograms <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv45/screenshot/opencv45_histograms.png" width="300" /><br/>
+
 
 ## Reference <br/>
 - http://opencv.org/platforms/android

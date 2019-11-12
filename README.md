@@ -174,18 +174,20 @@ show message as whether build and load Successfully <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv41/screenshot/opencv41_main.png" width="300" /><br/>
 
 ### Opencv42  <br/>
-tutorial-1-camerapreview <br/>
 display Camera Preview <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv42/screenshot/opencv42_preview.png" width="300" /><br/>
 
 ### Opencv43  <br/>
-tutorial-3-cameracontrol <br/>
 convert camera images to sepia <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv43/screenshot/opencv43_effect_sepia.png" width="300" /><br/>
 
 ### Opencv44  <br/>
 15-puzzle <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv44/screenshot/Opencv44_main.png" width="300" /><br/>
+
+### Opencv45  <br/>
+show Histograms <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv45/screenshot/opencv45_histograms.png" width="300" /><br/>
 
 
 ## MediaCodec <br/>
