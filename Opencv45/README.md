@@ -21,16 +21,16 @@ Edge detection by Sobel algorithm <br/>
 
 ### Screenshot <br/>
 show Permission Dialog, , when launch the app <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv45/screenshot/opencv45_camera_permission.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv45/screenshot/Opencv45_camera_permission.png" width="300" /><br/>
 
 Camera Preview <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv45/screenshot/opencv45_preview.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv45/screenshot/Opencv45_preview.png" width="300" /><br/>
 
 Menu <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv45/screenshot/opencv45_menu.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv45/screenshot/Opencv45_menu.png" width="300" /><br/>
 
 Histograms <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv45/screenshot/opencv45_histograms.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv45/screenshot/Opencv45_histgrams.png" width="300" /><br/>
 
 
 ### Opencv412Lib <br/>
