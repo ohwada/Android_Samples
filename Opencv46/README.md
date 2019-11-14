@@ -10,13 +10,13 @@ a Blob is a group of connected pixels in an image that share some common propert
 
 ### Screenshot <br/>
 show Permission Dialog, , when launch the app <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv46/screenshot/Opencv46_camera_permission.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv46/screensht/opencv46_camra_permission.png" width="300" /><br/>
 
 camera Preview <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv46/screenshot/Opencv46_preview.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv46/screensht/opencv46_preview.png" width="300" /><br/>
 
-draw contour on the detected_blob, when touch the screen <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv46/screenshot/opencv46_color_blob_detect.png" width="300" /><br/>
+draw contour on the detected blob, when touch the screen <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv46/screensht/opencv46_color_blob_detect.png" width="300" /><br/>
 
 
 ### Opencv412Lib <br/>
