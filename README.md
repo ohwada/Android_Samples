@@ -191,7 +191,7 @@ show Histograms <br/>
 
 ### Opencv46  <br/>
 detect an area of ​​the same color as the color of the touched location <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv46/screenshot/opencv46_color_blob_detect.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv46/screensht/opencv46_color_blob_detect.png" width="300" /><br/>
 
 
 ## MediaCodec <br/>

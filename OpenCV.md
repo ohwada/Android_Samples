@@ -38,7 +38,7 @@ show Histograms <br/>
 ColorBlobDetector <br/>
 detect an area of ​​the same color as the color of the touched location <br/>
 and draw contour on the area <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv46/screenshot/opencv46_color_blob_detect.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv46/screensht/opencv46_color_blob_detect.png" width="300" /><br/>
 
 
 ## Reference <br/>
