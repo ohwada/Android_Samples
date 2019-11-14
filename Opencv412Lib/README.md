@@ -28,6 +28,10 @@ convert camera images to Sepia <br/>
 show Histograms <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv45/screenshot/Opencv45_histgrams.png" width="300" /><br/>
 
+### Opencv46  <br/>
+detect an area of ​​the same color as the color of the touched location <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv46/screenshot/opencv46_color_blob_detect.png" width="300" /><br/>
+
 
 ### Reference <br/>
 - http://opencv.org/platforms/android

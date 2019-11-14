@@ -34,6 +34,12 @@ image-manipulations <br/>
 show Histograms <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv45/screenshot/Opencv45_histgrams.png" width="300" /><br/>
 
+### Opencv46  <br/>
+ColorBlobDetector <br/>
+detect an area of ​​the same color as the color of the touched location <br/>
+and draw contour on the area <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv46/screenshot/opencv46_color_blob_detect.png" width="300" /><br/>
+
 
 ## Reference <br/>
 - http://opencv.org/platforms/android
