@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-10-01 K.OHWADA -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/calibrate"
+              android:title="@string/action_calibrate"
+              android:showAsAction="ifRoom|withText" />
+        <item android:id="@+id/preview_mode"
+              android:title="@string/action_preview_mode">
+              <menu>
+                  <group android:checkableBehavior="single">
+                      <item android:id="@+id/calibration"
+                            android:title="@string/action_calibration"
+                            android:checked="true" />
+                      <item android:id="@+id/undistortion"
+                            android:title="@string/action_undistortion" />
+                      <item android:id="@+id/comparison"
+                            android:title="@string/action_comparison" />
+                  </group>
+              </menu>
+        </item>
+    </group>
+</menu>
