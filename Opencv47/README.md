@@ -9,7 +9,9 @@ https://docs.opencv.org/3.4/d4/d94/tutorial_camera_calibration.html  <br/>
 
 ### Usage <br/>
 It uses standard OpenCV asymmetric circles grid pattern 11x4 <br/>
-// https://github.com/opencv/opencv/blob/3.4/doc/acircles_pattern.png <br/>
+https://github.com/opencv/opencv/blob/3.4/doc/acircles_pattern.png <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv47/screenshot/opencv47_camera_permission.png" width="200" /><br/>
+
 Shooting the circles grid pattern with the camera <br/>
 Tap on highlighted pattern to capture pattern corners for calibration. <br/>
 Move pattern along the whole screen and capture data. <br/>
