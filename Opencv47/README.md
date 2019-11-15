@@ -31,11 +31,11 @@ display undistorted image <br/>
 display original and undistorted images side by side <br/>
 
 ### Screenshot <br/>
-show Permission Dialog, , when launch the app <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv47/screenshot/Opencv47_camera_permission.png" width="300" /><br/>
+show Permission Dialog, when launch the app <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv47/screenshot/opencv47_camera_permission.png" width="300" /><br/>
 
 Preview <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv47/screenshot/opencv47_preview.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv47/screenshot/Opencv47_preview.png" width="300" /><br/>
 
 Menu <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv47/screenshot/opencv47_menu_preview_mode.png" width="300" /><br/>
