@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-10-01 K.OHWADA -->
+<resources>
+    <string name="app_name">Camera 224</string>
+
+<!-- CameraPerm -->
+    <string name="request_camera_permission">This app needs CAMERA permission.</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+
+<!-- activity_main.xml -->
+    <string name="button_picture">Picture</string>
+</resources>
