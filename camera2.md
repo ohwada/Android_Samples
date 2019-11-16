@@ -95,7 +95,7 @@ RTSP Server using Camera2 API and MediaCodec <br/>
 ### Camera 224
 Camera Prevew with Color Effect using Camera2 API <br/>
 convert Camera image to Sepia <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera221/screenshot/camera221_effect_sepia.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera224/screenshot/camera224_effect_sepia.png" width="300" /><br/>
 
 
 ### Reference <br/>
