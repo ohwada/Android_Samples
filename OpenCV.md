@@ -45,6 +45,13 @@ Camera Calibration <br/>
 find  Camera Calibration Pattern and highlight pattern <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv47/screenshot/ opencv47_mode_calibration.png" width="300" /><br/>
 
+### Opencv48  <br/>
+Tutorial 2: Mixed Processing <br/>
+Find features <br/>
+detect interest points using native code <br/>
+and draw small red circle on interest points <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv48/screenshot/opencv48_find_ features.png" width="300" /><br/>
+
 ## Reference <br/>
 - http://opencv.org/platforms/android
 
