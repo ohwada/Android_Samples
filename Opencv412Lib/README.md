@@ -37,6 +37,10 @@ find Camera Calibration Pattern and highlight pattern <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv47/screenshot/ opencv47_mode_calibration.png" width="300" /><br/>
 
 
+### Docement <br/>
+- https://qiita.com/ohwada/items/71eb18296aac46f9f5ee
+
+
 ### Reference <br/>
 - http://opencv.org/platforms/android
 - https://stackoverflow.com/questions/39620739/android-studio-cmake-shared-library-missing-libc-shared-so-can-cmake-bundle

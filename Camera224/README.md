@@ -34,10 +34,10 @@ Effect Sepia <br/>
 convert Camera image to Sepia <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera224/screenshot/camera224_effect_sepia.png" width="300" /><br/>
 
+### Docement <br/>
+- https://qiita.com/ohwada/items/6b4bb3dbd2794b58f228
+
 
 ### Reference <br/>
 - https://developer.android.com/reference/android/hardware/camera2/package-summary
-
-### Docement <br/>
-- https://qiita.com/ohwada/items/6b4bb3dbd2794b58f228
 

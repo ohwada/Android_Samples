@@ -14,8 +14,11 @@ and show message <br/>
 AAR for OpenCV Android 4.1.2 <br/>
 https://github.com/ohwada/Android_Samples/tree/master/Opencv412Lib <br/>
 
+
+### Docement <br/>
+- https://qiita.com/ohwada/items/71eb18296aac46f9f5ee
+
+
 ### Reference <br/>
 - https://opencv.org/android/
-
-
 
