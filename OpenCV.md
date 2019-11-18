@@ -61,5 +61,4 @@ and draw Rectangle on Faces <br/>
 
 ## Reference <br/>
 - http://opencv.org/platforms/android
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv49/screenshot/opencv49_face_detect.png" width="300" /><br/>
 
