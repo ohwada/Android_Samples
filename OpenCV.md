@@ -52,6 +52,14 @@ detect interest points using native code <br/>
 and draw small red circle on interest points <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv48/screenshot/opencv48_find_ features.png" width="300" /><br/>
 
+### Opencv49  <br/>
+Face Detection <br/>
+detect Faces <br/>
+and draw Rectangle on Faces <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv49/screenshot/opencv49_face_detect.png" width="300" /><br/>
+
+
 ## Reference <br/>
 - http://opencv.org/platforms/android
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv49/screenshot/opencv49_face_detect.png" width="300" /><br/>
 
