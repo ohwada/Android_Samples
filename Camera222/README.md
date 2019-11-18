@@ -28,9 +28,12 @@ played video turns green,  at only resolution 480x360 <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera222/screenshot/ffplay_on_mac_480x360.png" width="200" /><br/>
 
 
+### Docement <br/>
+- https://qiita.com/ohwada/items/dd69fdd5297e042d237d
+
+
 ### Reference <br/>
 - https://developer.android.com/reference/android/hardware/camera2/package-summary
 
-### Docement <br/>
-- https://qiita.com/ohwada/items/dd69fdd5297e042d237d
+
 

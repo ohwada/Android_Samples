@@ -38,12 +38,15 @@ it takes about 10 seconds. <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera223/screenshot/vlc_on_mac_640x480.png" width="300" /><br/>
 
 
+### Docement <br/>
+- https://qiita.com/ohwada/items/9698c3b7e426b3e66996
+
+
 ### Reference <br/>
 
 - https://developer.android.com/reference/android/hardware/camera2/package-summary
 - https://github.com/fyhertz/libstreaming
 
 
-### Docement <br/>
-- https://qiita.com/ohwada/items/9698c3b7e426b3e66996
+
 
