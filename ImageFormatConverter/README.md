@@ -22,5 +22,9 @@ https://github.com/ohwada/Android_Samples/tree/master/Camera222 <br/>
 https://github.com/ohwada/Android_Samples/tree/master/Camera223 <br/>
 
 
+### Docement <br/>
+- https://qiita.com/ohwada/items/dd69fdd5297e042d237d
+
+
 ### Reference <br/>
 - https://developer.android.com/ndk
