@@ -582,9 +582,11 @@ show Sample Activity <br/>
 
 
 ## Others
-Android Library Sample <br/>
-show Sample Activity <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/AarLib1/screenshot/aar_lib1_library_activity.png" width="300" /><br/>
+
+### Cpuinfo <br/>
+read "/proc/cpuinfo" <br/>
+and show  Cpuinfo <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Cpuinfo/screenshot/cpuinfo_nexus5.png" width="300" /><br/>
 
 
 ### SSDP Client <br/>
