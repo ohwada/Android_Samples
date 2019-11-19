@@ -33,7 +33,28 @@ public class Puzzle15Processor {
     private static final int GRID_SIZE = 4;
     private static final int GRID_AREA = GRID_SIZE * GRID_SIZE;
     private static final int GRID_EMPTY_INDEX = GRID_AREA - 1;
+
+    // gray
     private static final Scalar GRID_EMPTY_COLOR = new Scalar(0x33, 0x33, 0x33, 0xFF);
+
+
+    // CV_FONT_HERSHEY_COMPLEX 
+    // normal size serif font
+    private static final int TILE_FONT_FACE = 3;
+
+    private static final int TILE_FONT_SCALE = 1;
+
+    // red
+    private static final Scalar TILE_FONT_COLOR = new Scalar(255, 0, 0, 255);
+
+    private static final int TILE_FONT_THICKNESS = 2;
+
+
+    // green
+    private static final Scalar GRID_LINE_COLOR = new Scalar(0, 255, 0, 255);
+
+    private static final int GRID_LINE_THICKNESS = 3;
+
 
     private int[]   mIndexes;
     private int[]   mTextWidths;
@@ -82,11 +103,14 @@ public class Puzzle15Processor {
         }
 
         for (int i = 0; i < GRID_AREA; i++) {
-            Size s = Imgproc.getTextSize(Integer.toString(i + 1), 3/* CV_FONT_HERSHEY_COMPLEX */, 1, 2, null);
+            String text = Integer.toString(i + 1);
+            Size s = Imgproc.getTextSize(text, TILE_FONT_FACE, TILE_FONT_SCALE, TILE_FONT_THICKNESS, null);
             mTextHeights[i] = (int) s.height;
             mTextWidths[i] = (int) s.width;
         }
     }
+
+
 
     /* this method to be called from the outside. it processes the frame and shuffles
      * the tiles as specified by mIndexes array
@@ -117,8 +141,12 @@ public class Puzzle15Processor {
             else {
                 cells[idx].copyTo(mCells15[i]);
                 if (mShowTileNumbers) {
-                    Imgproc.putText(mCells15[i], Integer.toString(1 + idx), new Point((cols / GRID_SIZE - mTextWidths[idx]) / 2,
-                            (rows / GRID_SIZE + mTextHeights[idx]) / 2), 3/* CV_FONT_HERSHEY_COMPLEX */, 1, new Scalar(255, 0, 0, 255), 2);
+                    String text = Integer.toString(1 + idx);
+                    // point of the bottom-left corner
+                    double x = (cols / GRID_SIZE - mTextWidths[idx]) / 2;
+                    double y = (rows / GRID_SIZE + mTextHeights[idx]) / 2;
+                    Point point = new Point(x, y);
+                    Imgproc.putText(mCells15[i], text, point, TILE_FONT_FACE, TILE_FONT_SCALE, TILE_FONT_COLOR, TILE_FONT_THICKNESS);
                 }
             }
         }
@@ -191,8 +219,15 @@ public class Puzzle15Processor {
  */
     private void drawGrid(int cols, int rows, Mat drawMat) {
         for (int i = 1; i < GRID_SIZE; i++) {
-            Imgproc.line(drawMat, new Point(0, i * rows / GRID_SIZE), new Point(cols, i * rows / GRID_SIZE), new Scalar(0, 255, 0, 255), 3);
-            Imgproc.line(drawMat, new Point(i * cols / GRID_SIZE, 0), new Point(i * cols / GRID_SIZE, rows), new Scalar(0, 255, 0, 255), 3);
+            // horizontal line
+            Point pth1 = new Point(0, i * rows / GRID_SIZE);
+            Point pth2 = new Point(cols, i * rows / GRID_SIZE);
+            Imgproc.line(drawMat, pth1, pth2, GRID_LINE_COLOR, GRID_LINE_THICKNESS);
+
+            // vertical line
+            Point ptv1 =new Point(i * cols / GRID_SIZE, 0);
+            Point ptv2 =new Point(i * cols / GRID_SIZE, rows);
+            Imgproc.line(drawMat, ptv1, ptv2, GRID_LINE_COLOR, GRID_LINE_THICKNESS);
         }
     }
 

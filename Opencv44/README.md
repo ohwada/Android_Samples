@@ -7,6 +7,9 @@ OpenCV Sample <br/>
 this sample shows how a simple game can be implemented with just a few calls to OpenCV <br/>
 this sample is simple sliding puzzle  <br/>
 
+### Menu <br/>
+- Show/hide tile numbers
+- Start new game
 
 ### Screenshot <br/>
 show Permission Dialog, , when launch the app <br/>
