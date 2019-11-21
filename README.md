@@ -583,6 +583,11 @@ show Sample Activity <br/>
 
 ## Others
 
+### Renderscript1 <br/>
+BasicRenderScript <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Renderscript1/screenshot/renderscript1_main.png" width="300" /><br/>
+
+
 ### Cpuinfo <br/>
 read "/proc/cpuinfo" <br/>
 and show  Cpuinfo <br/>
