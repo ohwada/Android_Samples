@@ -13,7 +13,7 @@ Main <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Renderscript1/screenshot/renderscript1_main.png" width="300" /><br/>
 
 adjust  Image Saturation, when move slider <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Renderscript1/screenshot/renderscript1_slide_eft.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Renderscript1/screenshot/renderscript1_slide_left.png" width="300" /><br/>
 
 
 ### Reference <br/>
