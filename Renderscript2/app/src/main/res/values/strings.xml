@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-10-01 K.OHWADA -->
+<resources>
+    <string name="app_name">Renderscript2</string>
+
+    <string name="intro_message">
+        <![CDATA[
+        
+            
+RenderScriptIntrinsic sample that demonstrates how to use RenderScript intrinsics.
+Creates several RenderScript intrinsics and shows a filtering result with various parameters.
+Also shows how to extends RadioButton with StateListDrawable.
+            
+        
+        ]]>
+    </string>
+
+    <string name="blur">Blur</string>
+    <string name="emboss">Emboss</string>
+    <string name="hue">Hue</string>
+</resources>

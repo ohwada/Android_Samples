@@ -587,6 +587,10 @@ show Sample Activity <br/>
 BasicRenderScript <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Renderscript1/screenshot/renderscript1_main.png" width="300" /><br/>
 
+### Renderscript2 <br/>
+RenderScriptIntrinsic <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Renderscript2/screenshot/renderscript2_main.png" width="300" /><br/>
+
 
 ### Cpuinfo <br/>
 read "/proc/cpuinfo" <br/>
