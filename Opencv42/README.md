@@ -22,6 +22,9 @@ Camera Preview <br/>
 AAR for OpenCV Android 4.1.2 <br/>
 https://github.com/ohwada/Android_Samples/tree/master/Opencv412Lib <br/>
 
+### Docement <br/>
+- https://qiita.com/ohwada/items/53305d29f33bd14e6683
+
 ### Reference <br/>
 - https://opencv.org/android/
 - https://github.com/opencv/opencv/tree/master/samples/android/tutorial-1-camerapreview
