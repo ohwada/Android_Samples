@@ -13,6 +13,10 @@ Cat Face Detect <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv51/screenshot/opencv51_cat_detect.png" width="300" /><br/>
 
 
+### Opencv412Lib <br/>
+AAR for OpenCV Android 4.1.2 <br/>
+https://github.com/ohwada/Android_Samples/tree/master/Opencv412Lib <br/>
+
 ### Reference <br/>
 - https://opencv.org/android/
 - https://github.com/opencv/opencv/tree/master/samples/android/face-detection
