@@ -41,12 +41,6 @@ Cat Face Detection <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv49/screenshot/opencv49_cat_detect.png" width="300" /><br/>
 
 
-### Docement <br/>
-- https://qiita.com/ohwada/items/71eb18296aac46f9f5ee
-
-
 ### Reference <br/>
 - http://opencv.org/platforms/android
-- https://stackoverflow.com/questions/39620739/android-studio-cmake-shared-library-missing-libc-shared-so-can-cmake-bundle
-
 
