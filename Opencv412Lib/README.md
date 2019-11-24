@@ -36,6 +36,10 @@ detect an area of ​​the same color as the color of the touched location <br/
 find Camera Calibration Pattern and highlight pattern <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv47/screenshot/ opencv47_mode_calibration.png" width="300" /><br/>
 
+### Opencv51  <br/>
+Cat Face Detection <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv49/screenshot/opencv49_cat_detect.png" width="300" /><br/>
+
 
 ### Docement <br/>
 - https://qiita.com/ohwada/items/71eb18296aac46f9f5ee

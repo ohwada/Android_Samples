@@ -211,6 +211,10 @@ detect Faces <br/>
 and draw Rectangle on Faces <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv49/screenshot/opencv49_face_detect.png" width="300" /><br/>
 
+### Opencv51  <br/>
+Cat Face Detection <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv49/screenshot/opencv49_cat_detect.png" width="300" /><br/>
+
 
 ## MediaCodec <br/>
 Sample code for MediaCodec and MediaMuxer <br/>
