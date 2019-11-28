@@ -166,6 +166,10 @@ RTSP Server using Camera2 API and MediaCodec <br/>
 convert Camera image to Sepia <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera224/screenshot/camera224_effect_sepia.png" width="300" /><br/>
 
+### Camera 225
+Face Detection and overlay image <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera225/screenshot/camera225_smiley_face.png" width="300" /><br/>
+
 
 ## OpenCV
 https://github.com/ohwada/Android_Samples/blob/master/OpenCV.md <br/>
