@@ -31,6 +31,10 @@ draw small red circle on interest points <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv48/screenshot/opencv48_find_ features.png" width="300" /><br/>
 
 
+### Docement <br/>
+- https://qiita.com/ohwada/items/6991e8e3a37d03149b16
+
+
 ### Reference <br/>
 - https://opencv.org/android/
 - https://github.com/opencv/opencv/tree/master/samples/android/tutorial-2-mixedprocessing
