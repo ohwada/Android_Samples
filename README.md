@@ -219,6 +219,11 @@ and draw Rectangle on Faces <br/>
 Cat Face Detection <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv51/screenshot/opencv51_cat_detect.png" width="300" /><br/>
 
+### OpenGL1  <br/>
+OpenGL and GLSurfaceView Sample <br/>
+fill the background with color <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/OpenGL1/screenshot/opengl1_main.png" width="300" /><br/>
+
 
 ## MediaCodec <br/>
 Sample code for MediaCodec and MediaMuxer <br/>
