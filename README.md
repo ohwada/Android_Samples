@@ -224,6 +224,11 @@ OpenGL and GLSurfaceView Sample <br/>
 fill the background with color <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/OpenGL1/screenshot/opengl1_main.png" width="300" /><br/>
 
+### OpenGL2  <br/>
+OpenGL and GLSurfaceView Sample <br/>
+draw Triangle <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/OpenGL2/screenshot/opengl2_main.png" width="300" /><br/>
+
 
 ## MediaCodec <br/>
 Sample code for MediaCodec and MediaMuxer <br/>
