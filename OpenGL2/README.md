@@ -1,7 +1,7 @@
 OpenGL2 - Android Samples
 ===============
 
-OpenGL and GLSurfaceView Sample <br/>
+OpenGL ES 2.0 Sample <br/>
 
 draw Triangle <br/>
 

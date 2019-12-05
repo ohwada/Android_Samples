@@ -1,7 +1,7 @@
 OpenGL1 - Android Samples
 ===============
 
-OpenGL and GLSurfaceView Sample <br/>
+OpenGL ES 2.0 Sample <br/>
 
 fill the background with color <br/>
 
