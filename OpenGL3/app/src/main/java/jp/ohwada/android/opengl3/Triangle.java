@@ -82,8 +82,8 @@ public class Triangle {
 
 
 
-
-    private float[] mColor;
+    // Color Default(Red)
+    private float[] mColor  = { 1.0f, 0.0f, 0.0f, 1.0f };
 
 
     /**

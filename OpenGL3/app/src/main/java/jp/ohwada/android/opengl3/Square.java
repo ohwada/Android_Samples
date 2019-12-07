@@ -87,11 +87,8 @@ public class Square {
     private final int VERTEX_STRIDE = COORDS_PER_VERTEX * BYTES_PER_VERTEX;
 
 
-    // Color(Blue)
-    float[] COLOR = { 0.0f, 0.0f, 1.0f, 1.0f };
-
-
-    private float[] mColor;
+    // Color Default(Blue)
+    private float[] mColor  = { 0.0f, 0.0f, 1.0f, 1.0f };
 
 
     /**
