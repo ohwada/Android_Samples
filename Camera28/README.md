@@ -11,6 +11,11 @@ Camera Preview <br/>
 draw green Rectangle around detected Face, when click Detect button <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Camera28/screenshot/camera28_face_detect.png" width="300" /><br/>
 
+
+### Docement <br/>
+- https://qiita.com/ohwada/items/94105a7ea134ab4d2734
+
+
 ### Reference <br/>
 - https://developer.android.com/reference/android/hardware/camera2/package-summary
 - https://developer.android.com/reference/android/hardware/camera2/params/Face
