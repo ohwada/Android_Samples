@@ -3,7 +3,7 @@ Opencv51 - Android Samples
 
 Cat Face Detection using OpenCV <br/>
 
-### Cascade File <br/>
+### Cascade Classifier File <br/>
 You can get here <br/>
 https://github.com/opencv/opencv/tree/master/data/haarcascades <br/>
 
@@ -16,6 +16,9 @@ Cat Face Detect <br/>
 ### Opencv412Lib <br/>
 AAR for OpenCV Android 4.1.2 <br/>
 https://github.com/ohwada/Android_Samples/tree/master/Opencv412Lib <br/>
+
+### Docement <br/>
+- https://qiita.com/ohwada/items/d4cae2924aabe18cc9c4
 
 ### Reference <br/>
 - https://opencv.org/android/
