@@ -3,7 +3,7 @@ OpenGL3 - Android Samples
 
 OpenGL ES 2.0 Sample <br/>
 
-draw Square and Triangle <br/>
+draw Square and rotating Triangle <br/>
 
 ### Screenshot <br/>
 draw Square and Triangle <br/>
