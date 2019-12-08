@@ -31,6 +31,8 @@ detect Faces <br/>
 and draw Rectangle on Faces <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv49/screenshot/opencv49_face_detect.png" width="300" /><br/>
 
+### Docement <br/>
+- https://qiita.com/ohwada/items/d4cae2924aabe18cc9c4
 
 ### Reference <br/>
 - https://opencv.org/android/
