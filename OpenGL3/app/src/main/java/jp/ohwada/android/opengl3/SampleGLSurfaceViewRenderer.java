@@ -1,6 +1,6 @@
 /** 
  *  OpenGL ES2.0 Sample
- *  draw Square and Triangle
+ *  draw Square and rotating Triangle
  *  2019-10-01 K.OHWADA
  * original : https://github.com/JimSeker/opengl/tree/master/HelloOpenGLES20
  */
@@ -30,6 +30,7 @@ import javax.microedition.khronos.opengles.GL10;
 import android.opengl.GLES20;
 import android.opengl.GLSurfaceView;
 import android.opengl.Matrix;
+import android.os.SystemClock;
 import android.util.Log;
 
 
@@ -71,7 +72,11 @@ public class SampleGLSurfaceViewRenderer implements GLSurfaceView.Renderer {
     private final float[] mViewMatrix = new float[16];
     private final float[] mRotationMatrix = new float[16];
 
+
+    // Triangle Rotation
     private float mAngle;
+    private boolean isClockwise = true;
+    private boolean  isAngleHalf = false;
 
 
 /**
@@ -112,13 +117,7 @@ public class SampleGLSurfaceViewRenderer implements GLSurfaceView.Renderer {
         mSquare.draw(mMVPMatrix);
 
         // Create a rotation for the triangle
-
-        // Use the following code to generate constant rotation.
-        // Leave this code out when using TouchEvents.
-        // long time = SystemClock.uptimeMillis() % 4000L;
-        // float angle = 0.090f * ((int) time);
-
-        Matrix.setRotateM(mRotationMatrix, 0, mAngle, 0, 0, 1.0f);
+        createRotationMatrix();
 
         // Combine the rotation matrix with the projection and camera view
         // Note that the mMVPMatrix factor *must be first* in order
@@ -128,6 +127,50 @@ public class SampleGLSurfaceViewRenderer implements GLSurfaceView.Renderer {
         // Draw triangle
         mTriangle.draw(scratch);
     }
+
+
+/**
+ *  createRotationMatrix
+ *  create Rotation for Triangle
+ */
+private void createRotationMatrix() {
+
+        // Use the following code to generate constant rotation.
+        // Leave this code out when using TouchEvents.
+        // long time = SystemClock.uptimeMillis() % 4000L;
+        // float angle = 0.090f * ((int) time);
+
+
+        long TIME_PERIOD = 10000L;   // 10 sec
+        float ANGLE_AROUND = 360.0f; // degree
+        float ANGLE_FACTOR = ANGLE_AROUND / (float)TIME_PERIOD;
+        float ANGLE_MAX = ANGLE_AROUND * 0.95f;
+
+        long time = SystemClock.uptimeMillis() % TIME_PERIOD;
+        float angle = ANGLE_FACTOR * ((int) time);
+
+        // reverse when turn around once
+        if (  isAngleHalf && (angle > ANGLE_MAX )) {
+            isClockwise = ! isClockwise;
+             isAngleHalf = false;
+        }
+
+        // half circle
+        if ( ( angle > 90) && ( angle < 270)) {
+             isAngleHalf = true;
+        }
+
+        mAngle = angle;
+        if ( !isClockwise ) {
+             mAngle = ANGLE_AROUND  - angle;
+        }
+
+        int ROTATE__OFFSET = 0;
+        float ROTATE_X   = 0.0f;
+        float ROTATE_Y  = 0.0f;
+        float ROTATE_Z = 1.0f;
+        Matrix.setRotateM(mRotationMatrix, ROTATE__OFFSET, mAngle, ROTATE_X, ROTATE_Y, ROTATE_Z);
+}
 
 
 /**
