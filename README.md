@@ -611,6 +611,13 @@ show Sample Activity <br/>
 
 ## Others
 
+
+### Scroller1 <br/>
+Scroller Sample <br/>
+move the red square by accelerating, when flick  the screen <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Scroller1/screenshot/scroller1_main.png" width="300" /><br/>
+
+
 ### Renderscript1 <br/>
 BasicRenderScript <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Renderscript1/screenshot/renderscript1_main.png" width="300" /><br/>
