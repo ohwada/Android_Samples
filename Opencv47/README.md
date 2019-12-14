@@ -51,6 +51,9 @@ find Camera Calibration Pattern and highlight pattern <br/>
 AAR for OpenCV Android 4.1.2 <br/>
 https://github.com/ohwada/Android_Samples/tree/master/Opencv412Lib <br/>
 
+### Docement <br/>
+- https://qiita.com/ohwada/items/4239565266d03b4b551d
+
 ### Reference <br/>
 - https://opencv.org/android/
 - https://github.com/opencv/opencv/tree/master/samples/android/camera-calibration

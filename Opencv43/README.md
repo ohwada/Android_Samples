@@ -48,6 +48,9 @@ https://github.com/ohwada/Android_Samples/tree/master/Opencv412Lib <br/>
 change to use Camera2 API <br/>
  *  because Camera API are deprecated <br/>
 
+### Docement <br/>
+- https://qiita.com/ohwada/items/4239565266d03b4b551d
+
 ### Reference <br/>
 - https://opencv.org/android/
 - https://github.com/opencv/opencv/tree/master/samples/android/tutorial-3-cameracontrol
