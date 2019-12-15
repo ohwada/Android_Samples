@@ -40,6 +40,14 @@ find Camera Calibration Pattern and highlight pattern <br/>
 Cat Face Detection <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv51/screenshot/opencv51_cat_detect.png" width="300" /><br/>
 
+### Opencv52  <br/>
+Mobilenet object detection <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv52/screenshot/opencv52_cat.png" width="300" /><br/>
+
+### Opencv53  <br/>
+QRCodeDetector <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv53/screenshot/opencv53_decode.png" width="300" /><br/>
+
 
 ### Reference <br/>
 - http://opencv.org/platforms/android
