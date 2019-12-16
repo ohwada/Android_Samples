@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-10-01 K.OHWADA -->
+<shape 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+<!-- Green -->
+    <solid
+        android:color="#00FF00" />
+</shape>
+

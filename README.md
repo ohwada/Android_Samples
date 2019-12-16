@@ -626,6 +626,11 @@ Scroller Sample <br/>
 move the red square by accelerating, when flick  the screen <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Scroller1/screenshot/scroller1_main.png" width="300" /><br/>
 
+### Scroller2 <br/>
+Scroller Sample <br/>
+scroll and switch Pages , when flick left or right <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Scroller1/screenshot/scroller1_drag.png" width="300" /><br/>
+
 
 ### Renderscript1 <br/>
 BasicRenderScript <br/>
