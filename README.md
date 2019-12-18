@@ -254,7 +254,7 @@ draw Rectangle with Texture <br/>
 
 ### OpenGL6  <br/>
 draw Rectangle with Image Texture <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/OpenGL6/screenshot/opengl6_main.png" width="300" /><br/>
+<image src="https://github.com/ohwada/Android_Samples/blob/master/OpenGL6/screenshot/opengl6.png" width="300" /><br/>
 
 ## MediaCodec <br/>
 Sample code for MediaCodec and MediaMuxer <br/>

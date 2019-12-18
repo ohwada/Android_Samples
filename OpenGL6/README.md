@@ -7,7 +7,7 @@ draw Rectangle with Image Texture <br/>
 
 ### Screenshot <br/>
 draw Rectangle with Image Texture  <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/OpenGL6/screenshot/opengl6_main.png" width="300" /><br/>
+<image src="https://github.com/ohwada/Android_Samples/blob/master/OpenGL6/screenshot/opengl6.png" width="300" /><br/>
 
 ### Reference <br/>
 - https://developer.android.com/training/graphics/opengl/environment
