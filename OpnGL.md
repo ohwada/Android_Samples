@@ -25,6 +25,10 @@ draw rotating Cube <br/>
 draw Rectangle with Texture <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/OpenGL5/screenshot/opengl5_main.png" width="300" /><br/>
 
+### OpenGL6  <br/>
+draw Rectangle with Image Texture <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/OpenGL6/screenshot/opengl6_main.png" width="300" /><br/>
+
 ## Reference <br/>
 - https://developer.android.com/training/graphics/opengl/environment
 
