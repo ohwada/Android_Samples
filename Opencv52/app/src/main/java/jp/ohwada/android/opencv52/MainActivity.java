@@ -192,9 +192,10 @@ public class MainActivity extends CameraActivity implements CvCameraViewListener
     public Mat onCameraFrame(CvCameraViewFrame inputFrame) {
         final int IN_WIDTH = 300;
         final int IN_HEIGHT = 300;
-        final float WH_RATIO = (float)IN_WIDTH / IN_HEIGHT;
         final double IN_SCALE_FACTOR = 0.007843;
-        final double MEAN_VAL = 127.5;
+        final double MEAN_R_VAL = 127.5;
+         final double MEAN_G_VAL = 127.5;
+        final double MEAN_B_VAL = 127.5;
         final double THRESHOLD = 0.2;
 
         // get a new frame
@@ -208,9 +209,14 @@ public class MainActivity extends CameraActivity implements CvCameraViewListener
         }
 
         // create Forward Image Blob through network.
-        Mat blob = Dnn.blobFromImage(frame, IN_SCALE_FACTOR,
-                new Size(IN_WIDTH, IN_HEIGHT),
-                new Scalar(MEAN_VAL, MEAN_VAL, MEAN_VAL), /*swapRB*/false, /*crop*/false);
+        Size blobSize = new Size(IN_WIDTH, IN_HEIGHT);
+        Scalar blobScalar = new Scalar(MEAN_R_VAL, MEAN_G_VAL, MEAN_B_VAL);
+        Mat blob = Dnn.blobFromImage(frame,
+                IN_SCALE_FACTOR,
+                blobSize,
+                blobScalar, 
+                /*swapRB*/false, 
+                /*crop*/false);
            mNet.setInput(blob);
 
         // run forward pass to compute output
