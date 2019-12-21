@@ -33,6 +33,9 @@ draw Rectangle with Image Texture <br/>
 draw Square and moving Triangle <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/OpenGL7/screenshot/opengl7_main.png" width="300" /><br/>
 
+### OpenGL8  <br/>
+draw Square and scaling Triangle <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/OpenGL8/screenshot/opengl8_main.png" width="300" /><br/>
 
 ## Reference <br/>
 - https://developer.android.com/training/graphics/opengl/environment
