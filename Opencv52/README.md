@@ -54,6 +54,9 @@ https://github.com/chuanqi305/MobileNet-SSD/tree/master/images
 AAR for OpenCV Android 4.1.2 <br/>
 https://github.com/ohwada/Android_Samples/tree/master/Opencv412Lib <br/>
 
+### Docement <br/>
+- https://qiita.com/ohwada/items/d0a0d03ace3578e88b06
+
 ### Reference <br/>
 - https://opencv.org/android/
 -  https://github.com/opencv/opencv/tree/master/samples/android/mobilenet-objdetect
