@@ -10,7 +10,7 @@ Main : draw Image <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/OpenGL9/screenshot/opengl9_green.png" width="300" /><br/>
 
  draw Images continuously, when flick<br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/OpenGL9/screenshot/opengl9_flik.png" width="300" /><br/>
+<image src="https://github.com/ohwada/Android_Samples/blob/master/OpenGL9/screenshot/opengl9_flick.png" width="300" /><br/>
 
 ### Reference <br/>
 - https://developer.android.com/training/graphics/opengl/environment
