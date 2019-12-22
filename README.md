@@ -264,6 +264,9 @@ draw Square and moving Triangle <br/>
 draw Square and scaling Triangle <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/OpenGL8/screenshot/opengl8_main.png" width="300" /><br/>
 
+### OpenGL9  <br/>
+draw Images continuously like slot machine <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/OpenGL9/screenshot/opengl9_green.png" width="300" /><br/>
 
 ## MediaCodec <br/>
 Sample code for MediaCodec and MediaMuxer <br/>
