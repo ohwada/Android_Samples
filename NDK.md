@@ -36,6 +36,11 @@ Bitmap Plasma <br/>
 this sample uses JNI to render a plasma effect in an Androide <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Ndk6/screenshot/ndk6_main.png" width="300" /><br/>
 
+### Ndk7 <br/>
+native-activity <br/>
+this sample that initializes a GLES 2.0 context  <br/>
+fill background with Color Magenta <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Ndk7/screenshot/ndk7_main.png" width="300" /><br/>
 
 ## Reference <br/>
 - https://developer.android.com/ndk
