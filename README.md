@@ -665,11 +665,14 @@ RenderScriptIntrinsic <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Renderscript2/screenshot/renderscript2_main.png" width="300" /><br/>
 
 
-### Cpuinfo <br/>
+### CpuInfo <br/>
 read "/proc/cpuinfo" <br/>
 and show  Cpuinfo <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Cpuinfo/screenshot/cpuinfo_nexus5.png" width="300" /><br/>
 
+### GpuInfo <br/>
+show  Gpuinfo using Open GL ES <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Gpuinfo/screenshot/gpuinfo_nexus5.png" width="300" /><br/>
 
 ### SSDP Client <br/>
 send SSDP Discovery command <br/>
