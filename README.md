@@ -672,7 +672,7 @@ and show  Cpuinfo <br/>
 
 ### GpuInfo <br/>
 show  Gpuinfo using Open GL ES <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Gpuinfo/screenshot/gpuinfo_nexus5.png" width="300" /><br/>
+<image src="https://github.com/ohwada/Android_Samples/blob/master/GpuInfo/screenshot/gpuinfo_nexus5.png" width="300" /><br/>
 
 ### SSDP Client <br/>
 send SSDP Discovery command <br/>
