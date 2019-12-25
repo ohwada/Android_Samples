@@ -42,6 +42,11 @@ this sample that initializes a GLES 2.0 context  <br/>
 fill background with Color Magenta <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Ndk7/screenshot/ndk7_main.png" width="300" /><br/>
 
+### Ndk8 <br/>
+classic-teapot <br/>
+draw Teapot <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Ndk8/screenshot/ndk8_main.png" width="300" /><br/>
+
 ## Reference <br/>
 - https://developer.android.com/ndk
 - https://github.com/android/ndk-samples/

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2019-10-01 K.OHWADA -->
+<resources>
+    <string name="app_name">Ndk8</string>
+
+    <string name="fps">0.0 FPS</string>
+</resources>
