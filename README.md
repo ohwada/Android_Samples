@@ -268,6 +268,10 @@ draw Square and scaling Triangle <br/>
 draw Images continuously like slot machine <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/OpenGL9/screenshot/opengl9_green.png" width="300" /><br/>
 
+### OpenCL1  <br/>
+calculate array addition with GPU by OpenCL program <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/OpenCL1/screenshot/opencl1_main.png" width="300" /><br/>
+
 ## MediaCodec <br/>
 Sample code for MediaCodec and MediaMuxer <br/>
 
