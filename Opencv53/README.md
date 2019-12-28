@@ -18,6 +18,9 @@ and show result <br/>
 AAR for OpenCV Android 4.1.2 <br/>
 https://github.com/ohwada/Android_Samples/tree/master/Opencv412Lib <br/>
 
+### Docement <br/>
+- https://qiita.com/ohwada/items/c5b7a4f3badedc64dc65
+
 ### Reference <br/>
 - https://opencv.org/android/
 - https://docs.opencv.org/3.4/de/dc3/classcv_1_1QRCodeDetector.html
