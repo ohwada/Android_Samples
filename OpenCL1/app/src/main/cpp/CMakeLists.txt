@@ -16,23 +16,28 @@ cmake_minimum_required(VERSION 3.4.1)
 # You can define multiple libraries, and CMake builds them for you.
 # Gradle automatically packages shared libraries with your APK.
 
-set(OPENCL_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../../../../opencl)
-
+set(target native-lib)
 
 set(CMAKE_VERBOSE_MAKEFILE on)
-set(LIB "${OPENCL_DIR}/lib")
-include_directories(${OPENCL_DIR}/include)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++11")
 
-#--------------------------------------------------- import ---------------------------------------------------#
+
+# OpenCL Header 
+set(OPENCL_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../../../../opencl)
+set(LIB "${OPENCL_DIR}/lib")
+include_directories(${OPENCL_DIR}/include)
+
+
+# OpenCL Driver 
 add_library(libOpenCL SHARED IMPORTED )
 set_target_properties(libOpenCL PROPERTIES
     IMPORTED_LOCATION "${LIB}/${ANDROID_ABI}/libOpenCL.so")
 
 
+# generate library from C++ code
 add_library( # Sets the name of the library.
-             native-lib
+             ${target}
 
              # Sets the library as a shared library.
              SHARED
@@ -58,18 +63,14 @@ find_library( # Sets the name of the path variable.
 # build script, prebuilt third-party libraries, or system libraries.
 
 target_link_libraries( # Specifies the target library.
-                       native-lib libOpenCL
-
+                        ${target} 
+                        libOpenCL
                        # Links the target library to the log library
                        # included in the NDK.
                        ${log-lib} )
 
-# Copy "libOpenCL.so" and "libGLES_mali.so" to Android Studio output directory
+# Copy "libOpenCL.so" to Android Studio output directory
   configure_file(
     "${LIB}/${ANDROID_ABI}/libOpenCL.so" 
     "${CMAKE_LIBRARY_OUTPUT_DIRECTORY}/libOpenCL.so" 
-    COPYONLY)
-  configure_file(
-    "${LIB}/${ANDROID_ABI}/libGLES_mali.so" 
-    "${CMAKE_LIBRARY_OUTPUT_DIRECTORY}/libGLES_mali.so" 
     COPYONLY)
