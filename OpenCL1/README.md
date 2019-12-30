@@ -14,6 +14,8 @@ show Activity, when launch the app <br/>
 and show execution time <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/OpenCL1/screenshot/opencl1_main.png" width="300" /><br/>
 
+### Docement <br/>
+- https://qiita.com/ohwada/items/66c5dacb56bab80c3d52
 
 ### Reference <br/>
 - https://www.khronos.org/opencl/
