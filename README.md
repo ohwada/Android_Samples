@@ -276,6 +276,9 @@ calculate array addition with GPU by OpenCL program <br/>
 create String "Hello, World!'' with GPU by OpenCL program <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/OpenCL2/screenshot/opencl2_main.png" width="300" /><br/>
 
+### OpenCL3  <br/>
+show OpenCL Version <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/OpenCL3/screenshot/opencl3_main.png" width="300" /><br/>
 
 ## MediaCodec <br/>
 Sample code for MediaCodec and MediaMuxer <br/>
