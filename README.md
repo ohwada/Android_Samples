@@ -280,6 +280,11 @@ create String "Hello, World!'' with GPU by OpenCL program <br/>
 show OpenCL Version <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/OpenCL3/screenshot/opencl3_main.png" width="300" /><br/>
 
+### OpenCL4  <br/>
+convert Image to black and white <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/OpenCL4/screenshot/opencl4_touch.png" width="300" /><br/>
+
+
 ## MediaCodec <br/>
 Sample code for MediaCodec and MediaMuxer <br/>
 
