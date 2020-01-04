@@ -22,6 +22,9 @@ show permission Dialog, when touch "take photo" button <br/>
 start Camera app, when click "allow" button <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/OpenCL4/screenshot/opencl4_camera.png" width="300" /><br/>
 
+### Docement <br/>
+- https://qiita.com/ohwada/items/a6e449f1758d0e04c929
+
 ### Reference <br/>
 - https://www.khronos.org/opencl/
 - https://github.com/myhouselove/OpenCL-android
