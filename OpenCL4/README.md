@@ -13,13 +13,13 @@ show Activity, when launch the app <br/>
 and show sample Image <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/OpenCL4/screenshot/opencl4_main.png" width="300" /><br/>
 
-convert Image to black and white, when touch the screen
+convert Image to black and white, when touch the screen <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/OpenCL4/screenshot/opencl4_touch.png" width="300" /><br/>
 
-show permission Dialog, when touch "take photo" button
+show permission Dialog, when touch "take photo" button <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/OpenCL4/screenshot/opencl4_permission.png" width="300" /><br/>
 
-start Camera app, when click "allow" button
+start Camera app, when click "allow" button <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/OpenCL4/screenshot/opencl4_camera.png" width="300" /><br/>
 
 ### Reference <br/>
