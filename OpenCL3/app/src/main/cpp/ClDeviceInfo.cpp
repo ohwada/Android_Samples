@@ -30,6 +30,143 @@
 
 
 /**
+ * Number2String
+ */
+std::string Number2String( int num) {
+	char buffer[50];
+	sprintf (buffer, "%x", num);
+    std::string str = buffer;
+    return str;
+}
+
+
+/**
+ * ChannelOrder2String
+ */
+std::string ChannelOrder2String( cl_channel_order order) {
+
+    std::string str;
+    switch(order) {
+        case CL_RGBA:
+            str = "CL_RGBA";
+            break;
+        case CL_ARGB:
+            str = "CL_ARGB";
+            break;
+        case CL_BGRA:
+            str = "CL_BGRA";
+            break;
+        case CL_RGB:
+            str = "CL_RGB";
+            break;
+        case CL_R:
+            str = "CL_R";
+            break;
+        case CL_A:
+            str = "CL_A";
+            break;
+        case CL_RG:
+            str = "CL_RG";
+            break;
+        case CL_RA:
+            str = "CL_RA";
+            break;
+        case CL_INTENSITY:
+            str = "CL_INTENSITY";
+            break;
+        case CL_LUMINANCE:
+            str = "CL_LUMINANCE";
+            break;
+        default:
+            str = "(" + Number2String( (int)order ) + ")";
+            break;
+    } // switch
+    return str;
+}
+
+
+/**
+ * ChannelType2String
+ */
+ std::string ChannelType2String( cl_channel_type type) {
+    std::string str;
+    switch(type) {
+        case CL_SNORM_INT8:
+            str = "CL_SNORM_INT8";
+            break;
+        case CL_SNORM_INT16:
+            str = "CL_SNORM_INT16";
+            break;
+        case CL_UNORM_INT8:
+            str = "CL_UNORM_INT8";
+            break;
+        case CL_UNORM_INT16:
+            str = "CL_UNORM_INT16";
+            break;
+        case CL_UNORM_SHORT_565:
+            str = "CL_UNORM_SHORT_565";
+            break;
+        case CL_UNORM_SHORT_555:
+            str = "CL_UNORM_SHORT_555";
+            break;
+        case CL_UNORM_INT_101010:
+            str = "CL_UNORM_INT_101010";
+            break;
+        case CL_SIGNED_INT8:
+            str = "CL_SIGNED_INT8";
+            break;
+        case CL_SIGNED_INT16:
+            str = "CL_SIGNED_INT16";
+            break;
+        case CL_SIGNED_INT32:
+            str = "CL_SIGNED_INT32";
+            break;
+        case CL_UNSIGNED_INT8:
+            str = "CL_UNSIGNED_INT8";
+            break;
+        case CL_UNSIGNED_INT16:
+            str = "CL_UNSIGNED_INT16";
+            break;
+        case CL_UNSIGNED_INT32:
+            str = "CL_UNSIGNED_INT32";
+            break;
+        case CL_HALF_FLOAT:
+            str = "CL_HALF_FLOAT";
+            break;
+        case CL_FLOAT:
+            str = "CL_FLOAT";
+            break;
+        default:
+            str = "(" + Number2String( (int)type ) + ")";
+            break;
+    } // switch
+    return str;
+}
+
+
+/**
+ * ImageFormatlog
+ */
+void ImageFormatlog( std::vector<cl::ImageFormat> formats)
+{
+        std::string str = "";
+
+        for(auto itr = formats.begin(); itr != formats.end(); ++itr) {
+            cl::ImageFormat format = *itr;
+            cl_channel_order order = format.image_channel_order ;
+            cl_channel_type type = format.image_channel_data_type ;
+            str += ChannelOrder2String(order);
+            str += " , ";
+            str += ChannelType2String(type);
+            str += "\n";
+        }
+
+        LOGD( "SupportedImageFormat:  \n %s \n ", str.c_str() );
+
+}
+
+
+/**
  * getDeviceInfo
  */
 int getDeviceInfo(
@@ -44,6 +181,7 @@ int getDeviceInfo(
 
     LOGD("OpenCL getDeviceInfo");
 
+    cl::Platform platform;
     try
     {
         std::vector<cl::Platform> platforms;
@@ -54,7 +192,7 @@ int getDeviceInfo(
             return 1;
         }
 
-        cl::Platform platform = platforms[0];
+        platform = platforms[0];
  
         platform_name = platform.getInfo<CL_PLATFORM_NAME>();
         platform_version = platform.getInfo<CL_PLATFORM_VERSION>();
@@ -118,7 +256,25 @@ int getDeviceInfo(
         return 1;
     }
 
-    return 0;
+        // SupportedImageFormats 
+        std::vector<cl::ImageFormat> formats;
+        try{
+            cl_context_properties properties[] = {
+            CL_CONTEXT_PLATFORM, (cl_context_properties)platform(), 0};
+
+            cl::Context context(CL_DEVICE_TYPE_GPU, properties);
+
+ 	       context.getSupportedImageFormats ( CL_MEM_READ_WRITE, CL_MEM_OBJECT_IMAGE2D, &formats);
+ 
+        }
+        catch(const cl::Error& e)
+        {
+        LOGD( "OpenCL info: error : %s (%d)", e.what(), e.err() );
+        }
+
+        ImageFormatlog(formats);
+
+        return 0;
 }
 
 

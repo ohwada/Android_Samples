@@ -1,0 +1,58 @@
+result of Nexus5 in logcat
+
+Platform name: QUALCOMM Snapdragon(TM)
+Platform version: OpenCL 1.2 QUALCOMM build: commit #369a2ea changeid #I96aee987eb Date: 10/21/15 Wed Local Branch: M16 Remote Branch: 
+Platform profile: EMBEDDED_PROFILE
+Platform extensions:  
+Warning: CL-GL sharing isn't supported by PLATFORM
+
+Device vendor: QUALCOMM
+Device name: QUALCOMM Adreno(TM)
+Device version: OpenCL 1.1 Adreno(TM) 330
+
+Device extensions: 
+cl_img_egl_image 
+cl_khr_byte_addressable_store 
+cl_khr_egl_event cl_khr_egl_image cl_khr_fp16 
+cl_khr_gl_sharing 
+cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_qcom_create_buffer_from_image 
+cl_qcom_ext_host_ptr cl_qcom_extended_images 
+cl_qcom_limited_printf cl_qcom_perf_hint 
+cl_qcom_android_native_buffer_host_ptr 
+cl_qcom_ion_host_ptr
+
+ SupportedImageFormat:
+  
+CL_RGBA , CL_UNORM_INT8
+CL_RGBA , CL_UNORM_INT16
+CL_RGBA , CL_SIGNED_INT8
+CL_RGBA , CL_SIGNED_INT16
+CL_RGBA , CL_SIGNED_INT32
+CL_RGBA , CL_UNSIGNED_INT8
+CL_RGBA , CL_UNSIGNED_INT16
+CL_RGBA , CL_UNSIGNED_INT32
+CL_RGBA , CL_HALF_FLOAT
+CL_RGBA , CL_FLOAT
+CL_BGRA , CL_UNORM_INT8
+CL_BGRA , CL_UNORM_INT16
+CL_BGRA , CL_SIGNED_INT8
+CL_BGRA , CL_SIGNED_INT16
+CL_BGRA , CL_SIGNED_INT32
+CL_BGRA , CL_UNSIGNED_INT8
+CL_BGRA , CL_UNSIGNED_INT16
+CL_BGRA , CL_UNSIGNED_INT32
+CL_BGRA , CL_HALF_FLOAT
+CL_BGRA , CL_FLOAT
+CL_RGB , CL_UNORM_INT8
+CL_RG , CL_UNORM_INT8
+CL_RG , CL_SIGNED_INT8
+CL_RG , CL_UNSIGNED_INT8
+CL_R , CL_UNORM_INT8
+CL_R , CL_UNORM_INT16
+CL_R , CL_SIGNED_INT16
+CL_R , CL_SIGNED_INT32
+CL_R , CL_UNSIGNED_INT16
+CL_R , CL_UNSIGNED_INT32
+CL_R , CL_HALF_FLOAT
+CL_R , CL_FLOAT
+
