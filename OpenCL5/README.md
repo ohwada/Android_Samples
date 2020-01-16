@@ -18,7 +18,7 @@ and show filtered image <br/>
 
 At first glance, there is no difference the original image and filtered image <br/> 
 You can see blurred, when enlarge image  <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/OpenCL5/screenshot/opencl5_comparison.png" width="300" /><br/>
+<image src="https://github.com/ohwada/Android_Samples/blob/master/OpenCL5/screenshot/%20opencl5_comparison.png" width="300" /><br/>
 
 
 ### Reference <br/>
