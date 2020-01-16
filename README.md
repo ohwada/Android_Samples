@@ -284,6 +284,9 @@ show OpenCL Version <br/>
 convert Image to black and white <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/OpenCL4/screenshot/opencl4_touch.png" width="300" /><br/>
 
+### OpenCL5  <br/>
+Gaussian Filter <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/OpenCL5/screenshot/opencl5_ gaussian_filter.png" width="300" /><br/>
 
 ## MediaCodec <br/>
 Sample code for MediaCodec and MediaMuxer <br/>
