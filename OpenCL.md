@@ -26,6 +26,11 @@ convert Image to black and white <br/>
 Gaussian Filter <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/OpenCL5/screenshot/opencl5_ gaussian_filter.png" width="300" /><br/>
 
+### OpenCL6  <br/>
+ detect line from Camera image <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/OpenCL6/screenshot/opencl6_ detect.png" width="300" /><br/>
+
+
 
 ## Reference <br/>
 - https://www.khronos.org/opencl/

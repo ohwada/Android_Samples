@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+
+// OpenCL Sample
+// 2020-01-01 K.OHWADA
+
+android {
+    compileSdkVersion 28 // Pie
+    buildToolsVersion "28.0.3"
+    defaultConfig {
+        applicationId "jp.ohwada.android.opencl6"
+        minSdkVersion 21// Lollipop
+        targetSdkVersion 28// Pie
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        ndk {
+            abiFilters 'armeabi-v7a'
+        }
+        externalNativeBuild {
+            cmake {
+                arguments "-DOpenCV_DIR=" + project(':opencv').projectDir + "/native/jni",
+                "-DANDROID_TOOLCHAIN=clang",
+                "-DANDROID_STL=c++_shared"
+            }
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    externalNativeBuild {
+        cmake {
+            path 'src/main/cpp/CMakeLists.txt'
+        }
+    }
+}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:26.0.0-alpha1'
+    compile project(':opencv')
+}
