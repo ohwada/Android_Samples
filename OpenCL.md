@@ -1,4 +1,4 @@
-OpenCV for Android 
+OpenCL for Android 
 ===============
 
 sample codes for OpenCL Android<br/>
