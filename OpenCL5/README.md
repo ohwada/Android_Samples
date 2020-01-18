@@ -20,6 +20,8 @@ At first glance, there is no difference the original image and filtered image <b
 You can see blurred, when enlarge image  <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/OpenCL5/screenshot/%20opencl5_comparison.png" width="300" /><br/>
 
+### Docement <br/>
+- https://qiita.com/ohwada/items/1b8b484a3445ed7cefdc
 
 ### Reference <br/>
 - https://www.khronos.org/opencl/
