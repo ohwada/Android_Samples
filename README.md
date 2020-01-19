@@ -227,6 +227,10 @@ Mobilenet object detection <br/>
 QRCodeDetector <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv53/screenshot/opencv53_decode.png" width="300" /><br/>
 
+### Opencv54  <br/>
+Camera Preview with GLSurfaceView <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv54/screenshot/opencv54_main.png" width="300" /><br/>
+
 
 ## OpenGL  <br/>
 OpenGL ES 2.0 Sample <br/>
