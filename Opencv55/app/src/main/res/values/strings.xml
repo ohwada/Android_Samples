@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2020-01-01 K.OHWADA -->
+<resources>
+    <string name="app_name">Opencv55</string>
+
+    <string name="action_preview">Preview</string>
+    <string name="action_rgba">RGBa</string>
+    <string name="action_gray">Gray</string>
+    <string name="action_canny">Canny</string>
+    <string name="action_sepia">Sepia</string>
+    <string name="action_zoom">Zoom</string>
+</resources>

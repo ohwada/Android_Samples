@@ -74,6 +74,10 @@ QRCodeDetector <br/>
 Camera Preview with GLSurfaceView <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv54/screenshot/opencv54_main.png" width="300" /><br/>
 
+### Opencv55  <br/>
+convrt image with GLSurfaceView <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv55/screenshot/opencv55_gray.png" width="300" /><br/>
+
 ## Reference <br/>
 - http://opencv.org/platforms/android
 - https://docs.opencv.org/3.4/d0/d6c/tutorial_dnn_android.html

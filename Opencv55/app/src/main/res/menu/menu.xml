@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2020-01-01 K.OHWADA -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/action_preview" android:title="@string/action_preview" />
+        <item android:id="@+id/action_rgba" android:title="@string/action_rgba" />
+        <item android:id="@+id/action_gray" android:title="@string/action_gray" />
+        <item android:id="@+id/action_canny" android:title="@string/action_canny" />
+        <item android:id="@+id/action_sepia" android:title="@string/action_sepia" />
+        <item android:id="@+id/action_zoom" android:title="@string/action_zoom" />
+    </group>
+</menu>

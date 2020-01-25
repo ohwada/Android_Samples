@@ -231,6 +231,9 @@ QRCodeDetector <br/>
 Camera Preview with GLSurfaceView <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv54/screenshot/opencv54_main.png" width="300" /><br/>
 
+### Opencv55  <br/>
+convrt image with GLSurfaceView <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/Opencv55/screenshot/opencv55_gray.png" width="300" /><br/>
 
 ## OpenGL  <br/>
 OpenGL ES 2.0 Sample <br/>
