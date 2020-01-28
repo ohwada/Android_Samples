@@ -681,6 +681,9 @@ show Sample Activity <br/>
 
 ## Others
 
+### BitmapRegionDecoder1 <br/>
+crop Image using BitmapRegionDecoder <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/BitmapRegionDecoder1/screenshot/bitmap_region_decoder1_crop.png" width="300" /><br/>
 
 ### Scroller1 <br/>
 Scroller Sample <br/>
