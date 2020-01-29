@@ -17,9 +17,6 @@ show Image chooser, when click "allow" button <br/>
 open Galary App, when select Galary <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/CropIntent1/screenshot/crop_intent1_galary_app.png" width="300" /><br/>
 
-open Galary App, when select Galary <br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/CropIntent1/screenshot/crop_intent1_galary_app.png" width="300" /><br/>
-
 close Galary App, when select Image <br/>
 and show selected Image <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/CropIntent1/screenshot/crop_intent1_selected.png" width="300" /><br/>
