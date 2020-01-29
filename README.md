@@ -688,7 +688,6 @@ crop Image using BitmapRegionDecoder <br/>
 ### CropIntent1 <br/>
 crop Image using CropIntent <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/CropIntent1/screenshot/crop_intent1_cropped.png" width="300" /><br/>
-<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/CropIntent1/screenshot/crop_intent1_cropped.png" width="300" /><br/>
 
 
 ### Scroller1 <br/>
