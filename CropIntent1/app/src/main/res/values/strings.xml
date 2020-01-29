@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2020-01-01 K.OHWADA -->
+<resources>
+    <string name="app_name">CropIntent1</string>
+
+
+    <string name="button_select">Select Image</string>
+    <string name="button_copy">Copy Files</string>
+    <string  name="image">image</string>
+    <string name="msg_image_selected">Image selected</string>
+    <string name="msg_image_unselected_message">No images selected</string>
+    <string name="msg_permissions_not_granted">Permission NOT granted</string>
+    <string name="msg_start_crop_failed">can not start crop</string>
+    <string name="msg_crop_image_failure">Image is not cropped</string>
+    <string name="msg_copy_successful">Copy Successful</string>
+    <string name="msg_copy_failed">Copy Faild</string>
+
+</resources>

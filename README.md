@@ -685,6 +685,12 @@ show Sample Activity <br/>
 crop Image using BitmapRegionDecoder <br/>
 <image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/BitmapRegionDecoder1/screenshot/bitmap_region_decoder1_crop.png" width="300" /><br/>
 
+### CropIntent1 <br/>
+crop Image using CropIntent <br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/CropIntent1/screenshot/crop_intent1_cropped.png" width="300" /><br/>
+<image src="https://raw.githubusercontent.com/ohwada/Android_Samples/master/CropIntent1/screenshot/crop_intent1_cropped.png" width="300" /><br/>
+
+
 ### Scroller1 <br/>
 Scroller Sample <br/>
 move the red square by accelerating, when flick  the screen <br/>
