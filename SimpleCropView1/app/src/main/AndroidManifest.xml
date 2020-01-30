@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2020-01-01 K.OHWADA -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jp.ohwada.android.simplecropview1">
+
+<!-- Permission -->
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+<!-- application:  AppController -->
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+      android:supportsRtl="false"
+      android:theme="@style/AppTheme">
+
+<!-- MainActivity -->
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+<!-- BasicActivity -->
+    <activity
+        android:name=".BasicActivity"
+        android:configChanges="orientation|screenSize"
+        android:label="@string/app_name">
+    </activity>
+
+    <activity android:name=".ResultActivity">
+    </activity>
+
+    </application>
+
+</manifest>

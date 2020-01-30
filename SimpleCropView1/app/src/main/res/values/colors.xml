@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2020-01-01 K.OHWADA -->
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+<!-- gray -->
+  <color name="windowBackground">#808080</color>
+
+<!-- added -->
+  <color name="colorButtonNormal">#FFFFFB</color>
+  <color name="textColorPrimary">#FFFFFB</color>
+  <color name="textColorPrimaryInverse">#1C1C1C</color>
+  <color name="overlay">#AA1C1C1C</color>
+  <color name="divider">#333333</color>
+
+</resources>
